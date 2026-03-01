@@ -7,14 +7,25 @@ import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import projects from '@/data/projects.json';
 import SectionHeading from '@/components/ui/SectionHeading';
+import { useLanguage } from '@/context/LanguageProvider';
 
-const categories = ['Tümü', ...Array.from(new Set(projects.map((p) => p.category)))];
+const rawCategories = Array.from(new Set(projects.map((p) => p.category)));
 
 export default function CalismalarimizContent() {
-  const [active, setActive] = useState('Tümü');
+  const { t } = useLanguage();
+  const [active, setActive] = useState('all');
 
+  // Map category keys to translated labels
+  const categoryMap: Record<string, string> = {
+    all: t('calismalarimiz.all'),
+    'Yeni İnşa': t('calismalarimiz.newBuild'),
+    'Askeri': t('calismalarimiz.military'),
+    'Refit': t('calismalarimiz.refit'),
+  };
+
+  const categories = ['all', ...rawCategories];
   const filtered =
-    active === 'Tümü' ? projects : projects.filter((p) => p.category === active);
+    active === 'all' ? projects : projects.filter((p) => p.category === active);
 
   return (
     <>
@@ -37,10 +48,10 @@ export default function CalismalarimizContent() {
             transition={{ duration: 0.6 }}
           >
             <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.3em] text-accent">
-              Portföyümüz
+              {t('calismalarimiz.subtitle')}
             </span>
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
-              Çalışmalarımız
+              {t('calismalarimiz.title')}
             </h1>
             <div className="mx-auto mt-4 accent-bar" />
           </motion.div>
@@ -51,9 +62,9 @@ export default function CalismalarimizContent() {
       <section className="bg-navy-950 py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <SectionHeading
-            subtitle="Projelerimiz"
-            title="Tamamlanan & Devam Eden Projeler"
-            description="Farklı kategorilerdeki projelerimizi filtreleyerek inceleyebilirsiniz."
+            subtitle={t('calismalarimiz.filterSubtitle')}
+            title={t('calismalarimiz.filterTitle')}
+            description={t('calismalarimiz.filterDesc')}
           />
 
           {/* Filter Tabs */}
@@ -69,7 +80,7 @@ export default function CalismalarimizContent() {
                       : 'border border-white/10 text-steel-400 hover:border-accent/50 hover:text-white'
                   }`}
               >
-                {cat}
+                {categoryMap[cat] || cat}
               </button>
             ))}
           </div>
@@ -98,7 +109,6 @@ export default function CalismalarimizContent() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/30 to-transparent transition-all duration-500 group-hover:from-navy-950/95" />
 
-                    {/* Badge */}
                     <div className="absolute left-4 top-4 bg-accent/90 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white">
                       {project.category}
                     </div>
@@ -106,7 +116,7 @@ export default function CalismalarimizContent() {
                     {project.status === 'Devam Ediyor' && (
                       <div className="absolute right-4 top-4 flex items-center gap-1.5 bg-navy-950/80 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-green-400">
                         <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-green-400" />
-                        Aktif
+                        {t('projects.active')}
                       </div>
                     )}
 
@@ -119,7 +129,7 @@ export default function CalismalarimizContent() {
                         {project.shortDescription}
                       </p>
                       <div className="mt-3 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-accent opacity-0 transition-all duration-500 group-hover:opacity-100">
-                        Detaylar <ArrowUpRight className="h-3.5 w-3.5" />
+                        {t('projects.detail')} <ArrowUpRight className="h-3.5 w-3.5" />
                       </div>
                     </div>
                   </Link>

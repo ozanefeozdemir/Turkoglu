@@ -1,23 +1,29 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Anchor } from 'lucide-react';
-
-const navLinks = [
-  { href: '/', label: 'Ana Sayfa' },
-  { href: '/kurumsal', label: 'Kurumsal' },
-  { href: '/hizmetlerimiz', label: 'Hizmetlerimiz' },
-  { href: '/calismalarimiz', label: 'Çalışmalarımız' },
-  { href: '/iletisim', label: 'İletişim' },
-];
+import { Menu, X, Anchor, Sun, Moon, ChevronDown } from 'lucide-react';
+import { useTheme } from '@/context/ThemeProvider';
+import { useLanguage, langMeta, Lang } from '@/context/LanguageProvider';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
+  const langRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
+  const { theme, toggleTheme } = useTheme();
+  const { lang, setLang, t } = useLanguage();
+
+  const navLinks = [
+    { href: '/', label: t('nav.home') },
+    { href: '/kurumsal', label: t('nav.corporate') },
+    { href: '/hizmetlerimiz', label: t('nav.services') },
+    { href: '/calismalarimiz', label: t('nav.works') },
+    { href: '/iletisim', label: t('nav.contact') },
+  ];
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
@@ -28,6 +34,17 @@ export default function Navbar() {
   useEffect(() => {
     setIsMobileOpen(false);
   }, [pathname]);
+
+  // Close lang dropdown on outside click
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+        setLangOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, []);
 
   return (
     <>
@@ -84,22 +101,90 @@ export default function Navbar() {
                 );
               })}
 
+              {/* Theme Toggle */}
+              <button
+                onClick={toggleTheme}
+                className="ml-2 flex h-9 w-9 items-center justify-center text-steel-300 transition-colors duration-300 hover:text-accent"
+                aria-label="Tema değiştir"
+              >
+                {theme === 'dark' ? (
+                  <Sun className="h-[18px] w-[18px]" />
+                ) : (
+                  <Moon className="h-[18px] w-[18px]" />
+                )}
+              </button>
+
+              {/* Language Selector */}
+              <div className="relative ml-1" ref={langRef}>
+                <button
+                  onClick={() => setLangOpen(!langOpen)}
+                  className="flex h-9 items-center gap-1.5 px-2.5 text-sm font-medium text-steel-300 transition-colors duration-300 hover:text-white"
+                >
+                  <span>{langMeta[lang].flag}</span>
+                  <span className="text-xs uppercase">{lang}</span>
+                  <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${langOpen ? 'rotate-180' : ''}`} />
+                </button>
+
+                <AnimatePresence>
+                  {langOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -8 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -8 }}
+                      transition={{ duration: 0.15 }}
+                      className="absolute right-0 top-full mt-2 overflow-hidden border border-white/10 bg-navy-900 shadow-xl"
+                    >
+                      {(Object.keys(langMeta) as Lang[]).map((key) => (
+                        <button
+                          key={key}
+                          onClick={() => {
+                            setLang(key);
+                            setLangOpen(false);
+                          }}
+                          className={`flex w-full items-center gap-3 px-4 py-2.5 text-sm transition-colors
+                            ${lang === key
+                              ? 'bg-accent/10 text-accent'
+                              : 'text-steel-300 hover:bg-white/5 hover:text-white'
+                            }`}
+                        >
+                          <span>{langMeta[key].flag}</span>
+                          <span>{langMeta[key].label}</span>
+                        </button>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
               <Link
                 href="/iletisim"
                 className="ml-4 bg-accent px-6 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
               >
-                TEKLİF AL
+                {t('nav.cta')}
               </Link>
             </div>
 
             {/* Mobile Toggle */}
-            <button
-              onClick={() => setIsMobileOpen(!isMobileOpen)}
-              className="flex h-10 w-10 items-center justify-center text-white lg:hidden"
-              aria-label="Menü"
-            >
-              {isMobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
+            <div className="flex items-center gap-2 lg:hidden">
+              <button
+                onClick={toggleTheme}
+                className="flex h-10 w-10 items-center justify-center text-white"
+                aria-label="Tema değiştir"
+              >
+                {theme === 'dark' ? (
+                  <Sun className="h-5 w-5" />
+                ) : (
+                  <Moon className="h-5 w-5" />
+                )}
+              </button>
+              <button
+                onClick={() => setIsMobileOpen(!isMobileOpen)}
+                className="flex h-10 w-10 items-center justify-center text-white"
+                aria-label="Menü"
+              >
+                {isMobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              </button>
+            </div>
           </nav>
         </div>
       </motion.header>
@@ -135,16 +220,39 @@ export default function Navbar() {
                 );
               })}
 
+              {/* Mobile Language Selector */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
+                className="flex gap-3"
+              >
+                {(Object.keys(langMeta) as Lang[]).map((key) => (
+                  <button
+                    key={key}
+                    onClick={() => setLang(key)}
+                    className={`flex items-center gap-1.5 px-3 py-2 text-sm font-medium transition-all
+                      ${lang === key
+                        ? 'bg-accent/20 text-accent'
+                        : 'text-steel-400 hover:text-white'
+                      }`}
+                  >
+                    <span>{langMeta[key].flag}</span>
+                    <span className="uppercase">{key}</span>
+                  </button>
+                ))}
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6 }}
               >
                 <Link
                   href="/iletisim"
                   className="mt-4 inline-block bg-accent px-8 py-3 text-lg font-semibold text-white hover:bg-accent-hover"
                 >
-                  TEKLİF AL
+                  {t('nav.cta')}
                 </Link>
               </motion.div>
             </div>

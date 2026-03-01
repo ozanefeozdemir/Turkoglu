@@ -2,9 +2,11 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Ship, Wrench, RefreshCcw, CheckCircle } from 'lucide-react';
 import services from '@/data/services.json';
 import SectionHeading from '@/components/ui/SectionHeading';
+import { useLanguage } from '@/context/LanguageProvider';
 
 const iconMap: Record<string, React.ElementType> = {
   Ship,
@@ -13,6 +15,8 @@ const iconMap: Record<string, React.ElementType> = {
 };
 
 export default function HizmetlerimizContent() {
+  const { t } = useLanguage();
+
   return (
     <>
       {/* Page Hero */}
@@ -34,10 +38,10 @@ export default function HizmetlerimizContent() {
             transition={{ duration: 0.6 }}
           >
             <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.3em] text-accent">
-              Hizmetlerimiz
+              {t('hizmetlerimiz.subtitle')}
             </span>
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
-              Neler Yapıyoruz?
+              {t('hizmetlerimiz.title')}
             </h1>
             <div className="mx-auto mt-4 accent-bar" />
           </motion.div>
@@ -48,9 +52,9 @@ export default function HizmetlerimizContent() {
       <section className="bg-navy-950 py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <SectionHeading
-            subtitle="Uzmanlık Alanlarımız"
-            title="Kapsamlı Tersane Hizmetleri"
-            description="Yeni inşadan bakım-onarıma, refitleme ve modernizasyona kadar geniş bir yelpazede hizmet sunuyoruz."
+            subtitle={t('hizmetlerimiz.areaSubtitle')}
+            title={t('hizmetlerimiz.areaTitle')}
+            description={t('hizmetlerimiz.areaDesc')}
           />
 
           <div className="space-y-24">
@@ -70,7 +74,6 @@ export default function HizmetlerimizContent() {
                     isReversed ? 'lg:direction-rtl' : ''
                   }`}
                 >
-                  {/* Image */}
                   <div className={`relative ${isReversed ? 'lg:order-2' : ''}`}>
                     <div className="relative aspect-[16/10] overflow-hidden">
                       <Image
@@ -87,7 +90,6 @@ export default function HizmetlerimizContent() {
                     />
                   </div>
 
-                  {/* Content */}
                   <div className={isReversed ? 'lg:order-1' : ''}>
                     <div className="mb-5 flex h-14 w-14 items-center justify-center bg-accent/10">
                       <Icon className="h-7 w-7 text-accent" />
@@ -98,7 +100,6 @@ export default function HizmetlerimizContent() {
                       {service.description}
                     </p>
 
-                    {/* Features List */}
                     <ul className="space-y-3">
                       {service.features.map((feature, j) => (
                         <motion.li
@@ -132,17 +133,17 @@ export default function HizmetlerimizContent() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl font-bold text-white sm:text-4xl">
-              Projeniz İçin Bizimle İletişime Geçin
+              {t('hizmetlerimiz.ctaTitle')}
             </h2>
             <p className="mt-4 text-lg text-steel-400">
-              Uzman ekibimiz, projenizin her aşamasında yanınızda.
+              {t('hizmetlerimiz.ctaDesc')}
             </p>
-            <a
+            <Link
               href="/iletisim"
               className="mt-8 inline-block bg-accent px-10 py-4 text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-2xl hover:shadow-accent/20"
             >
-              TEKLİF ALIN
-            </a>
+              {t('hizmetlerimiz.ctaButton')}
+            </Link>
           </motion.div>
         </div>
       </section>

@@ -1,0 +1,106 @@
+{
+    "nav": {
+        "home": "Home",
+        "corporate": "About Us",
+        "services": "Services",
+        "works": "Projects",
+        "contact": "Contact",
+        "cta": "GET A QUOTE"
+    },
+    "hero": {
+        "since": " since",
+        "cta1": "View Our Projects",
+        "cta2": "About Us",
+        "scroll": "Explore"
+    },
+    "about": {
+        "subtitle": "About Us",
+        "title": "Turkey's Leading Shipyard",
+        "more": "Learn More"
+    },
+    "projects": {
+        "subtitle": "Our Projects",
+        "title": "Featured Works",
+        "description": "Some of our recently completed and ongoing projects.",
+        "viewAll": "View All Projects",
+        "active": "ACTIVE",
+        "completed": "Completed",
+        "detail": "Details"
+    },
+    "kurumsal": {
+        "subtitle": "Corporate",
+        "title": "Get to Know Us",
+        "historySubtitle": "Our History",
+        "historyTitle": "Over 40 Years of Experience",
+        "valuesSubtitle": "Our Values",
+        "valuesTitle": "The Values That Define Us",
+        "valuesDesc": "We work based on these values in every project.",
+        "vision": "Our Vision",
+        "mission": "Our Mission"
+    },
+    "hizmetlerimiz": {
+        "subtitle": "Our Services",
+        "title": "What We Do",
+        "areaSubtitle": "Areas of Expertise",
+        "areaTitle": "Comprehensive Shipyard Services",
+        "areaDesc": "We offer a wide range of services from new construction to maintenance, refit and modernization.",
+        "ctaTitle": "Get a Quote for Your Project",
+        "ctaDesc": "Contact our expert team for new construction, maintenance or refit needs.",
+        "ctaButton": "Contact Us"
+    },
+    "calismalarimiz": {
+        "subtitle": "Our Portfolio",
+        "title": "Our Works",
+        "filterSubtitle": "Our Projects",
+        "filterTitle": "Completed & Ongoing Projects",
+        "filterDesc": "Filter and explore our projects across different categories.",
+        "all": "All",
+        "newBuild": "New Build",
+        "military": "Military",
+        "refit": "Refit"
+    },
+    "projectDetail": {
+        "backLink": "All Projects",
+        "aboutTitle": "About the Project",
+        "galleryTitle": "Project Gallery",
+        "infoTitle": "Project Info",
+        "year": "Year",
+        "category": "Category",
+        "status": "Status",
+        "specsTitle": "Technical Specifications",
+        "ctaButton": "Inquire About This Project"
+    },
+    "iletisim": {
+        "subtitle": "Contact",
+        "title": "Get in Touch",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email",
+        "hours": "Working Hours",
+        "formTitle": "Send Us a Message",
+        "formDesc": "Fill out the form to learn more about our projects or services.",
+        "name": "Full Name",
+        "emailLabel": "Email Address",
+        "subject": "Subject",
+        "message": "Your Message",
+        "send": "Send Message",
+        "sending": "Sending...",
+        "successTitle": "Message Sent!",
+        "successDesc": "We will get back to you as soon as possible.",
+        "sendAnother": "Send Another Message",
+        "mapTitle": "Location"
+    },
+    "footer": {
+        "quickLinks": "Quick Links",
+        "services": "Our Services",
+        "contactInfo": "Contact",
+        "rights": "All rights reserved.",
+        "builtWith": "Designed & Built with precision."
+    },
+    "notFound": {
+        "title": "Page Not Found",
+        "desc": "The page you are looking for does not exist or has been moved.",
+        "backHome": "Back to Home"
+    },
+    "loading": "Loading"
+}

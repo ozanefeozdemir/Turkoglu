@@ -6,8 +6,11 @@ import Link from 'next/link';
 import { ChevronDown } from 'lucide-react';
 import companyInfo from '@/data/companyInfo.json';
 import AnimatedCounter from '@/components/ui/AnimatedCounter';
+import { useLanguage } from '@/context/LanguageProvider';
 
 export default function HeroSection() {
+  const { t } = useLanguage();
+
   return (
     <section className="relative flex h-screen min-h-[700px] items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -37,7 +40,7 @@ export default function HeroSection() {
           >
             <div className="h-[2px] w-12 bg-accent" />
             <span className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
-              {companyInfo.founded}&apos;den bu yana
+              {companyInfo.founded}{t('hero.since')}
             </span>
           </motion.div>
 
@@ -64,7 +67,7 @@ export default function HeroSection() {
             {companyInfo.description}
           </motion.p>
 
-          {/* Stats Bar */}
+          {/* CTA Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -75,13 +78,13 @@ export default function HeroSection() {
               href="/calismalarimiz"
               className="bg-accent px-8 py-4 text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-2xl hover:shadow-accent/20"
             >
-              Projelerimizi İnceleyin
+              {t('hero.cta1')}
             </Link>
             <Link
               href="/kurumsal"
               className="border border-white/20 px-8 py-4 text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:border-white/40 hover:bg-white/5"
             >
-              Bizi Tanıyın
+              {t('hero.cta2')}
             </Link>
           </motion.div>
 
@@ -117,7 +120,7 @@ export default function HeroSection() {
           className="flex flex-col items-center gap-2"
         >
           <span className="text-[10px] font-medium uppercase tracking-[0.2em] text-steel-500">
-            Keşfet
+            {t('hero.scroll')}
           </span>
           <ChevronDown className="h-5 w-5 text-steel-500" />
         </motion.div>

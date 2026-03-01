@@ -15,6 +15,7 @@ import {
 import companyInfo from '@/data/companyInfo.json';
 import SectionHeading from '@/components/ui/SectionHeading';
 import AnimatedCounter from '@/components/ui/AnimatedCounter';
+import { useLanguage } from '@/context/LanguageProvider';
 
 const iconMap: Record<string, React.ElementType> = {
   ShieldCheck,
@@ -33,6 +34,8 @@ const fadeUp = {
 };
 
 export default function KurumsalContent() {
+  const { t } = useLanguage();
+
   return (
     <>
       {/* Page Hero */}
@@ -54,10 +57,10 @@ export default function KurumsalContent() {
             transition={{ duration: 0.6 }}
           >
             <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.3em] text-accent">
-              Kurumsal
+              {t('kurumsal.subtitle')}
             </span>
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
-              Bizi Tanıyın
+              {t('kurumsal.title')}
             </h1>
             <div className="mx-auto mt-4 accent-bar" />
           </motion.div>
@@ -70,8 +73,8 @@ export default function KurumsalContent() {
           <div className="grid items-center gap-16 lg:grid-cols-2">
             <motion.div {...fadeUp}>
               <SectionHeading
-                subtitle="Tarihçemiz"
-                title="40 Yılı Aşan Deneyim"
+                subtitle={t('kurumsal.historySubtitle')}
+                title={t('kurumsal.historyTitle')}
                 align="left"
               />
               <div className="-mt-8 space-y-4 text-lg leading-relaxed text-steel-400">
@@ -129,7 +132,6 @@ export default function KurumsalContent() {
       <section className="bg-navy-900 py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-2">
-            {/* Vision */}
             <motion.div
               {...fadeUp}
               className="relative overflow-hidden border border-white/5 bg-navy-800 p-10 lg:p-14"
@@ -141,7 +143,7 @@ export default function KurumsalContent() {
                 <div className="mb-4 flex h-14 w-14 items-center justify-center bg-accent/10">
                   <Eye className="h-7 w-7 text-accent" />
                 </div>
-                <h3 className="mb-4 text-2xl font-bold text-white">Vizyonumuz</h3>
+                <h3 className="mb-4 text-2xl font-bold text-white">{t('kurumsal.vision')}</h3>
                 <div className="accent-bar mb-6" />
                 <p className="text-lg leading-relaxed text-steel-400">
                   {companyInfo.vision}
@@ -149,7 +151,6 @@ export default function KurumsalContent() {
               </div>
             </motion.div>
 
-            {/* Mission */}
             <motion.div
               {...fadeUp}
               transition={{ duration: 0.6, delay: 0.15 }}
@@ -162,7 +163,7 @@ export default function KurumsalContent() {
                 <div className="mb-4 flex h-14 w-14 items-center justify-center bg-accent/10">
                   <Target className="h-7 w-7 text-accent" />
                 </div>
-                <h3 className="mb-4 text-2xl font-bold text-white">Misyonumuz</h3>
+                <h3 className="mb-4 text-2xl font-bold text-white">{t('kurumsal.mission')}</h3>
                 <div className="accent-bar mb-6" />
                 <p className="text-lg leading-relaxed text-steel-400">
                   {companyInfo.mission}
@@ -177,9 +178,9 @@ export default function KurumsalContent() {
       <section className="bg-navy-950 py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <SectionHeading
-            subtitle="Değerlerimiz"
-            title="Bizi Biz Yapan Değerler"
-            description="Her projede bu değerleri temel alarak çalışıyoruz."
+            subtitle={t('kurumsal.valuesSubtitle')}
+            title={t('kurumsal.valuesTitle')}
+            description={t('kurumsal.valuesDesc')}
           />
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

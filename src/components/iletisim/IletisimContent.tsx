@@ -6,8 +6,10 @@ import Image from 'next/image';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from 'lucide-react';
 import companyInfo from '@/data/companyInfo.json';
 import SectionHeading from '@/components/ui/SectionHeading';
+import { useLanguage } from '@/context/LanguageProvider';
 
 export default function IletisimContent() {
+  const { t } = useLanguage();
   const [formState, setFormState] = useState({
     name: '',
     email: '',
@@ -21,7 +23,6 @@ export default function IletisimContent() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
-    // Simulate form submission (will be replaced with actual Server Action / API Route)
     await new Promise((r) => setTimeout(r, 1500));
     setIsLoading(false);
     setIsSubmitted(true);
@@ -32,25 +33,25 @@ export default function IletisimContent() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: 'Adres',
+      label: t('iletisim.address'),
       value: companyInfo.address,
       href: `https://maps.google.com/?q=${companyInfo.coordinates.lat},${companyInfo.coordinates.lng}`,
     },
     {
       icon: Phone,
-      label: 'Telefon',
+      label: t('iletisim.phone'),
       value: companyInfo.phone,
       href: `tel:${companyInfo.phone}`,
     },
     {
       icon: Mail,
-      label: 'E-posta',
+      label: t('iletisim.email'),
       value: companyInfo.email,
       href: `mailto:${companyInfo.email}`,
     },
     {
       icon: Clock,
-      label: 'Çalışma Saatleri',
+      label: t('iletisim.hours'),
       value: 'Pazartesi - Cumartesi: 08:00 - 18:00',
       href: null,
     },
@@ -80,10 +81,10 @@ export default function IletisimContent() {
             transition={{ duration: 0.6 }}
           >
             <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.3em] text-accent">
-              İletişim
+              {t('iletisim.subtitle')}
             </span>
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
-              Bize Ulaşın
+              {t('iletisim.title')}
             </h1>
             <div className="mx-auto mt-4 accent-bar" />
           </motion.div>
@@ -93,7 +94,6 @@ export default function IletisimContent() {
       {/* Contact Info Cards */}
       <section className="bg-navy-950 py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          {/* Info Cards */}
           <div className="mb-20 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {contactInfo.map((info, i) => {
               const Icon = info.icon;
@@ -104,7 +104,7 @@ export default function IletisimContent() {
 
               return (
                 <motion.div
-                  key={info.label}
+                  key={i}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -137,9 +137,9 @@ export default function IletisimContent() {
               transition={{ duration: 0.7 }}
             >
               <SectionHeading
-                subtitle="İletişim Formu"
-                title="Mesaj Gönderin"
-                description="Projeleriniz hakkında bilgi almak veya teklif talep etmek için formu doldurun."
+                subtitle={t('iletisim.subtitle')}
+                title={t('iletisim.formTitle')}
+                description={t('iletisim.formDesc')}
                 align="left"
               />
 
@@ -151,7 +151,7 @@ export default function IletisimContent() {
                 >
                   <CheckCircle className="h-5 w-5 text-green-400" />
                   <p className="text-sm text-green-400">
-                    Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.
+                    {t('iletisim.successTitle')} {t('iletisim.successDesc')}
                   </p>
                 </motion.div>
               )}
@@ -160,7 +160,7 @@ export default function IletisimContent() {
                 <div className="grid gap-5 sm:grid-cols-2">
                   <input
                     type="text"
-                    placeholder="Adınız Soyadınız *"
+                    placeholder={`${t('iletisim.name')} *`}
                     required
                     value={formState.name}
                     onChange={(e) =>
@@ -170,7 +170,7 @@ export default function IletisimContent() {
                   />
                   <input
                     type="email"
-                    placeholder="E-posta Adresiniz *"
+                    placeholder={`${t('iletisim.emailLabel')} *`}
                     required
                     value={formState.email}
                     onChange={(e) =>
@@ -182,7 +182,7 @@ export default function IletisimContent() {
                 <div className="grid gap-5 sm:grid-cols-2">
                   <input
                     type="tel"
-                    placeholder="Telefon Numaranız"
+                    placeholder={t('iletisim.phone')}
                     value={formState.phone}
                     onChange={(e) =>
                       setFormState({ ...formState, phone: e.target.value })
@@ -191,7 +191,7 @@ export default function IletisimContent() {
                   />
                   <input
                     type="text"
-                    placeholder="Konu"
+                    placeholder={t('iletisim.subject')}
                     value={formState.subject}
                     onChange={(e) =>
                       setFormState({ ...formState, subject: e.target.value })
@@ -200,7 +200,7 @@ export default function IletisimContent() {
                   />
                 </div>
                 <textarea
-                  placeholder="Mesajınız *"
+                  placeholder={`${t('iletisim.message')} *`}
                   required
                   rows={6}
                   value={formState.message}
@@ -217,12 +217,12 @@ export default function IletisimContent() {
                   {isLoading ? (
                     <>
                       <div className="h-4 w-4 animate-spin border-2 border-white/30 border-t-white" />
-                      Gönderiliyor...
+                      {t('iletisim.sending')}
                     </>
                   ) : (
                     <>
                       <Send className="h-4 w-4" />
-                      Mesaj Gönder
+                      {t('iletisim.send')}
                     </>
                   )}
                 </button>
@@ -238,8 +238,8 @@ export default function IletisimContent() {
               className="flex flex-col"
             >
               <SectionHeading
-                subtitle="Konum"
-                title="Bizi Ziyaret Edin"
+                subtitle={t('iletisim.mapTitle')}
+                title={t('iletisim.mapTitle')}
                 align="left"
               />
               <div className="-mt-8 flex-1 min-h-[400px] border border-white/5">

@@ -1,0 +1,106 @@
+{
+    "nav": {
+        "home": "Startseite",
+        "corporate": "Über Uns",
+        "services": "Dienstleistungen",
+        "works": "Projekte",
+        "contact": "Kontakt",
+        "cta": "ANGEBOT ANFORDERN"
+    },
+    "hero": {
+        "since": " seit",
+        "cta1": "Unsere Projekte ansehen",
+        "cta2": "Über Uns",
+        "scroll": "Entdecken"
+    },
+    "about": {
+        "subtitle": "Über Uns",
+        "title": "Die führende Werft der Türkei",
+        "more": "Mehr erfahren"
+    },
+    "projects": {
+        "subtitle": "Unsere Projekte",
+        "title": "Ausgewählte Arbeiten",
+        "description": "Einige unserer kürzlich abgeschlossenen und laufenden Projekte.",
+        "viewAll": "Alle Projekte anzeigen",
+        "active": "AKTIV",
+        "completed": "Abgeschlossen",
+        "detail": "Details"
+    },
+    "kurumsal": {
+        "subtitle": "Unternehmen",
+        "title": "Lernen Sie Uns Kennen",
+        "historySubtitle": "Unsere Geschichte",
+        "historyTitle": "Über 40 Jahre Erfahrung",
+        "valuesSubtitle": "Unsere Werte",
+        "valuesTitle": "Die Werte, Die Uns Ausmachen",
+        "valuesDesc": "Wir arbeiten in jedem Projekt auf Basis dieser Werte.",
+        "vision": "Unsere Vision",
+        "mission": "Unsere Mission"
+    },
+    "hizmetlerimiz": {
+        "subtitle": "Unsere Dienstleistungen",
+        "title": "Was Wir Tun",
+        "areaSubtitle": "Fachgebiete",
+        "areaTitle": "Umfassende Werftdienstleistungen",
+        "areaDesc": "Wir bieten ein breites Spektrum an Dienstleistungen von Neubau bis Wartung, Refit und Modernisierung.",
+        "ctaTitle": "Angebot für Ihr Projekt",
+        "ctaDesc": "Kontaktieren Sie unser Expertenteam für Neubau-, Wartungs- oder Refit-Anforderungen.",
+        "ctaButton": "Kontakt aufnehmen"
+    },
+    "calismalarimiz": {
+        "subtitle": "Unser Portfolio",
+        "title": "Unsere Arbeiten",
+        "filterSubtitle": "Unsere Projekte",
+        "filterTitle": "Abgeschlossene & Laufende Projekte",
+        "filterDesc": "Filtern und erkunden Sie unsere Projekte in verschiedenen Kategorien.",
+        "all": "Alle",
+        "newBuild": "Neubau",
+        "military": "Militär",
+        "refit": "Refit"
+    },
+    "projectDetail": {
+        "backLink": "Alle Projekte",
+        "aboutTitle": "Über das Projekt",
+        "galleryTitle": "Projektgalerie",
+        "infoTitle": "Projektinformationen",
+        "year": "Jahr",
+        "category": "Kategorie",
+        "status": "Status",
+        "specsTitle": "Technische Daten",
+        "ctaButton": "Anfrage zu diesem Projekt"
+    },
+    "iletisim": {
+        "subtitle": "Kontakt",
+        "title": "Kontaktieren Sie Uns",
+        "address": "Adresse",
+        "phone": "Telefon",
+        "email": "E-Mail",
+        "hours": "Öffnungszeiten",
+        "formTitle": "Senden Sie Uns eine Nachricht",
+        "formDesc": "Füllen Sie das Formular aus, um mehr über unsere Projekte oder Dienstleistungen zu erfahren.",
+        "name": "Vollständiger Name",
+        "emailLabel": "E-Mail-Adresse",
+        "subject": "Betreff",
+        "message": "Ihre Nachricht",
+        "send": "Nachricht senden",
+        "sending": "Wird gesendet...",
+        "successTitle": "Nachricht gesendet!",
+        "successDesc": "Wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "sendAnother": "Neue Nachricht senden",
+        "mapTitle": "Standort"
+    },
+    "footer": {
+        "quickLinks": "Schnelllinks",
+        "services": "Unsere Dienstleistungen",
+        "contactInfo": "Kontakt",
+        "rights": "Alle Rechte vorbehalten.",
+        "builtWith": "Designed & Built with precision."
+    },
+    "notFound": {
+        "title": "Seite Nicht Gefunden",
+        "desc": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+        "backHome": "Zurück zur Startseite"
+    },
+    "loading": "Laden"
+}

@@ -6,8 +6,11 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import companyInfo from '@/data/companyInfo.json';
 import SectionHeading from '@/components/ui/SectionHeading';
+import { useLanguage } from '@/context/LanguageProvider';
 
 export default function AboutSnippet() {
+  const { t } = useLanguage();
+
   return (
     <section className="relative overflow-hidden bg-navy-950 py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -28,9 +31,7 @@ export default function AboutSnippet() {
                 className="object-cover"
               />
             </div>
-            {/* Accent Border */}
             <div className="absolute -bottom-4 -right-4 h-full w-full border-2 border-accent/30 -z-10" />
-            {/* Experience Badge */}
             <div className="absolute -bottom-6 -right-6 flex h-28 w-28 flex-col items-center justify-center bg-accent">
               <span className="text-3xl font-bold text-white">40+</span>
               <span className="text-[10px] font-semibold uppercase tracking-wider text-white/80">
@@ -47,8 +48,8 @@ export default function AboutSnippet() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <SectionHeading
-              subtitle="Hakkımızda"
-              title="Güçlü Deneyim, Sağlam Temeller"
+              subtitle={t('about.subtitle')}
+              title={t('about.title')}
               align="left"
             />
             <p className="-mt-8 text-lg leading-relaxed text-steel-400">
@@ -58,7 +59,7 @@ export default function AboutSnippet() {
               href="/kurumsal"
               className="mt-8 inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-accent transition-colors hover:text-accent-light group"
             >
-              Daha Fazla Bilgi
+              {t('about.more')}
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </motion.div>

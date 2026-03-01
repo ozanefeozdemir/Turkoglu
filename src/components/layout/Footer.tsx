@@ -1,25 +1,29 @@
+'use client';
+
 import Link from 'next/link';
 import { Anchor, MapPin, Phone, Mail, Linkedin, Instagram, Twitter } from 'lucide-react';
 import companyInfo from '@/data/companyInfo.json';
-
-const quickLinks = [
-  { href: '/', label: 'Ana Sayfa' },
-  { href: '/kurumsal', label: 'Kurumsal' },
-  { href: '/hizmetlerimiz', label: 'Hizmetlerimiz' },
-  { href: '/calismalarimiz', label: 'Çalışmalarımız' },
-  { href: '/iletisim', label: 'İletişim' },
-];
-
-const serviceLinks = [
-  { href: '/hizmetlerimiz#yeni-insa', label: 'Yeni Gemi İnşası' },
-  { href: '/hizmetlerimiz#bakim-onarim', label: 'Bakım & Onarım' },
-  { href: '/hizmetlerimiz#refit-modernizasyon', label: 'Refit & Modernizasyon' },
-];
+import { useLanguage } from '@/context/LanguageProvider';
 
 export default function Footer() {
+  const { t } = useLanguage();
+
+  const quickLinks = [
+    { href: '/', label: t('nav.home') },
+    { href: '/kurumsal', label: t('nav.corporate') },
+    { href: '/hizmetlerimiz', label: t('nav.services') },
+    { href: '/calismalarimiz', label: t('nav.works') },
+    { href: '/iletisim', label: t('nav.contact') },
+  ];
+
+  const serviceLinks = [
+    { href: '/hizmetlerimiz#yeni-insa', label: 'Yeni Gemi İnşası' },
+    { href: '/hizmetlerimiz#bakim-onarim', label: 'Bakım & Onarım' },
+    { href: '/hizmetlerimiz#refit-modernizasyon', label: 'Refit & Modernizasyon' },
+  ];
+
   return (
     <footer className="border-t border-white/5 bg-navy-950">
-      {/* Main Footer */}
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Company */}
@@ -62,7 +66,7 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h4 className="mb-6 text-sm font-semibold uppercase tracking-wider text-white">
-              Hızlı Bağlantılar
+              {t('footer.quickLinks')}
             </h4>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
@@ -81,7 +85,7 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h4 className="mb-6 text-sm font-semibold uppercase tracking-wider text-white">
-              Hizmetlerimiz
+              {t('footer.services')}
             </h4>
             <ul className="space-y-3">
               {serviceLinks.map((link) => (
@@ -100,7 +104,7 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h4 className="mb-6 text-sm font-semibold uppercase tracking-wider text-white">
-              İletişim
+              {t('footer.contactInfo')}
             </h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
@@ -130,11 +134,10 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="border-t border-white/5 bg-navy-950">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 text-xs text-steel-500 sm:flex-row lg:px-8">
-          <p>© {new Date().getFullYear()} Türkoğlu Tersanecilik. Tüm hakları saklıdır.</p>
-          <p>Designed & Built with precision.</p>
+          <p>© {new Date().getFullYear()} Türkoğlu Tersanecilik. {t('footer.rights')}</p>
+          <p>{t('footer.builtWith')}</p>
         </div>
       </div>
     </footer>

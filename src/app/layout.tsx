@@ -4,10 +4,12 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import ScrollToTop from "@/components/ui/ScrollToTop";
+import { ThemeProvider } from "@/context/ThemeProvider";
+import { LanguageProvider } from "@/context/LanguageProvider";
 
 const inter = Inter({
   variable: "--font-inter",
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic"],
   display: "swap",
 });
 
@@ -45,13 +47,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className={inter.variable}>
+    <html lang="tr" className={inter.variable} data-theme="dark" suppressHydrationWarning>
       <body className="antialiased">
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
-        <ScrollToTop />
+        <ThemeProvider>
+          <LanguageProvider>
+            <Navbar />
+            <main>{children}</main>
+            <Footer />
+            <ScrollToTop />
+          </LanguageProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
 }
+

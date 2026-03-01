@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft, Calendar, Tag, Activity } from 'lucide-react';
+import { useLanguage } from '@/context/LanguageProvider';
 
 interface Project {
   slug: string;
@@ -20,6 +21,8 @@ interface Project {
 }
 
 export default function ProjectDetail({ project }: { project: Project }) {
+  const { t } = useLanguage();
+
   return (
     <>
       {/* Hero */}
@@ -36,7 +39,6 @@ export default function ProjectDetail({ project }: { project: Project }) {
         </div>
 
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-12 lg:px-8">
-          {/* Back Link */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -47,7 +49,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
               className="mb-6 inline-flex items-center gap-2 text-sm text-steel-400 transition-colors hover:text-accent"
             >
               <ArrowLeft className="h-4 w-4" />
-              Tüm Projeler
+              {t('projectDetail.backLink')}
             </Link>
           </motion.div>
 
@@ -63,7 +65,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
               {project.status === 'Devam Ediyor' && (
                 <span className="flex items-center gap-1.5 bg-navy-950/80 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-green-400">
                   <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-green-400" />
-                  Devam Ediyor
+                  {t('projects.active')}
                 </span>
               )}
             </div>
@@ -85,7 +87,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="lg:col-span-2"
             >
-              <h2 className="mb-4 text-2xl font-bold text-white">Proje Hakkında</h2>
+              <h2 className="mb-4 text-2xl font-bold text-white">{t('projectDetail.aboutTitle')}</h2>
               <div className="accent-bar mb-6" />
               <p className="text-lg leading-relaxed text-steel-400">
                 {project.description}
@@ -94,7 +96,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
               {/* Gallery */}
               {project.gallery.length > 0 && (
                 <div className="mt-12">
-                  <h3 className="mb-6 text-xl font-bold text-white">Proje Görselleri</h3>
+                  <h3 className="mb-6 text-xl font-bold text-white">{t('projectDetail.galleryTitle')}</h3>
                   <div className="grid gap-4 sm:grid-cols-2">
                     {project.gallery.map((img, i) => (
                       <motion.div
@@ -107,7 +109,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
                       >
                         <Image
                           src={img}
-                          alt={`${project.title} - Görsel ${i + 1}`}
+                          alt={`${project.title} - ${i + 1}`}
                           fill
                           className="object-cover transition-transform duration-500 hover:scale-105"
                         />
@@ -118,32 +120,31 @@ export default function ProjectDetail({ project }: { project: Project }) {
               )}
             </motion.div>
 
-            {/* Sidebar - Specs */}
+            {/* Sidebar */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <div className="sticky top-28 space-y-6">
-                {/* Info Card */}
                 <div className="border border-white/5 bg-navy-800 p-6">
-                  <h3 className="mb-4 text-lg font-bold text-white">Proje Bilgileri</h3>
+                  <h3 className="mb-4 text-lg font-bold text-white">{t('projectDetail.infoTitle')}</h3>
                   <div className="accent-bar mb-6" />
 
                   <div className="space-y-4">
                     <div className="flex items-center gap-3 text-sm">
                       <Calendar className="h-4 w-4 text-accent" />
-                      <span className="text-steel-400">Yıl:</span>
+                      <span className="text-steel-400">{t('projectDetail.year')}:</span>
                       <span className="ml-auto font-medium text-white">{project.year}</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm">
                       <Tag className="h-4 w-4 text-accent" />
-                      <span className="text-steel-400">Kategori:</span>
+                      <span className="text-steel-400">{t('projectDetail.category')}:</span>
                       <span className="ml-auto font-medium text-white">{project.category}</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm">
                       <Activity className="h-4 w-4 text-accent" />
-                      <span className="text-steel-400">Durum:</span>
+                      <span className="text-steel-400">{t('projectDetail.status')}:</span>
                       <span
                         className={`ml-auto font-medium ${
                           project.status === 'Devam Ediyor'
@@ -157,9 +158,8 @@ export default function ProjectDetail({ project }: { project: Project }) {
                   </div>
                 </div>
 
-                {/* Specs Card */}
                 <div className="border border-white/5 bg-navy-800 p-6">
-                  <h3 className="mb-4 text-lg font-bold text-white">Teknik Özellikler</h3>
+                  <h3 className="mb-4 text-lg font-bold text-white">{t('projectDetail.specsTitle')}</h3>
                   <div className="accent-bar mb-6" />
 
                   <div className="space-y-3">
@@ -175,12 +175,11 @@ export default function ProjectDetail({ project }: { project: Project }) {
                   </div>
                 </div>
 
-                {/* CTA */}
                 <Link
                   href="/iletisim"
                   className="block bg-accent px-6 py-4 text-center text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
                 >
-                  Bu Proje Hakkında Bilgi Alın
+                  {t('projectDetail.ctaButton')}
                 </Link>
               </div>
             </motion.div>

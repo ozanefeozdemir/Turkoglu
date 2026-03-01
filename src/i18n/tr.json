@@ -1,0 +1,106 @@
+{
+    "nav": {
+        "home": "Ana Sayfa",
+        "corporate": "Kurumsal",
+        "services": "Hizmetlerimiz",
+        "works": "Çalışmalarımız",
+        "contact": "İletişim",
+        "cta": "TEKLİF AL"
+    },
+    "hero": {
+        "since": "'den bu yana",
+        "cta1": "Projelerimizi İnceleyin",
+        "cta2": "Bizi Tanıyın",
+        "scroll": "Keşfet"
+    },
+    "about": {
+        "subtitle": "Hakkımızda",
+        "title": "Türkiye'nin Öncü Tersanesi",
+        "more": "Daha Fazla Bilgi"
+    },
+    "projects": {
+        "subtitle": "Projelerimiz",
+        "title": "Öne Çıkan Çalışmalarımız",
+        "description": "Son dönemde tamamladığımız ve devam eden projelerimizden bazıları.",
+        "viewAll": "Tüm Projeleri Görüntüle",
+        "active": "AKTİF",
+        "completed": "Tamamlandı",
+        "detail": "Detay"
+    },
+    "kurumsal": {
+        "subtitle": "Kurumsal",
+        "title": "Bizi Tanıyın",
+        "historySubtitle": "Tarihçemiz",
+        "historyTitle": "40 Yılı Aşan Deneyim",
+        "valuesSubtitle": "Değerlerimiz",
+        "valuesTitle": "Bizi Biz Yapan Değerler",
+        "valuesDesc": "Her projede bu değerleri temel alarak çalışıyoruz.",
+        "vision": "Vizyonumuz",
+        "mission": "Misyonumuz"
+    },
+    "hizmetlerimiz": {
+        "subtitle": "Hizmetlerimiz",
+        "title": "Neler Yapıyoruz?",
+        "areaSubtitle": "Uzmanlık Alanlarımız",
+        "areaTitle": "Kapsamlı Tersane Hizmetleri",
+        "areaDesc": "Yeni inşadan bakım-onarıma, refitleme ve modernizasyona kadar geniş bir yelpazede hizmet sunuyoruz.",
+        "ctaTitle": "Projeniz İçin Teklif Alın",
+        "ctaDesc": "Yeni inşa, bakım-onarım veya refit ihtiyaçlarınız için uzman ekibimizle iletişime geçin.",
+        "ctaButton": "İletişime Geçin"
+    },
+    "calismalarimiz": {
+        "subtitle": "Portföyümüz",
+        "title": "Çalışmalarımız",
+        "filterSubtitle": "Projelerimiz",
+        "filterTitle": "Tamamlanan & Devam Eden Projeler",
+        "filterDesc": "Farklı kategorilerdeki projelerimizi filtreleyerek inceleyebilirsiniz.",
+        "all": "Tümü",
+        "newBuild": "Yeni İnşa",
+        "military": "Askeri",
+        "refit": "Refit"
+    },
+    "projectDetail": {
+        "backLink": "Tüm Projeler",
+        "aboutTitle": "Proje Hakkında",
+        "galleryTitle": "Proje Görselleri",
+        "infoTitle": "Proje Bilgileri",
+        "year": "Yıl",
+        "category": "Kategori",
+        "status": "Durum",
+        "specsTitle": "Teknik Özellikler",
+        "ctaButton": "Bu Proje Hakkında Bilgi Alın"
+    },
+    "iletisim": {
+        "subtitle": "İletişim",
+        "title": "Bize Ulaşın",
+        "address": "Adres",
+        "phone": "Telefon",
+        "email": "E-Posta",
+        "hours": "Çalışma Saatleri",
+        "formTitle": "Bize Mesaj Gönderin",
+        "formDesc": "Projeleriniz veya hizmetlerimiz hakkında bilgi almak için formu doldurun.",
+        "name": "Ad Soyad",
+        "emailLabel": "E-Posta Adresi",
+        "subject": "Konu",
+        "message": "Mesajınız",
+        "send": "Mesaj Gönder",
+        "sending": "Gönderiliyor...",
+        "successTitle": "Mesajınız İletildi!",
+        "successDesc": "En kısa sürede size dönüş yapacağız.",
+        "sendAnother": "Yeni Mesaj Gönder",
+        "mapTitle": "Konum"
+    },
+    "footer": {
+        "quickLinks": "Hızlı Bağlantılar",
+        "services": "Hizmetlerimiz",
+        "contactInfo": "İletişim",
+        "rights": "Tüm hakları saklıdır.",
+        "builtWith": "Designed & Built with precision."
+    },
+    "notFound": {
+        "title": "Sayfa Bulunamadı",
+        "desc": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+        "backHome": "Ana Sayfaya Dön"
+    },
+    "loading": "Yükleniyor"
+}
