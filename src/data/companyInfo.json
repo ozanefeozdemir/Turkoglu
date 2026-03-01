@@ -14,7 +14,7 @@
   },
   "social": {
     "linkedin": "https://linkedin.com/company/turkoglu-tersanecilik",
-    "instagram": "https://instagram.com/turkogluters",
+    "instagram": "https://instagram.com/turkogshipyard",
     "twitter": "https://twitter.com/turkogluters"
   },
   "vision": "Türk denizcilik sanayiinde global standartlarda üretim yapan, çevreci ve yenilikçi bir dünya markası olmak.",
@@ -52,9 +52,21 @@
     }
   ],
   "stats": [
-    { "value": "40+", "label": "Yıllık Tecrübe" },
-    { "value": "350+", "label": "Tamamlanan Proje" },
-    { "value": "1200+", "label": "Uzman Personel" },
-    { "value": "25+", "label": "Ülkeye İhracat" }
+    {
+      "value": "40+",
+      "label": "Yıllık Tecrübe"
+    },
+    {
+      "value": "350+",
+      "label": "Tamamlanan Proje"
+    },
+    {
+      "value": "1200+",
+      "label": "Uzman Personel"
+    },
+    {
+      "value": "25+",
+      "label": "Ülkeye İhracat"
+    }
   ]
 }
