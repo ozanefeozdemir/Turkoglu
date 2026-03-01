@@ -131,7 +131,7 @@ export default function Footer() {
       <div className="border-t border-white/5 bg-navy-950">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 text-xs text-steel-500 sm:flex-row lg:px-8">
           <p>© {new Date().getFullYear()} Türkoğlu Tersanecilik. {t('footer.rights')}</p>
-          <p>{t('footer.builtWith')}</p>
+          <p>{t('footer.builtWith')} by <Link href="https://www.linkedin.com/in/ozan-efe-%C3%B6zdemir-426694253/" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-white transition-colors duration-300">Ozan Efe Özdemir</Link></p>
         </div>
       </div>
     </footer>
