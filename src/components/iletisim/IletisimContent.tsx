@@ -151,6 +151,8 @@ export default function IletisimContent() {
 
           <div className="grid gap-12 lg:grid-cols-2">
             <motion.div
+              id="teklif-formu"
+              className="scroll-mt-28"
               initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}

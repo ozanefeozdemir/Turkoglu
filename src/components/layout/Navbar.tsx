@@ -105,7 +105,7 @@ export default function Navbar() {
             <div className="hidden items-center gap-1 lg:flex">
               {/* CTA Button */}
               <Link
-                href="/iletisim"
+                href="/iletisim#teklif-formu"
                 className="bg-accent px-6 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
               >
                 {t('nav.cta')}
@@ -268,7 +268,7 @@ export default function Navbar() {
                 transition={{ delay: 0.6 }}
               >
                 <Link
-                  href="/iletisim"
+                  href="/iletisim#teklif-formu"
                   className="mt-4 inline-block bg-accent px-8 py-3 text-lg font-semibold text-white hover:bg-accent-hover"
                 >
                   {t('nav.cta')}
