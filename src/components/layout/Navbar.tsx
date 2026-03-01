@@ -75,7 +75,7 @@ export default function Navbar() {
             </Link>
 
             {/* Desktop Nav */}
-            <div className="hidden items-center gap-1 lg:flex">
+            <div className="hidden items-center gap-1 lg:flex ml-60">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href;
                 return (
@@ -101,15 +101,22 @@ export default function Navbar() {
               })}
             </div>
 
-            {/* Right side: Theme + Language + CTA grouped together */}
-            <div className="hidden items-center gap-2 lg:flex">
+            {/* Right side: CTA then Language then Theme */}
+            <div className="hidden items-center gap-1 lg:flex">
+              {/* CTA Button */}
+              <Link
+                href="/iletisim"
+                className="bg-accent px-6 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
+              >
+                {t('nav.cta')}
+              </Link>
+
               {/* Language Selector */}
-              <div className="relative" ref={langRef}>
+              <div className="relative ml-1" ref={langRef}>
                 <button
                   onClick={() => setLangOpen(!langOpen)}
                   className="flex h-9 items-center gap-1.5 px-2.5 text-sm font-medium text-steel-300 transition-colors duration-300 hover:text-white"
                 >
-                  <span>{langMeta[lang].flag}</span>
                   <span className="text-xs uppercase">{lang}</span>
                   <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${langOpen ? 'rotate-180' : ''}`} />
                 </button>
@@ -157,14 +164,6 @@ export default function Navbar() {
                   <Moon className="h-[18px] w-[18px]" />
                 )}
               </button>
-
-              {/* CTA Button */}
-              <Link
-                href="/iletisim"
-                className="ml-2 bg-accent px-6 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
-              >
-                {t('nav.cta')}
-              </Link>
             </div>
 
             {/* Mobile Toggle */}

@@ -38,7 +38,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="mb-6 flex items-center gap-3"
+            className="mt-10 flex items-center gap-3"
           >
             <div className="h-[2px] w-12 bg-accent" />
             <span className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
@@ -107,7 +107,7 @@ export default function HeroSection() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        className="absolute bottom-2 left-1/2 -translate-x-1/2"
       >
         <motion.div
           animate={{ y: [0, 8, 0] }}

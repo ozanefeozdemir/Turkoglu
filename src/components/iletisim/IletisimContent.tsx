@@ -20,14 +20,38 @@ export default function IletisimContent() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
+  const [errorItem, setErrorItem] = useState<string | null>(null);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
-    await new Promise((r) => setTimeout(r, 1500));
-    setIsLoading(false);
-    setIsSubmitted(true);
-    setFormState({ name: '', email: '', phone: '', subject: '', message: '' });
-    setTimeout(() => setIsSubmitted(false), 5000);
+    setErrorItem(null);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formState),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Mesaj gönderilirken bir hata oluştu.');
+      }
+
+      setIsSubmitted(true);
+      setFormState({ name: '', email: '', phone: '', subject: '', message: '' });
+      setTimeout(() => setIsSubmitted(false), 5000);
+    } catch (err: any) {
+      console.error('Form submission error:', err);
+      setErrorItem(err.message || 'Bir hata oluştu. Lütfen daha sonra tekrar deneyin.');
+      setTimeout(() => setErrorItem(null), 5000);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const contactInfo = [
@@ -138,6 +162,16 @@ export default function IletisimContent() {
                 description={t('iletisim.formDesc')}
                 align="left"
               />
+
+              {errorItem && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="mb-6 border border-red-500/20 bg-red-500/10 p-4"
+                >
+                  <p className="text-sm text-red-400">{errorItem}</p>
+                </motion.div>
+              )}
 
               {isSubmitted && (
                 <motion.div
