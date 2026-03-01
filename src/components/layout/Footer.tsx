@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { Anchor, MapPin, Phone, Mail, Linkedin, Instagram, Twitter } from 'lucide-react';
+import Image from 'next/image';
 import companyInfo from '@/data/companyInfo.json';
 import { useLanguage } from '@/context/LanguageProvider';
 
@@ -27,15 +28,14 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-1">
-            <Link href="/" className="mb-6 flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center bg-accent">
-                <Anchor className="h-5 w-5 text-white" strokeWidth={2.5} />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-lg font-bold tracking-tight text-white">TÜRKOĞLU</span>
-                <span className="text-[10px] font-medium uppercase tracking-[0.25em] text-steel-400">
-                  Tersanecilik
-                </span>
+            <Link href="/" className="mb-6 inline-block transition-transform duration-300 hover:scale-105">
+              <div className="relative h-14 w-56">
+                <Image
+                  src="/logo_scaled.png"
+                  alt="Türkoğlu Tersanecilik Logo"
+                  fill
+                  style={{ objectFit: 'contain', objectPosition: 'left center' }}
+                />
               </div>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-steel-400">

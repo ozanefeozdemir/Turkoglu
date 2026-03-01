@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Anchor, Sun, Moon, ChevronDown } from 'lucide-react';
+import Image from 'next/image';
 import { useTheme } from '@/context/ThemeProvider';
 import { useLanguage, langMeta, Lang } from '@/context/LanguageProvider';
 
@@ -51,26 +52,20 @@ export default function Navbar() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500
-          ${isScrolled
-            ? 'bg-navy-950/95 backdrop-blur-md shadow-lg shadow-black/20 border-b border-white/5'
-            : 'bg-transparent'
-          }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-navy-950/95 backdrop-blur-md shadow-lg shadow-black/20 border-b border-white/5`}
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <nav className="flex h-20 items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="group flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center bg-accent">
-                <Anchor className="h-5 w-5 text-white" strokeWidth={2.5} />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-lg font-bold tracking-tight text-white">
-                  TÜRKOĞLU
-                </span>
-                <span className="text-[10px] font-medium uppercase tracking-[0.25em] text-steel-400">
-                  Tersanecilik
-                </span>
+            <Link href="/" className="group flex items-center transition-transform duration-300 hover:scale-105">
+              <div className="relative h-12 w-48 md:h-14 md:w-48  ">
+                <Image
+                  src="/logo_scaled.png"
+                  alt="Türkoğlu Tersanecilik Logo"
+                  fill
+                  style={{ objectFit: 'contain', objectPosition: 'left center' }}
+                  priority
+                />
               </div>
             </Link>
 
