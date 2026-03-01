@@ -1,0 +1,135 @@
+[
+    {
+        "slug": "bulk-carrier-65000-dwt",
+        "title": "65.000 DWT Bulk Carrier",
+        "description": "Uluslararası deniz taşımacılığı firması için inşa edilen yüksek kapasiteli bulk carrier gemisi.",
+        "shortDescription": "Yüksek kapasiteli kuru yük gemisi inşası.",
+        "image": "/images/projects/bulk-carrier.jpg",
+        "gallery": [
+            "/images/projects/bulk-carrier.jpg",
+            "/images/projects/bulk-carrier-2.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2024",
+        "status": "Tamamlandı",
+        "featured": true,
+        "specs": {
+            "Uzunluk": "200m",
+            "Genişlik": "32m",
+            "Derinlik": "18m",
+            "DWT": "65.000",
+            "Hız": "14.5 knot",
+            "Sınıf": "Lloyd's Register"
+        }
+    },
+    {
+        "slug": "chemical-tanker-19000-dwt",
+        "title": "19.000 DWT Chemical Tanker",
+        "description": "Çift cidarlı yapısı ve gelişmiş güvenlik sistemleriyle donatılmış kimyasal tanker gemisi.",
+        "shortDescription": "Gelişmiş güvenlik sistemli kimyasal tanker.",
+        "image": "/images/projects/chemical-tanker.jpg",
+        "gallery": [
+            "/images/projects/chemical-tanker.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2023",
+        "status": "Tamamlandı",
+        "featured": true,
+        "specs": {
+            "Uzunluk": "150m",
+            "Genişlik": "24m",
+            "Derinlik": "13m",
+            "DWT": "19.000",
+            "Hız": "15 knot",
+            "Sınıf": "Bureau Veritas"
+        }
+    },
+    {
+        "slug": "offshore-patrol-vessel",
+        "title": "Offshore Patrol Vessel (OPV)",
+        "description": "Kıyı güvenliği ve açık deniz devriye görevi için tasarlanan yüksek hızlı askeri gemi.",
+        "shortDescription": "Yüksek hızlı askeri devriye gemisi.",
+        "image": "/images/projects/patrol-vessel.jpg",
+        "gallery": [
+            "/images/projects/patrol-vessel.jpg"
+        ],
+        "category": "Askeri",
+        "year": "2024",
+        "status": "Devam Ediyor",
+        "featured": true,
+        "specs": {
+            "Uzunluk": "80m",
+            "Genişlik": "13m",
+            "Derinlik": "6.5m",
+            "Hız": "28 knot",
+            "Menzil": "4000 NM",
+            "Sınıf": "Türk Loydu"
+        }
+    },
+    {
+        "slug": "mega-yacht-refit-52m",
+        "title": "52m Mega Yacht Refit",
+        "description": "Tam kapsamlı yenileme projesi: çelik gövde onarımı, iç mekan yenileme, motor revizyonu ve sistem modernizasyonu.",
+        "shortDescription": "Kapsamlı mega yat yenileme projesi.",
+        "image": "/images/projects/yacht-refit.jpg",
+        "gallery": [
+            "/images/projects/yacht-refit.jpg"
+        ],
+        "category": "Refit",
+        "year": "2023",
+        "status": "Tamamlandı",
+        "featured": true,
+        "specs": {
+            "Uzunluk": "52m",
+            "Genişlik": "9.5m",
+            "Kapsam": "Full Refit",
+            "Süre": "14 Ay",
+            "Motor": "Twin MTU",
+            "Sınıf": "RINA"
+        }
+    },
+    {
+        "slug": "container-feeder-1100-teu",
+        "title": "1.100 TEU Container Feeder",
+        "description": "Bölgesel konteyner taşımacılığı için optimize edilmiş, enerji verimli konteyner gemisi.",
+        "shortDescription": "Enerji verimli konteyner feeder gemisi.",
+        "image": "/images/projects/container-ship.jpg",
+        "gallery": [
+            "/images/projects/container-ship.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2022",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk": "140m",
+            "Genişlik": "23m",
+            "Derinlik": "11m",
+            "Kapasite": "1.100 TEU",
+            "Hız": "17 knot",
+            "Sınıf": "DNV"
+        }
+    },
+    {
+        "slug": "tugboat-fleet-3x",
+        "title": "3x 70 Ton Çekme Gücü Römorkör",
+        "description": "Liman operasyonları için tasarlanan yüksek manevra kabiliyetli römorkör filosu.",
+        "shortDescription": "Yüksek güçlü liman römorkör filosu.",
+        "image": "/images/projects/tugboat.jpg",
+        "gallery": [
+            "/images/projects/tugboat.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2023",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk": "32m",
+            "Genişlik": "12m",
+            "Çekme Gücü": "70 ton",
+            "Motor": "2x CAT 3516C",
+            "Hız": "13 knot",
+            "Sınıf": "Türk Loydu"
+        }
+    }
+]

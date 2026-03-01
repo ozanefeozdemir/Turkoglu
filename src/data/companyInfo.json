@@ -1,0 +1,60 @@
+{
+  "name": "Türkoğlu Tersanecilik",
+  "shortName": "Türkoğlu",
+  "tagline": "Denizlerin Güvenilir Gücü",
+  "description": "1985 yılından bu yana denizcilik sektöründe faaliyet gösteren Türkoğlu Tersanecilik, yeni gemi inşası, bakım-onarım ve refit hizmetleri ile sektörün öncü firmalarından biridir.",
+  "longDescription": "Türkoğlu Tersanecilik, 40 yılı aşan tecrübesiyle Türkiye'nin önde gelen tersane şirketlerinden biridir. Modern altyapısı, deneyimli mühendis kadrosu ve uluslararası kalite standartlarına uygun üretim süreçleriyle, müşterilerine en yüksek kalitede hizmet sunmaktadır.",
+  "founded": "1985",
+  "address": "Tuzla Organize Tersaneler Bölgesi, No: 12, 34944 Tuzla/İstanbul",
+  "phone": "+90 216 444 0 123",
+  "email": "info@turkoglutesanecilik.com",
+  "coordinates": {
+    "lat": 40.8225,
+    "lng": 29.3005
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/company/turkoglu-tersanecilik",
+    "instagram": "https://instagram.com/turkogluters",
+    "twitter": "https://twitter.com/turkogluters"
+  },
+  "vision": "Türk denizcilik sanayiinde global standartlarda üretim yapan, çevreci ve yenilikçi bir dünya markası olmak.",
+  "mission": "Uluslararası kalite standartlarında gemi inşa, bakım ve onarım hizmetleri sunarak müşterilerimizin güvenilir iş ortağı olmak, çalışanlarımıza güvenli ve gelişime açık bir çalışma ortamı sağlamak.",
+  "values": [
+    {
+      "title": "Kalite",
+      "description": "Uluslararası standartlarda, sıfır hata prensibilye çalışıyoruz.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "title": "Güvenlik",
+      "description": "İş güvenliği ve çevre koruma, tüm faaliyetlerimizin temelini oluşturur.",
+      "icon": "HardHat"
+    },
+    {
+      "title": "Yenilikçilik",
+      "description": "Teknolojiyi yakından takip eder, sürekli gelişim ilkesiyle hareket ederiz.",
+      "icon": "Lightbulb"
+    },
+    {
+      "title": "Güvenilirlik",
+      "description": "Zamanında teslimat ve şeffaf iletişim ile müşterilerimizin güvenini kazanırız.",
+      "icon": "Handshake"
+    },
+    {
+      "title": "Sürdürülebilirlik",
+      "description": "Çevreye duyarlı üretim süreçleriyle geleceğe yatırım yapıyoruz.",
+      "icon": "Leaf"
+    },
+    {
+      "title": "Ekip Çalışması",
+      "description": "Başarımızın arkasında güçlü ve uyumlu bir ekip ruhu vardır.",
+      "icon": "Users"
+    }
+  ],
+  "stats": [
+    { "value": "40+", "label": "Yıllık Tecrübe" },
+    { "value": "350+", "label": "Tamamlanan Proje" },
+    { "value": "1200+", "label": "Uzman Personel" },
+    { "value": "25+", "label": "Ülkeye İhracat" }
+  ]
+}

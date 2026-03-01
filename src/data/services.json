@@ -1,0 +1,44 @@
+[
+    {
+        "slug": "yeni-insa",
+        "title": "Yeni Gemi İnşası",
+        "description": "Müşteri ihtiyaçlarına özel, uluslararası sınıf kuruluşları tarafından onaylanan gemi inşa hizmetleri. Bulk carrier, tanker, konteyner, askeri gemi ve özel amaçlı gemi projelerinde uzman kadromuzla hizmet veriyoruz.",
+        "shortDescription": "Uluslararası standartlarda yeni gemi inşası.",
+        "icon": "Ship",
+        "image": "/images/services/new-build.jpg",
+        "features": [
+            "Bulk Carrier & Tanker İnşası",
+            "Askeri Gemi Projeleri",
+            "Özel Amaçlı Gemiler",
+            "Uluslararası Sınıf Onayları"
+        ]
+    },
+    {
+        "slug": "bakim-onarim",
+        "title": "Bakım & Onarım",
+        "description": "Planlı bakım, kızakta onarım, havuzlama ve acil müdahale hizmetleriyle filonuzu en verimli şekilde çalışır durumda tutuyoruz. 300 metreye kadar gemilere hizmet verebilen kuru havuzlarımız mevcuttur.",
+        "shortDescription": "Kapsamlı gemi bakım ve onarım hizmetleri.",
+        "icon": "Wrench",
+        "image": "/images/services/maintenance.jpg",
+        "features": [
+            "Kuru Havuz Hizmetleri",
+            "Çelik & Boru Onarımları",
+            "Motor & Makine Revizyonu",
+            "Acil Müdahale Servisi"
+        ]
+    },
+    {
+        "slug": "refit-modernizasyon",
+        "title": "Refit & Modernizasyon",
+        "description": "Gemilerinizi en son teknoloji ile donatarak ekonomik ömrünü uzatıyoruz. İç mekan yenileme, sistem modernizasyonu, yakıt verimliliği iyileştirmesi ve çevre dostu dönüşüm projeleriniz için yanınızdayız.",
+        "shortDescription": "Gemi yenileme ve modernizasyon çözümleri.",
+        "icon": "RefreshCcw",
+        "image": "/images/services/refit.jpg",
+        "features": [
+            "Full Refit Projeleri",
+            "Sistem Modernizasyonu",
+            "Yakıt Verimliliği İyileştirmesi",
+            "IMO Uyum Dönüşümleri"
+        ]
+    }
+]
