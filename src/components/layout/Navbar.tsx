@@ -60,7 +60,7 @@ export default function Navbar() {
             <Link href="/" className="group flex items-center transition-transform duration-300 hover:scale-105">
               <div className="relative h-12 w-48 md:h-14 md:w-48  ">
                 <Image
-                  src="/logo_scaled.png"
+                  src="/turkoglu_logo_bgremoved.png"
                   alt="Türkoğlu Tersanecilik Logo"
                   fill
                   style={{ objectFit: 'contain', objectPosition: 'left center' }}

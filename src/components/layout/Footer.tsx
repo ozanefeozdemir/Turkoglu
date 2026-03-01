@@ -31,7 +31,7 @@ export default function Footer() {
             <Link href="/" className="mb-6 inline-block transition-transform duration-300 hover:scale-105">
               <div className="relative h-14 w-56">
                 <Image
-                  src="/logo_scaled.png"
+                  src="/turkoglu_logo_bgremoved.png"
                   alt="Türkoğlu Tersanecilik Logo"
                   fill
                   style={{ objectFit: 'contain', objectPosition: 'left center' }}
