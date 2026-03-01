@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import companyInfo from '@/data/companyInfo.json';
 import SectionHeading from '@/components/ui/SectionHeading';
+import AnimatedCounter from '@/components/ui/AnimatedCounter';
 
 const iconMap: Record<string, React.ElementType> = {
   ShieldCheck,
@@ -94,7 +95,7 @@ export default function KurumsalContent() {
                     transition={{ duration: 0.4, delay: i * 0.1 }}
                     className="border-l-2 border-accent pl-4"
                   >
-                    <div className="text-2xl font-bold text-white">{stat.value}</div>
+                    <AnimatedCounter value={stat.value} className="text-2xl font-bold text-white" />
                     <div className="mt-1 text-xs font-medium uppercase tracking-wider text-steel-400">
                       {stat.label}
                     </div>

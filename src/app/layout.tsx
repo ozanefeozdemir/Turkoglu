@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import ScrollToTop from "@/components/ui/ScrollToTop";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -32,6 +33,10 @@ export const metadata: Metadata = {
     type: "website",
     locale: "tr_TR",
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -45,6 +50,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );

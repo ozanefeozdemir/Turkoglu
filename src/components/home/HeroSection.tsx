@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ChevronDown } from 'lucide-react';
 import companyInfo from '@/data/companyInfo.json';
+import AnimatedCounter from '@/components/ui/AnimatedCounter';
 
 export default function HeroSection() {
   return (
@@ -93,7 +94,7 @@ export default function HeroSection() {
           >
             {companyInfo.stats.map((stat, i) => (
               <div key={i}>
-                <div className="text-3xl font-bold text-white">{stat.value}</div>
+                <AnimatedCounter value={stat.value} className="text-3xl font-bold text-white" />
                 <div className="mt-1 text-xs font-medium uppercase tracking-wider text-steel-400">
                   {stat.label}
                 </div>
