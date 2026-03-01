@@ -9,13 +9,23 @@
     },
     "hero": {
         "since": "'den bu yana",
+        "tagline1": "Denizlerin Güvenilir",
+        "tagline2": "Gücü",
+        "description": "1985 yılından bu yana denizcilik sektöründe faaliyet gösteren Türkoğlu Tersanecilik, yeni gemi inşası, bakım-onarım ve refit hizmetleri ile sektörün öncü firmalarından biridir.",
         "cta1": "Projelerimizi İnceleyin",
         "cta2": "Bizi Tanıyın",
         "scroll": "Keşfet"
     },
+    "stats": {
+        "experience": "Yıllık Tecrübe",
+        "projects": "Tamamlanan Proje",
+        "staff": "Uzman Personel",
+        "exports": "Ülkeye İhracat"
+    },
     "about": {
         "subtitle": "Hakkımızda",
-        "title": "Türkiye'nin Öncü Tersanesi",
+        "title": "Güçlü Deneyim, Sağlam Temeller",
+        "description": "Türkoğlu Tersanecilik, 40 yılı aşan tecrübesiyle Türkiye'nin önde gelen tersane şirketlerinden biridir. Modern altyapısı, deneyimli mühendis kadrosu ve uluslararası kalite standartlarına uygun üretim süreçleriyle, müşterilerine en yüksek kalitede hizmet sunmaktadır.",
         "more": "Daha Fazla Bilgi"
     },
     "projects": {
@@ -25,18 +35,56 @@
         "viewAll": "Tüm Projeleri Görüntüle",
         "active": "AKTİF",
         "completed": "Tamamlandı",
-        "detail": "Detay"
+        "detail": "Detaylar"
     },
     "kurumsal": {
         "subtitle": "Kurumsal",
         "title": "Bizi Tanıyın",
         "historySubtitle": "Tarihçemiz",
         "historyTitle": "40 Yılı Aşan Deneyim",
+        "historyText": "Türkoğlu Tersanecilik, 40 yılı aşan tecrübesiyle Türkiye'nin önde gelen tersane şirketlerinden biridir. Modern altyapısı, deneyimli mühendis kadrosu ve uluslararası kalite standartlarına uygun üretim süreçleriyle, müşterilerine en yüksek kalitede hizmet sunmaktadır.",
+        "historyText2": "Tersanemiz, Tuzla Organize Tersaneler Bölgesi'nde 50.000 m² kapalı, 120.000 m² açık alan üzerinde faaliyet göstermektedir. 300 metreye kadar gemilere hizmet verebilen kuru havuzlarımız, son teknoloji kesim ve kaynak hatlarımız ile sektörün her türlü ihtiyacına cevap veriyoruz.",
         "valuesSubtitle": "Değerlerimiz",
         "valuesTitle": "Bizi Biz Yapan Değerler",
         "valuesDesc": "Her projede bu değerleri temel alarak çalışıyoruz.",
         "vision": "Vizyonumuz",
-        "mission": "Misyonumuz"
+        "visionText": "Türk denizcilik sanayiinde global standartlarda üretim yapan, çevreci ve yenilikçi bir dünya markası olmak.",
+        "mission": "Misyonumuz",
+        "missionText": "Uluslararası kalite standartlarında gemi inşa, bakım ve onarım hizmetleri sunarak müşterilerimizin güvenilir iş ortağı olmak, çalışanlarımıza güvenli ve gelişime açık bir çalışma ortamı sağlamak."
+    },
+    "values": {
+        "quality": "Kalite",
+        "qualityDesc": "Uluslararası standartlarda, sıfır hata prensibiyle çalışıyoruz.",
+        "safety": "Güvenlik",
+        "safetyDesc": "İş güvenliği ve çevre koruma, tüm faaliyetlerimizin temelini oluşturur.",
+        "innovation": "Yenilikçilik",
+        "innovationDesc": "Teknolojiyi yakından takip eder, sürekli gelişim ilkesiyle hareket ederiz.",
+        "reliability": "Güvenilirlik",
+        "reliabilityDesc": "Zamanında teslimat ve şeffaf iletişim ile müşterilerimizin güvenini kazanırız.",
+        "sustainability": "Sürdürülebilirlik",
+        "sustainabilityDesc": "Çevreye duyarlı üretim süreçleriyle geleceğe yatırım yapıyoruz.",
+        "teamwork": "Ekip Çalışması",
+        "teamworkDesc": "Başarımızın arkasında güçlü ve uyumlu bir ekip ruhu vardır."
+    },
+    "services": {
+        "newBuild": "Yeni Gemi İnşası",
+        "newBuildDesc": "Müşteri ihtiyaçlarına özel, uluslararası sınıf kuruluşları tarafından onaylanan gemi inşa hizmetleri. Bulk carrier, tanker, konteyner, askeri gemi ve özel amaçlı gemi projelerinde uzman kadromuzla hizmet veriyoruz.",
+        "newBuildF1": "Bulk Carrier & Tanker İnşası",
+        "newBuildF2": "Askeri Gemi Projeleri",
+        "newBuildF3": "Özel Amaçlı Gemiler",
+        "newBuildF4": "Uluslararası Sınıf Onayları",
+        "maintenance": "Bakım & Onarım",
+        "maintenanceDesc": "Planlı bakım, kızakta onarım, havuzlama ve acil müdahale hizmetleriyle filonuzu en verimli şekilde çalışır durumda tutuyoruz. 300 metreye kadar gemilere hizmet verebilen kuru havuzlarımız mevcuttur.",
+        "maintenanceF1": "Kuru Havuz Hizmetleri",
+        "maintenanceF2": "Çelik & Boru Onarımları",
+        "maintenanceF3": "Motor & Makine Revizyonu",
+        "maintenanceF4": "Acil Müdahale Servisi",
+        "refit": "Refit & Modernizasyon",
+        "refitDesc": "Gemilerinizi en son teknoloji ile donatarak ekonomik ömrünü uzatıyoruz. İç mekan yenileme, sistem modernizasyonu, yakıt verimliliği iyileştirmesi ve çevre dostu dönüşüm projeleriniz için yanınızdayız.",
+        "refitF1": "Full Refit Projeleri",
+        "refitF2": "Sistem Modernizasyonu",
+        "refitF3": "Yakıt Verimliliği İyileştirmesi",
+        "refitF4": "IMO Uyum Dönüşümleri"
     },
     "hizmetlerimiz": {
         "subtitle": "Hizmetlerimiz",
@@ -77,6 +125,7 @@
         "phone": "Telefon",
         "email": "E-Posta",
         "hours": "Çalışma Saatleri",
+        "hoursValue": "Pazartesi - Cumartesi: 08:00 - 18:00",
         "formTitle": "Bize Mesaj Gönderin",
         "formDesc": "Projeleriniz veya hizmetlerimiz hakkında bilgi almak için formu doldurun.",
         "name": "Ad Soyad",
@@ -88,9 +137,11 @@
         "successTitle": "Mesajınız İletildi!",
         "successDesc": "En kısa sürede size dönüş yapacağız.",
         "sendAnother": "Yeni Mesaj Gönder",
-        "mapTitle": "Konum"
+        "mapTitle": "Konum",
+        "mapSubtitle": "Bizi Ziyaret Edin"
     },
     "footer": {
+        "description": "1985 yılından bu yana denizcilik sektöründe faaliyet gösteren Türkoğlu Tersanecilik, yeni gemi inşası, bakım-onarım ve refit hizmetleri ile sektörün öncü firmalarından biridir.",
         "quickLinks": "Hızlı Bağlantılar",
         "services": "Hizmetlerimiz",
         "contactInfo": "İletişim",

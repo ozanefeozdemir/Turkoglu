@@ -9,13 +9,23 @@
     },
     "hero": {
         "since": " since",
+        "tagline1": "The Reliable Power",
+        "tagline2": "of the Seas",
+        "description": "Since 1985, Türkoğlu Shipyard has been a leading company in the maritime industry, offering new shipbuilding, maintenance-repair and refit services.",
         "cta1": "View Our Projects",
         "cta2": "About Us",
         "scroll": "Explore"
     },
+    "stats": {
+        "experience": "Years of Experience",
+        "projects": "Completed Projects",
+        "staff": "Expert Staff",
+        "exports": "Export Countries"
+    },
     "about": {
         "subtitle": "About Us",
-        "title": "Turkey's Leading Shipyard",
+        "title": "Strong Experience, Solid Foundations",
+        "description": "Türkoğlu Shipyard is one of Turkey's leading shipyard companies with over 40 years of experience. With its modern infrastructure, experienced engineering staff and production processes compliant with international quality standards, it provides the highest quality service to its customers.",
         "more": "Learn More"
     },
     "projects": {
@@ -32,11 +42,49 @@
         "title": "Get to Know Us",
         "historySubtitle": "Our History",
         "historyTitle": "Over 40 Years of Experience",
+        "historyText": "Türkoğlu Shipyard is one of Turkey's leading shipyard companies with over 40 years of experience. With its modern infrastructure, experienced engineering staff and production processes compliant with international quality standards, it provides the highest quality service to its customers.",
+        "historyText2": "Our shipyard operates on 50,000 m² of covered and 120,000 m² of open area in the Tuzla Organized Shipyard Zone. With our dry docks capable of serving vessels up to 300 meters, and our state-of-the-art cutting and welding lines, we meet all needs of the industry.",
         "valuesSubtitle": "Our Values",
         "valuesTitle": "The Values That Define Us",
         "valuesDesc": "We work based on these values in every project.",
         "vision": "Our Vision",
-        "mission": "Our Mission"
+        "visionText": "To become a global brand that produces at international standards in Turkish maritime industry, environmentally conscious and innovative.",
+        "mission": "Our Mission",
+        "missionText": "To be a trusted business partner of our customers by providing ship construction, maintenance and repair services at international quality standards, and to provide a safe and growth-oriented working environment for our employees."
+    },
+    "values": {
+        "quality": "Quality",
+        "qualityDesc": "We work at international standards with a zero-defect principle.",
+        "safety": "Safety",
+        "safetyDesc": "Occupational safety and environmental protection form the basis of all our activities.",
+        "innovation": "Innovation",
+        "innovationDesc": "We closely follow technology and act with the principle of continuous improvement.",
+        "reliability": "Reliability",
+        "reliabilityDesc": "We earn our customers' trust through on-time delivery and transparent communication.",
+        "sustainability": "Sustainability",
+        "sustainabilityDesc": "We invest in the future with environmentally conscious production processes.",
+        "teamwork": "Teamwork",
+        "teamworkDesc": "Behind our success lies a strong and harmonious team spirit."
+    },
+    "services": {
+        "newBuild": "New Shipbuilding",
+        "newBuildDesc": "Custom shipbuilding services approved by international classification societies. We serve with our expert staff in bulk carrier, tanker, container, military and special purpose vessel projects.",
+        "newBuildF1": "Bulk Carrier & Tanker Construction",
+        "newBuildF2": "Military Vessel Projects",
+        "newBuildF3": "Special Purpose Vessels",
+        "newBuildF4": "International Class Approvals",
+        "maintenance": "Maintenance & Repair",
+        "maintenanceDesc": "We keep your fleet operating at peak efficiency with planned maintenance, slipway repair, docking and emergency response services. We have dry docks capable of serving vessels up to 300 meters.",
+        "maintenanceF1": "Dry Dock Services",
+        "maintenanceF2": "Steel & Pipe Repairs",
+        "maintenanceF3": "Engine & Machine Overhaul",
+        "maintenanceF4": "Emergency Response Service",
+        "refit": "Refit & Modernization",
+        "refitDesc": "We extend the economic lifespan of your vessels by equipping them with the latest technology. We are here for your interior renovation, system modernization, fuel efficiency improvement and eco-friendly conversion projects.",
+        "refitF1": "Full Refit Projects",
+        "refitF2": "System Modernization",
+        "refitF3": "Fuel Efficiency Improvement",
+        "refitF4": "IMO Compliance Conversions"
     },
     "hizmetlerimiz": {
         "subtitle": "Our Services",
@@ -77,6 +125,7 @@
         "phone": "Phone",
         "email": "Email",
         "hours": "Working Hours",
+        "hoursValue": "Monday - Saturday: 08:00 - 18:00",
         "formTitle": "Send Us a Message",
         "formDesc": "Fill out the form to learn more about our projects or services.",
         "name": "Full Name",
@@ -88,9 +137,11 @@
         "successTitle": "Message Sent!",
         "successDesc": "We will get back to you as soon as possible.",
         "sendAnother": "Send Another Message",
-        "mapTitle": "Location"
+        "mapTitle": "Location",
+        "mapSubtitle": "Visit Us"
     },
     "footer": {
+        "description": "Since 1985, Türkoğlu Shipyard has been a leading company in the maritime industry, offering new shipbuilding, maintenance-repair and refit services.",
         "quickLinks": "Quick Links",
         "services": "Our Services",
         "contactInfo": "Contact",

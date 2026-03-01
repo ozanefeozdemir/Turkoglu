@@ -35,7 +35,6 @@ export default function Navbar() {
     setIsMobileOpen(false);
   }, [pathname]);
 
-  // Close lang dropdown on outside click
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
       if (langRef.current && !langRef.current.contains(e.target as Node)) {
@@ -100,22 +99,12 @@ export default function Navbar() {
                   </Link>
                 );
               })}
+            </div>
 
-              {/* Theme Toggle */}
-              <button
-                onClick={toggleTheme}
-                className="ml-2 flex h-9 w-9 items-center justify-center text-steel-300 transition-colors duration-300 hover:text-accent"
-                aria-label="Tema değiştir"
-              >
-                {theme === 'dark' ? (
-                  <Sun className="h-[18px] w-[18px]" />
-                ) : (
-                  <Moon className="h-[18px] w-[18px]" />
-                )}
-              </button>
-
+            {/* Right side: Theme + Language + CTA grouped together */}
+            <div className="hidden items-center gap-2 lg:flex">
               {/* Language Selector */}
-              <div className="relative ml-1" ref={langRef}>
+              <div className="relative" ref={langRef}>
                 <button
                   onClick={() => setLangOpen(!langOpen)}
                   className="flex h-9 items-center gap-1.5 px-2.5 text-sm font-medium text-steel-300 transition-colors duration-300 hover:text-white"
@@ -156,9 +145,23 @@ export default function Navbar() {
                 </AnimatePresence>
               </div>
 
+              {/* Theme Toggle */}
+              <button
+                onClick={toggleTheme}
+                className="flex h-9 w-9 items-center justify-center text-steel-300 transition-colors duration-300 hover:text-accent"
+                aria-label="Toggle theme"
+              >
+                {theme === 'dark' ? (
+                  <Sun className="h-[18px] w-[18px]" />
+                ) : (
+                  <Moon className="h-[18px] w-[18px]" />
+                )}
+              </button>
+
+              {/* CTA Button */}
               <Link
                 href="/iletisim"
-                className="ml-4 bg-accent px-6 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
+                className="ml-2 bg-accent px-6 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
               >
                 {t('nav.cta')}
               </Link>
@@ -166,10 +169,50 @@ export default function Navbar() {
 
             {/* Mobile Toggle */}
             <div className="flex items-center gap-2 lg:hidden">
+              {/* Mobile Language */}
+              <div className="relative" ref={langRef}>
+                <button
+                  onClick={() => setLangOpen(!langOpen)}
+                  className="flex h-10 items-center gap-1 text-sm text-white"
+                >
+                  <span>{langMeta[lang].flag}</span>
+                  <ChevronDown className={`h-3 w-3 transition-transform ${langOpen ? 'rotate-180' : ''}`} />
+                </button>
+                <AnimatePresence>
+                  {langOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -8 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -8 }}
+                      transition={{ duration: 0.15 }}
+                      className="absolute right-0 top-full mt-2 overflow-hidden border border-white/10 bg-navy-900 shadow-xl z-50"
+                    >
+                      {(Object.keys(langMeta) as Lang[]).map((key) => (
+                        <button
+                          key={key}
+                          onClick={() => {
+                            setLang(key);
+                            setLangOpen(false);
+                          }}
+                          className={`flex w-full items-center gap-3 px-4 py-2.5 text-sm transition-colors
+                            ${lang === key
+                              ? 'bg-accent/10 text-accent'
+                              : 'text-steel-300 hover:bg-white/5 hover:text-white'
+                            }`}
+                        >
+                          <span>{langMeta[key].flag}</span>
+                          <span>{langMeta[key].label}</span>
+                        </button>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
               <button
                 onClick={toggleTheme}
                 className="flex h-10 w-10 items-center justify-center text-white"
-                aria-label="Tema değiştir"
+                aria-label="Toggle theme"
               >
                 {theme === 'dark' ? (
                   <Sun className="h-5 w-5" />
@@ -180,7 +223,7 @@ export default function Navbar() {
               <button
                 onClick={() => setIsMobileOpen(!isMobileOpen)}
                 className="flex h-10 w-10 items-center justify-center text-white"
-                aria-label="Menü"
+                aria-label="Menu"
               >
                 {isMobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </button>
@@ -219,29 +262,6 @@ export default function Navbar() {
                   </motion.div>
                 );
               })}
-
-              {/* Mobile Language Selector */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5 }}
-                className="flex gap-3"
-              >
-                {(Object.keys(langMeta) as Lang[]).map((key) => (
-                  <button
-                    key={key}
-                    onClick={() => setLang(key)}
-                    className={`flex items-center gap-1.5 px-3 py-2 text-sm font-medium transition-all
-                      ${lang === key
-                        ? 'bg-accent/20 text-accent'
-                        : 'text-steel-400 hover:text-white'
-                      }`}
-                  >
-                    <span>{langMeta[key].flag}</span>
-                    <span className="uppercase">{key}</span>
-                  </button>
-                ))}
-              </motion.div>
 
               <motion.div
                 initial={{ opacity: 0, y: 20 }}

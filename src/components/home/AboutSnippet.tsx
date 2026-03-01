@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import companyInfo from '@/data/companyInfo.json';
 import SectionHeading from '@/components/ui/SectionHeading';
 import { useLanguage } from '@/context/LanguageProvider';
 
@@ -15,7 +14,6 @@ export default function AboutSnippet() {
     <section className="relative overflow-hidden bg-navy-950 py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid items-center gap-16 lg:grid-cols-2">
-          {/* Image Side */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -40,7 +38,6 @@ export default function AboutSnippet() {
             </div>
           </motion.div>
 
-          {/* Text Side */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -53,7 +50,7 @@ export default function AboutSnippet() {
               align="left"
             />
             <p className="-mt-8 text-lg leading-relaxed text-steel-400">
-              {companyInfo.longDescription}
+              {t('about.description')}
             </p>
             <Link
               href="/kurumsal"

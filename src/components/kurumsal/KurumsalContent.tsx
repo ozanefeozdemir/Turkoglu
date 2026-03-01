@@ -12,7 +12,6 @@ import {
   Target,
   Eye,
 } from 'lucide-react';
-import companyInfo from '@/data/companyInfo.json';
 import SectionHeading from '@/components/ui/SectionHeading';
 import AnimatedCounter from '@/components/ui/AnimatedCounter';
 import { useLanguage } from '@/context/LanguageProvider';
@@ -26,6 +25,8 @@ const iconMap: Record<string, React.ElementType> = {
   Users,
 };
 
+const valueIcons = ['ShieldCheck', 'HardHat', 'Lightbulb', 'Handshake', 'Leaf', 'Users'];
+
 const fadeUp = {
   initial: { opacity: 0, y: 40 },
   whileInView: { opacity: 1, y: 0 },
@@ -35,6 +36,22 @@ const fadeUp = {
 
 export default function KurumsalContent() {
   const { t } = useLanguage();
+
+  const stats = [
+    { value: '40+', label: t('stats.experience') },
+    { value: '350+', label: t('stats.projects') },
+    { value: '1200+', label: t('stats.staff') },
+    { value: '25+', label: t('stats.exports') },
+  ];
+
+  const values = [
+    { key: 'quality', icon: 'ShieldCheck' },
+    { key: 'safety', icon: 'HardHat' },
+    { key: 'innovation', icon: 'Lightbulb' },
+    { key: 'reliability', icon: 'Handshake' },
+    { key: 'sustainability', icon: 'Leaf' },
+    { key: 'teamwork', icon: 'Users' },
+  ];
 
   return (
     <>
@@ -67,7 +84,7 @@ export default function KurumsalContent() {
         </div>
       </section>
 
-      {/* History / About Section */}
+      {/* History */}
       <section className="bg-navy-950 py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid items-center gap-16 lg:grid-cols-2">
@@ -78,18 +95,12 @@ export default function KurumsalContent() {
                 align="left"
               />
               <div className="-mt-8 space-y-4 text-lg leading-relaxed text-steel-400">
-                <p>{companyInfo.longDescription}</p>
-                <p>
-                  Tersanemiz, Tuzla Organize Tersaneler Bölgesi&apos;nde 50.000 m² kapalı,
-                  120.000 m² açık alan üzerinde faaliyet göstermektedir. 300 metreye kadar
-                  gemilere hizmet verebilen kuru havuzlarımız, son teknoloji kesim ve
-                  kaynak hatlarımız ile sektörün her türlü ihtiyacına cevap veriyoruz.
-                </p>
+                <p>{t('kurumsal.historyText')}</p>
+                <p>{t('kurumsal.historyText2')}</p>
               </div>
 
-              {/* Stats */}
               <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
-                {companyInfo.stats.map((stat, i) => (
+                {stats.map((stat, i) => (
                   <motion.div
                     key={i}
                     initial={{ opacity: 0, y: 20 }}
@@ -117,7 +128,7 @@ export default function KurumsalContent() {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
                   src="/images/about/about-shipyard.png"
-                  alt="Türkoğlu Tersanecilik hakkında"
+                  alt="Türkoğlu Tersanecilik"
                   fill
                   className="object-cover"
                 />
@@ -146,7 +157,7 @@ export default function KurumsalContent() {
                 <h3 className="mb-4 text-2xl font-bold text-white">{t('kurumsal.vision')}</h3>
                 <div className="accent-bar mb-6" />
                 <p className="text-lg leading-relaxed text-steel-400">
-                  {companyInfo.vision}
+                  {t('kurumsal.visionText')}
                 </p>
               </div>
             </motion.div>
@@ -166,7 +177,7 @@ export default function KurumsalContent() {
                 <h3 className="mb-4 text-2xl font-bold text-white">{t('kurumsal.mission')}</h3>
                 <div className="accent-bar mb-6" />
                 <p className="text-lg leading-relaxed text-steel-400">
-                  {companyInfo.mission}
+                  {t('kurumsal.missionText')}
                 </p>
               </div>
             </motion.div>
@@ -184,11 +195,11 @@ export default function KurumsalContent() {
           />
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {companyInfo.values.map((value, i) => {
-              const Icon = iconMap[value.icon] || ShieldCheck;
+            {values.map((v, i) => {
+              const Icon = iconMap[v.icon] || ShieldCheck;
               return (
                 <motion.div
-                  key={value.title}
+                  key={v.key}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-50px' }}
@@ -198,9 +209,9 @@ export default function KurumsalContent() {
                   <div className="mb-5 flex h-12 w-12 items-center justify-center bg-accent/10 transition-colors duration-500 group-hover:bg-accent/20">
                     <Icon className="h-6 w-6 text-accent" />
                   </div>
-                  <h4 className="mb-3 text-lg font-bold text-white">{value.title}</h4>
+                  <h4 className="mb-3 text-lg font-bold text-white">{t(`values.${v.key}`)}</h4>
                   <p className="text-sm leading-relaxed text-steel-400">
-                    {value.description}
+                    {t(`values.${v.key}Desc`)}
                   </p>
                 </motion.div>
               );

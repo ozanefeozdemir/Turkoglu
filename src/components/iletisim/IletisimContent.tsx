@@ -52,7 +52,7 @@ export default function IletisimContent() {
     {
       icon: Clock,
       label: t('iletisim.hours'),
-      value: 'Pazartesi - Cumartesi: 08:00 - 18:00',
+      value: t('iletisim.hoursValue'),
       href: null,
     },
   ];
@@ -62,7 +62,6 @@ export default function IletisimContent() {
 
   return (
     <>
-      {/* Page Hero */}
       <section className="relative flex h-[50vh] min-h-[400px] items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
@@ -91,7 +90,6 @@ export default function IletisimContent() {
         </div>
       </section>
 
-      {/* Contact Info Cards */}
       <section className="bg-navy-950 py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mb-20 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -127,9 +125,7 @@ export default function IletisimContent() {
             })}
           </div>
 
-          {/* Form + Map */}
           <div className="grid gap-12 lg:grid-cols-2">
-            {/* Contact Form */}
             <motion.div
               initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -163,9 +159,7 @@ export default function IletisimContent() {
                     placeholder={`${t('iletisim.name')} *`}
                     required
                     value={formState.name}
-                    onChange={(e) =>
-                      setFormState({ ...formState, name: e.target.value })
-                    }
+                    onChange={(e) => setFormState({ ...formState, name: e.target.value })}
                     className={inputClasses}
                   />
                   <input
@@ -173,9 +167,7 @@ export default function IletisimContent() {
                     placeholder={`${t('iletisim.emailLabel')} *`}
                     required
                     value={formState.email}
-                    onChange={(e) =>
-                      setFormState({ ...formState, email: e.target.value })
-                    }
+                    onChange={(e) => setFormState({ ...formState, email: e.target.value })}
                     className={inputClasses}
                   />
                 </div>
@@ -184,18 +176,14 @@ export default function IletisimContent() {
                     type="tel"
                     placeholder={t('iletisim.phone')}
                     value={formState.phone}
-                    onChange={(e) =>
-                      setFormState({ ...formState, phone: e.target.value })
-                    }
+                    onChange={(e) => setFormState({ ...formState, phone: e.target.value })}
                     className={inputClasses}
                   />
                   <input
                     type="text"
                     placeholder={t('iletisim.subject')}
                     value={formState.subject}
-                    onChange={(e) =>
-                      setFormState({ ...formState, subject: e.target.value })
-                    }
+                    onChange={(e) => setFormState({ ...formState, subject: e.target.value })}
                     className={inputClasses}
                   />
                 </div>
@@ -204,9 +192,7 @@ export default function IletisimContent() {
                   required
                   rows={6}
                   value={formState.message}
-                  onChange={(e) =>
-                    setFormState({ ...formState, message: e.target.value })
-                  }
+                  onChange={(e) => setFormState({ ...formState, message: e.target.value })}
                   className={`${inputClasses} resize-none`}
                 />
                 <button
@@ -229,7 +215,6 @@ export default function IletisimContent() {
               </form>
             </motion.div>
 
-            {/* Map */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -239,7 +224,7 @@ export default function IletisimContent() {
             >
               <SectionHeading
                 subtitle={t('iletisim.mapTitle')}
-                title={t('iletisim.mapTitle')}
+                title={t('iletisim.mapSubtitle')}
                 align="left"
               />
               <div className="-mt-8 flex-1 min-h-[400px] border border-white/5">

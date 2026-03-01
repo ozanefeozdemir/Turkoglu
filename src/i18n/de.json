@@ -9,13 +9,23 @@
     },
     "hero": {
         "since": " seit",
+        "tagline1": "Die zuverlässige Kraft",
+        "tagline2": "der Meere",
+        "description": "Seit 1985 ist die Türkoğlu Werft ein führendes Unternehmen in der maritimen Industrie und bietet Schiffsbau, Wartung-Reparatur und Refit-Dienstleistungen an.",
         "cta1": "Unsere Projekte ansehen",
         "cta2": "Über Uns",
         "scroll": "Entdecken"
     },
+    "stats": {
+        "experience": "Jahre Erfahrung",
+        "projects": "Abgeschlossene Projekte",
+        "staff": "Fachpersonal",
+        "exports": "Exportländer"
+    },
     "about": {
         "subtitle": "Über Uns",
-        "title": "Die führende Werft der Türkei",
+        "title": "Starke Erfahrung, Solide Grundlagen",
+        "description": "Die Türkoğlu Werft ist mit über 40 Jahren Erfahrung eines der führenden Werftunternehmen der Türkei. Mit moderner Infrastruktur, erfahrenem Ingenieurteam und Produktionsprozessen gemäß internationalen Qualitätsstandards bietet sie ihren Kunden Service höchster Qualität.",
         "more": "Mehr erfahren"
     },
     "projects": {
@@ -32,11 +42,49 @@
         "title": "Lernen Sie Uns Kennen",
         "historySubtitle": "Unsere Geschichte",
         "historyTitle": "Über 40 Jahre Erfahrung",
+        "historyText": "Die Türkoğlu Werft ist mit über 40 Jahren Erfahrung eines der führenden Werftunternehmen der Türkei. Mit moderner Infrastruktur, erfahrenem Ingenieurteam und Produktionsprozessen gemäß internationalen Qualitätsstandards bietet sie ihren Kunden Service höchster Qualität.",
+        "historyText2": "Unsere Werft betreibt auf 50.000 m² überdachter und 120.000 m² offener Fläche in der organisierten Werftzone Tuzla. Mit unseren Trockendocks für Schiffe bis 300 Meter und unseren hochmodernen Schneid- und Schweißlinien erfüllen wir alle Anforderungen der Branche.",
         "valuesSubtitle": "Unsere Werte",
         "valuesTitle": "Die Werte, Die Uns Ausmachen",
         "valuesDesc": "Wir arbeiten in jedem Projekt auf Basis dieser Werte.",
         "vision": "Unsere Vision",
-        "mission": "Unsere Mission"
+        "visionText": "Eine globale Marke zu werden, die in der türkischen maritimen Industrie nach internationalen Standards produziert, umweltbewusst und innovativ.",
+        "mission": "Unsere Mission",
+        "missionText": "Ein vertrauenswürdiger Geschäftspartner unserer Kunden zu sein, indem wir Schiffbau-, Wartungs- und Reparaturdienstleistungen nach internationalen Qualitätsstandards anbieten und unseren Mitarbeitern ein sicheres und wachstumsorientiertes Arbeitsumfeld bieten."
+    },
+    "values": {
+        "quality": "Qualität",
+        "qualityDesc": "Wir arbeiten nach internationalen Standards mit dem Prinzip der Null-Fehler.",
+        "safety": "Sicherheit",
+        "safetyDesc": "Arbeitssicherheit und Umweltschutz bilden die Grundlage aller unserer Aktivitäten.",
+        "innovation": "Innovation",
+        "innovationDesc": "Wir verfolgen Technologie genau und handeln nach dem Prinzip der kontinuierlichen Verbesserung.",
+        "reliability": "Zuverlässigkeit",
+        "reliabilityDesc": "Wir verdienen das Vertrauen unserer Kunden durch pünktliche Lieferung und transparente Kommunikation.",
+        "sustainability": "Nachhaltigkeit",
+        "sustainabilityDesc": "Wir investieren in die Zukunft mit umweltbewussten Produktionsprozessen.",
+        "teamwork": "Teamarbeit",
+        "teamworkDesc": "Hinter unserem Erfolg steht ein starker und harmonischer Teamgeist."
+    },
+    "services": {
+        "newBuild": "Schiffsneubau",
+        "newBuildDesc": "Maßgeschneiderte Schiffsbaudienstleistungen, genehmigt von internationalen Klassifikationsgesellschaften. Wir dienen mit unserem Expertenteam in Bulk-Carrier-, Tanker-, Container-, Militär- und Spezialschiffprojekten.",
+        "newBuildF1": "Bulk Carrier & Tankerbau",
+        "newBuildF2": "Militärschiffprojekte",
+        "newBuildF3": "Spezialschiffe",
+        "newBuildF4": "Internationale Klassenzulassungen",
+        "maintenance": "Wartung & Reparatur",
+        "maintenanceDesc": "Wir halten Ihre Flotte mit geplanter Wartung, Hellingreparatur, Dockung und Notfalldiensten in optimalem Betriebszustand. Wir verfügen über Trockendocks für Schiffe bis 300 Meter.",
+        "maintenanceF1": "Trockendock-Dienste",
+        "maintenanceF2": "Stahl- & Rohrreparaturen",
+        "maintenanceF3": "Motor- & Maschinenüberholung",
+        "maintenanceF4": "Notfall-Service",
+        "refit": "Refit & Modernisierung",
+        "refitDesc": "Wir verlängern die wirtschaftliche Lebensdauer Ihrer Schiffe durch modernste Technologie. Wir unterstützen Sie bei Innenrenovierung, Systemmodernisierung, Kraftstoffeffizienz und umweltfreundlichen Umbauprojekten.",
+        "refitF1": "Komplette Refit-Projekte",
+        "refitF2": "Systemmodernisierung",
+        "refitF3": "Kraftstoffeffizienz-Verbesserung",
+        "refitF4": "IMO-Konformitäts-Umbauten"
     },
     "hizmetlerimiz": {
         "subtitle": "Unsere Dienstleistungen",
@@ -77,6 +125,7 @@
         "phone": "Telefon",
         "email": "E-Mail",
         "hours": "Öffnungszeiten",
+        "hoursValue": "Montag - Samstag: 08:00 - 18:00",
         "formTitle": "Senden Sie Uns eine Nachricht",
         "formDesc": "Füllen Sie das Formular aus, um mehr über unsere Projekte oder Dienstleistungen zu erfahren.",
         "name": "Vollständiger Name",
@@ -88,9 +137,11 @@
         "successTitle": "Nachricht gesendet!",
         "successDesc": "Wir werden uns so schnell wie möglich bei Ihnen melden.",
         "sendAnother": "Neue Nachricht senden",
-        "mapTitle": "Standort"
+        "mapTitle": "Standort",
+        "mapSubtitle": "Besuchen Sie Uns"
     },
     "footer": {
+        "description": "Seit 1985 ist die Türkoğlu Werft ein führendes Unternehmen der maritimen Industrie und bietet Schiffsbau, Wartung-Reparatur und Refit-Dienstleistungen an.",
         "quickLinks": "Schnelllinks",
         "services": "Unsere Dienstleistungen",
         "contactInfo": "Kontakt",

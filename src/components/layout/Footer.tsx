@@ -17,32 +17,29 @@ export default function Footer() {
   ];
 
   const serviceLinks = [
-    { href: '/hizmetlerimiz#yeni-insa', label: 'Yeni Gemi İnşası' },
-    { href: '/hizmetlerimiz#bakim-onarim', label: 'Bakım & Onarım' },
-    { href: '/hizmetlerimiz#refit-modernizasyon', label: 'Refit & Modernizasyon' },
+    { href: '/hizmetlerimiz#yeni-insa', label: t('services.newBuild') },
+    { href: '/hizmetlerimiz#bakim-onarim', label: t('services.maintenance') },
+    { href: '/hizmetlerimiz#refit-modernizasyon', label: t('services.refit') },
   ];
 
   return (
     <footer className="border-t border-white/5 bg-navy-950">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
-          {/* Company */}
           <div className="lg:col-span-1">
             <Link href="/" className="mb-6 flex items-center gap-3">
               <div className="flex h-10 w-10 items-center justify-center bg-accent">
                 <Anchor className="h-5 w-5 text-white" strokeWidth={2.5} />
               </div>
               <div className="flex flex-col">
-                <span className="text-lg font-bold tracking-tight text-white">
-                  TÜRKOĞLU
-                </span>
+                <span className="text-lg font-bold tracking-tight text-white">TÜRKOĞLU</span>
                 <span className="text-[10px] font-medium uppercase tracking-[0.25em] text-steel-400">
                   Tersanecilik
                 </span>
               </div>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-steel-400">
-              {companyInfo.description}
+              {t('footer.description')}
             </p>
             <div className="mt-6 flex gap-3">
               {[
@@ -63,7 +60,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="mb-6 text-sm font-semibold uppercase tracking-wider text-white">
               {t('footer.quickLinks')}
@@ -82,7 +78,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Services */}
           <div>
             <h4 className="mb-6 text-sm font-semibold uppercase tracking-wider text-white">
               {t('footer.services')}
@@ -101,7 +96,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h4 className="mb-6 text-sm font-semibold uppercase tracking-wider text-white">
               {t('footer.contactInfo')}

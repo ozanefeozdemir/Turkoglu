@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Ship, Wrench, RefreshCcw, CheckCircle } from 'lucide-react';
-import services from '@/data/services.json';
 import SectionHeading from '@/components/ui/SectionHeading';
 import { useLanguage } from '@/context/LanguageProvider';
 
@@ -14,12 +13,17 @@ const iconMap: Record<string, React.ElementType> = {
   RefreshCcw,
 };
 
+const serviceKeys = [
+  { slug: 'yeni-insa', icon: 'Ship', titleKey: 'services.newBuild', descKey: 'services.newBuildDesc', featKeys: ['services.newBuildF1', 'services.newBuildF2', 'services.newBuildF3', 'services.newBuildF4'], image: '/images/services/new-build.jpg' },
+  { slug: 'bakim-onarim', icon: 'Wrench', titleKey: 'services.maintenance', descKey: 'services.maintenanceDesc', featKeys: ['services.maintenanceF1', 'services.maintenanceF2', 'services.maintenanceF3', 'services.maintenanceF4'], image: '/images/services/maintenance.jpg' },
+  { slug: 'refit-modernizasyon', icon: 'RefreshCcw', titleKey: 'services.refit', descKey: 'services.refitDesc', featKeys: ['services.refitF1', 'services.refitF2', 'services.refitF3', 'services.refitF4'], image: '/images/services/refit.jpg' },
+];
+
 export default function HizmetlerimizContent() {
   const { t } = useLanguage();
 
   return (
     <>
-      {/* Page Hero */}
       <section className="relative flex h-[50vh] min-h-[400px] items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
@@ -48,7 +52,6 @@ export default function HizmetlerimizContent() {
         </div>
       </section>
 
-      {/* Services */}
       <section className="bg-navy-950 py-24 lg:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <SectionHeading
@@ -58,7 +61,7 @@ export default function HizmetlerimizContent() {
           />
 
           <div className="space-y-24">
-            {services.map((service, i) => {
+            {serviceKeys.map((service, i) => {
               const Icon = iconMap[service.icon] || Ship;
               const isReversed = i % 2 === 1;
 
@@ -78,7 +81,7 @@ export default function HizmetlerimizContent() {
                     <div className="relative aspect-[16/10] overflow-hidden">
                       <Image
                         src={service.image}
-                        alt={service.title}
+                        alt={t(service.titleKey)}
                         fill
                         className="object-cover transition-transform duration-700 hover:scale-105"
                       />
@@ -94,14 +97,14 @@ export default function HizmetlerimizContent() {
                     <div className="mb-5 flex h-14 w-14 items-center justify-center bg-accent/10">
                       <Icon className="h-7 w-7 text-accent" />
                     </div>
-                    <h3 className="mb-4 text-3xl font-bold text-white">{service.title}</h3>
+                    <h3 className="mb-4 text-3xl font-bold text-white">{t(service.titleKey)}</h3>
                     <div className="accent-bar mb-6" />
                     <p className="mb-8 text-lg leading-relaxed text-steel-400">
-                      {service.description}
+                      {t(service.descKey)}
                     </p>
 
                     <ul className="space-y-3">
-                      {service.features.map((feature, j) => (
+                      {service.featKeys.map((fk, j) => (
                         <motion.li
                           key={j}
                           initial={{ opacity: 0, x: -20 }}
@@ -111,7 +114,7 @@ export default function HizmetlerimizContent() {
                           className="flex items-center gap-3"
                         >
                           <CheckCircle className="h-5 w-5 shrink-0 text-accent" />
-                          <span className="text-steel-300">{feature}</span>
+                          <span className="text-steel-300">{t(fk)}</span>
                         </motion.li>
                       ))}
                     </ul>
@@ -123,7 +126,6 @@ export default function HizmetlerimizContent() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="bg-navy-900 py-24">
         <div className="mx-auto max-w-4xl px-6 text-center lg:px-8">
           <motion.div
