@@ -27,9 +27,10 @@
         "title": "Submarine - Gezi Gemisi",
         "description": "Su altı ve su üstü turizmi için özel olarak tasarlanmış, Türk Loydu onaylı 28.45 metre uzunluğunda turistik gezi gemisi. Aynı tasarımda toplam 3 adet kardeş gemi olarak inşa edilmiştir.",
         "shortDescription": "28.45m Turistik Gezi Gemisi.",
-        "image": "/images/projects/chemical-tanker.jpg",
+        "image": "/images/projects/submarine_1.jpg",
         "gallery": [
-            "/images/projects/chemical-tanker.jpg"
+            "/images/projects/submarine_1.jpg",
+            "/images/projects/submarine_2.jpg"
         ],
         "category": "Yeni İnşa",
         "year": "2020",
@@ -51,9 +52,9 @@
         "title": "Semisubmarine - Gezi Gemisi",
         "description": "Yarı denizaltı yapısıyla benzersiz bir seyir deneyimi sunan, 23.95 metre uzunluğunda cam tabanlı turistik gezi gemisi.",
         "shortDescription": "23.95m Yarı Denizaltı Gezi Gemisi.",
-        "image": "/images/projects/patrol-vessel.jpg",
+        "image": "/images/projects/semisubmarine_1.jpeg",
         "gallery": [
-            "/images/projects/patrol-vessel.jpg"
+            "/images/projects/semisubmarine_1.jpeg"
         ],
         "category": "Yeni İnşa",
         "year": "2016",

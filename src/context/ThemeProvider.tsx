@@ -18,7 +18,7 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('dark');
+  const [theme, setTheme] = useState<Theme>('light');
   const [mounted, setMounted] = useState(false);
 
   // Load from localStorage on mount
@@ -55,7 +55,7 @@ export function useTheme() {
   const ctx = useContext(ThemeContext);
   if (!ctx) {
     // Fallback for server-side prerendering
-    return { theme: 'dark' as const, toggleTheme: () => {} };
+    return { theme: 'light' as const, toggleTheme: () => {} };
   }
   return ctx;
 }
