@@ -197,9 +197,10 @@
         "title": "Edanur K - Gezi Gemisi",
         "description": "2015 yılında teslim edilen, 23.90 metre uzunluğunda kompakt ve fonksiyonel bir gezi gemisi.",
         "shortDescription": "23.90m Gezi Gemisi.",
-        "image": "/images/projects/yacht-refit.jpg",
+        "image": "/images/projects/edanur_1.jpg",
         "gallery": [
-            "/images/projects/yacht-refit.jpg"
+            "/images/projects/edanur_1.jpg",
+            "/images/projects/edanur_2.jpg"
         ],
         "category": "Yeni İnşa",
         "year": "2015",
@@ -217,9 +218,9 @@
         "title": "Kuzey Yıldızı S - Yolcu Gemisi",
         "description": "2015 yılında inşa edilen, 23.95 metre uzunluğunda dayanıklı ve konforlu yolcu gemisi.",
         "shortDescription": "23.95m Yolcu Gemisi.",
-        "image": "/images/projects/container-ship.jpg",
+        "image": "/images/projects/kuzey_1.jpg",
         "gallery": [
-            "/images/projects/container-ship.jpg"
+            "/images/projects/kuzey_1.jpg"
         ],
         "category": "Yeni İnşa",
         "year": "2015",
@@ -257,9 +258,9 @@
         "title": "Koparan - Tarama Dubası (Dredger)",
         "description": "Türk Loydu klas onaylı, deniz ve liman tarama görevlerinde kullanılmak üzere inşa edilen 37.80 metrelik ağır iş tipi tarama dubası.",
         "shortDescription": "37.80m Tarama Dubası.",
-        "image": "/images/projects/tugboat.jpg",
+        "image": "/images/projects/koparan_1.png",
         "gallery": [
-            "/images/projects/tugboat.jpg"
+            "/images/projects/koparan_1.png"
         ],
         "category": "Yeni İnşa",
         "year": "2016",
@@ -279,9 +280,9 @@
         "title": "Josefina - Kazıklı Duba (Jack-Up Barge)",
         "description": "RINA klas onaylı, açık deniz inşaat ve operasyonları için stabilize edilebilen 30 metrelik kazıklı duba.",
         "shortDescription": "30.00m RINA Klaslı Kazıklı Duba.",
-        "image": "/images/projects/chemical-tanker.jpg",
+        "image": "/images/projects/josefina.png",
         "gallery": [
-            "/images/projects/chemical-tanker.jpg"
+            "/images/projects/josefina.png"
         ],
         "category": "Yeni İnşa",
         "year": "2015",
@@ -302,9 +303,9 @@
         "title": "Tthora 1 - Römorkör",
         "description": "Liman ve açık deniz çekme operasyonları için inşa edilen, 13.05 metre uzunluğunda kompakt ve güçlü römorkör.",
         "shortDescription": "13.05m Çekici Römorkör.",
-        "image": "/images/projects/tugboat.jpg",
+        "image": "/images/projects/tthora.png",
         "gallery": [
-            "/images/projects/tugboat.jpg"
+            "/images/projects/tthora.png"
         ],
         "category": "Yeni İnşa",
         "year": "2014",
@@ -323,9 +324,9 @@
         "title": "Körfez Sualtı - Dalgıç Gemisi",
         "description": "Sualtı dalış ve keşif operasyonları için özel olarak tasarlanan, 19.95 metre uzunluğunda dalgıç destek gemisi.",
         "shortDescription": "19.95m Dalgıç Destek Gemisi.",
-        "image": "/images/projects/patrol-vessel.jpg",
+        "image": "/images/projects/korfez.png",
         "gallery": [
-            "/images/projects/patrol-vessel.jpg"
+            "/images/projects/korfez.png"
         ],
         "category": "Yeni İnşa",
         "year": "2014",
