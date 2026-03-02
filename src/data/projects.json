@@ -78,7 +78,10 @@
         "shortDescription": "41.95m Modern Yolcu Gemisi.",
         "image": "/images/projects/dedetas2_1.jpeg",
         "gallery": [
-            "/images/projects/dedetas2_1.jpeg"
+            "/images/projects/dedetas2_1.png",
+            "/images/projects/dedetas2_2.jpg",
+            "/images/projects/dedetas2_3.jpg",
+            "/images/projects/dedetas2_4.jpg"
         ],
         "category": "Yeni İnşa",
         "year": "2016",
@@ -146,11 +149,11 @@
         "title": "King Sezar - Gezi Gemisi",
         "description": "2020 yılında inşa edilen, 23.90 metre uzunluğunda lüks turistik gezi gemisi. Hafifliği ve şık tasarımıyla öne çıkmaktadır.",
         "shortDescription": "23.90m Lüks Gezi Gemisi.",
-        "image": "/images/projects/king_1.png",
+        "image": "/images/projects/king_1.jpg",
         "gallery": [
-            "/images/projects/king_1.png",
+            "/images/projects/king_1.jpg",
             "/images/projects/king_4.jpeg",
-            "/images/projects/king_3.png"
+            "/images/projects/king_2.jpg"
         ],
         "category": "Yeni İnşa",
         "year": "2020",
@@ -167,22 +170,26 @@
         }
     },
     {
-        "slug": "seyr-u-sefa-excursion-ship",
-        "title": "Seyr-ü Sefa - Gezi Gemisi",
-        "description": "23.95 metre uzunluğunda zarif tasarımlı tenezzüh (gezinti) gemisi. Boğaz turları ve özel etkinlikler için idealdir.",
-        "shortDescription": "23.95m Tenezzüh Gemisi.",
-        "image": "/images/projects/seyrü_1.jpeg",
+        "slug": "gulizar-ana-general-cargo",
+        "title": "Gülizar Ana - Kuru Yük Gemisi",
+        "description": "2005 yılında inşa edilen, 81 metre uzunluğunda ve 3300 ton taşıma kapasitesine (DWT) sahip genel kargo gemisi.",
+        "shortDescription": "81m Kuru Yük / Genel Kargo Gemisi.",
+        "image": "/images/projects/gülizar_1.jpg",
         "gallery": [
-            "/images/projects/seyrü_1.jpeg"
+            "/images/projects/gülizar_1.jpg",
+            "/images/projects/gülizar_2.jpg"
         ],
         "category": "Yeni İnşa",
-        "year": "2016",
+        "year": "2005",
         "status": "Tamamlandı",
         "featured": false,
         "specs": {
-            "Uzunluk (LOA)": "23.95m",
-            "Genişlik (B)": "8.00m",
-            "Gemi Tipi": "Excursion Ship"
+            "Uzunluk (LOA)": "81.00m",
+            "Genişlik (B)": "13.00m",
+            "GT": "2132",
+            "DWT": "3300",
+            "IMO": "9335355",
+            "Gemi Tipi": "General Cargo"
         }
     },
     {

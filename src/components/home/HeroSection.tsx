@@ -21,7 +21,7 @@ export default function HeroSection() {
     <section className="relative flex h-screen min-h-[600px] items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/images/hero/yatay_arkaplan2.png"
+          src="/images/hero/yatay_arkaplan.png"
           alt="Türkoğlu Tersanecilik - Tersane Görünümü"
           fill
           className="object-cover"
