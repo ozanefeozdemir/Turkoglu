@@ -59,7 +59,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
             transition={{ duration: 0.6, delay: 0.1 }}
           >
             <div className="mb-4 flex flex-wrap items-center gap-3">
-              <span className="bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white">
+              <span className="bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-[#ffffff]">
                 {project.category}
               </span>
               {project.status === 'Devam Ediyor' && (
@@ -177,7 +177,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
 
                 <Link
                   href="/iletisim"
-                  className="block bg-accent px-6 py-4 text-center text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
+                  className="block bg-accent px-6 py-4 text-center text-sm font-bold uppercase tracking-wider text-[#ffffff] transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
                 >
                   {t('projectDetail.ctaButton')}
                 </Link>

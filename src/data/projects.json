@@ -1,135 +1,366 @@
 [
     {
-        "slug": "bulk-carrier-65000-dwt",
-        "title": "65.000 DWT Bulk Carrier",
-        "description": "Uluslararası deniz taşımacılığı firması için inşa edilen yüksek kapasiteli bulk carrier gemisi.",
-        "shortDescription": "Yüksek kapasiteli kuru yük gemisi inşası.",
-        "image": "/images/projects/bulk-carrier.jpg",
+        "slug": "tekirdag-59-passenger-roro",
+        "title": "Tekirdağ 59 - Passenger RORO",
+        "description": "2021 yılında inşa edilen, Türk Loydu klas onaylı 89.95 metre uzunluğunda dev yolcu ve araç taşıma kapasitesine sahip RORO gemisi. Tersanemizin en büyük ve en prestijli projelerinden biridir.",
+        "shortDescription": "89.95m Yolcu ve RORO Gemisi.",
+        "image": "/images/projects/tekirdag.jpg",
         "gallery": [
-            "/images/projects/bulk-carrier.jpg",
-            "/images/projects/bulk-carrier-2.jpg"
+            "/images/projects/tekirdag.jpg"
         ],
         "category": "Yeni İnşa",
-        "year": "2024",
+        "year": "2021",
         "status": "Tamamlandı",
         "featured": true,
         "specs": {
-            "Uzunluk": "200m",
-            "Genişlik": "32m",
-            "Derinlik": "18m",
-            "DWT": "65.000",
-            "Hız": "14.5 knot",
-            "Sınıf": "Lloyd's Register"
+            "Uzunluk (LOA)": "89.95m",
+            "Genişlik (B)": "22.00m",
+            "GT": "1998",
+            "NT": "599",
+            "Yapı No": "NB-65",
+            "Sınıf": "Türk Loydu",
+            "Gemi Tipi": "Passenger RORO"
         }
     },
     {
-        "slug": "chemical-tanker-19000-dwt",
-        "title": "19.000 DWT Chemical Tanker",
-        "description": "Çift cidarlı yapısı ve gelişmiş güvenlik sistemleriyle donatılmış kimyasal tanker gemisi.",
-        "shortDescription": "Gelişmiş güvenlik sistemli kimyasal tanker.",
+        "slug": "submarine-excursion-ship",
+        "title": "Submarine - Gezi Gemisi",
+        "description": "Su altı ve su üstü turizmi için özel olarak tasarlanmış, Türk Loydu onaylı 28.45 metre uzunluğunda turistik gezi gemisi. Aynı tasarımda toplam 3 adet kardeş gemi olarak inşa edilmiştir.",
+        "shortDescription": "28.45m Turistik Gezi Gemisi.",
         "image": "/images/projects/chemical-tanker.jpg",
         "gallery": [
             "/images/projects/chemical-tanker.jpg"
         ],
         "category": "Yeni İnşa",
-        "year": "2023",
+        "year": "2020",
         "status": "Tamamlandı",
         "featured": true,
         "specs": {
-            "Uzunluk": "150m",
-            "Genişlik": "24m",
-            "Derinlik": "13m",
-            "DWT": "19.000",
-            "Hız": "15 knot",
-            "Sınıf": "Bureau Veritas"
+            "Uzunluk (LOA)": "28.45m",
+            "Genişlik (B)": "8.20m",
+            "GT": "253",
+            "NT": "85",
+            "Adet": "3",
+            "Yapı No": "NB-62",
+            "Sınıf": "Türk Loydu",
+            "Gemi Tipi": "Excursion Ship"
         }
     },
     {
-        "slug": "offshore-patrol-vessel",
-        "title": "Offshore Patrol Vessel (OPV)",
-        "description": "Kıyı güvenliği ve açık deniz devriye görevi için tasarlanan yüksek hızlı askeri gemi.",
-        "shortDescription": "Yüksek hızlı askeri devriye gemisi.",
+        "slug": "semisubmarine-excursion-ship",
+        "title": "Semisubmarine - Gezi Gemisi",
+        "description": "Yarı denizaltı yapısıyla benzersiz bir seyir deneyimi sunan, 23.95 metre uzunluğunda cam tabanlı turistik gezi gemisi.",
+        "shortDescription": "23.95m Yarı Denizaltı Gezi Gemisi.",
         "image": "/images/projects/patrol-vessel.jpg",
         "gallery": [
             "/images/projects/patrol-vessel.jpg"
         ],
-        "category": "Askeri",
-        "year": "2024",
-        "status": "Devam Ediyor",
+        "category": "Yeni İnşa",
+        "year": "2016",
+        "status": "Tamamlandı",
         "featured": true,
         "specs": {
-            "Uzunluk": "80m",
-            "Genişlik": "13m",
-            "Derinlik": "6.5m",
-            "Hız": "28 knot",
-            "Menzil": "4000 NM",
-            "Sınıf": "Türk Loydu"
+            "Uzunluk (LOA)": "23.95m",
+            "Genişlik (B)": "8.20m",
+            "GT": "250",
+            "Yapı No": "NB-41",
+            "Gemi Tipi": "Semisubmarine Excursion Ship"
         }
     },
     {
-        "slug": "mega-yacht-refit-52m",
-        "title": "52m Mega Yacht Refit",
-        "description": "Tam kapsamlı yenileme projesi: çelik gövde onarımı, iç mekan yenileme, motor revizyonu ve sistem modernizasyonu.",
-        "shortDescription": "Kapsamlı mega yat yenileme projesi.",
+        "slug": "dedetas-2-passenger-ship",
+        "title": "Dedetaş 2 - Yolcu Gemisi",
+        "description": "Türk Loydu klas onaylı, yüksek yolcu kapasitesine sahip 41.95 metrelik modern yolcu gemisi.",
+        "shortDescription": "41.95m Modern Yolcu Gemisi.",
         "image": "/images/projects/yacht-refit.jpg",
         "gallery": [
             "/images/projects/yacht-refit.jpg"
         ],
-        "category": "Refit",
-        "year": "2023",
+        "category": "Yeni İnşa",
+        "year": "2016",
         "status": "Tamamlandı",
         "featured": true,
         "specs": {
-            "Uzunluk": "52m",
-            "Genişlik": "9.5m",
-            "Kapsam": "Full Refit",
-            "Süre": "14 Ay",
-            "Motor": "Twin MTU",
-            "Sınıf": "RINA"
+            "Uzunluk (LOA)": "41.95m",
+            "Genişlik (B)": "10.20m",
+            "GT": "520",
+            "NT": "167",
+            "Yapı No": "NB-60",
+            "Sınıf": "Türk Loydu",
+            "Gemi Tipi": "Passenger Ship"
         }
     },
     {
-        "slug": "container-feeder-1100-teu",
-        "title": "1.100 TEU Container Feeder",
-        "description": "Bölgesel konteyner taşımacılığı için optimize edilmiş, enerji verimli konteyner gemisi.",
-        "shortDescription": "Enerji verimli konteyner feeder gemisi.",
+        "slug": "dedetas-1-passenger-ship",
+        "title": "Dedetaş 1 - Yolcu Gemisi",
+        "description": "Dedetaş serisinin ilk gemisi olan, 48.90 metre uzunluğunda, Türk Loydu klasmanlı yolcu gemisi.",
+        "shortDescription": "48.90m Klasmanlı Yolcu Gemisi.",
+        "image": "/images/projects/dedetas1_1.jpg",
+        "gallery": [
+            "/images/projects/dedetas1_1.jpg",
+            "/images/projects/dedetas1_2.png"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2014",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "48.90m",
+            "Genişlik (B)": "11.00m",
+            "Yapı No": "NB-10",
+            "Sınıf": "Türk Loydu",
+            "Gemi Tipi": "Passenger Ship"
+        }
+    },
+    {
+        "slug": "sea-land-excursion-ship",
+        "title": "Sea-Land - Gezi Gemisi",
+        "description": "2021 yılında teslim edilen, 23.90 metre uzunluğunda iki adet kardeş gezi gemisi. Geniş güverte alanı ve konforlu iç mekanıyla turistik gezi operasyonları için tasarlanmıştır.",
+        "shortDescription": "23.90m Gezi Gemisi.",
+        "image": "/images/projects/bulk-carrier.jpg",
+        "gallery": [
+            "/images/projects/bulk-carrier.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2021",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "23.90m",
+            "Genişlik (B)": "9.30m",
+            "GT": "220",
+            "NT": "75",
+            "Adet": "2",
+            "Yapı No": "NB-64",
+            "Gemi Tipi": "Excursion Ship"
+        }
+    },
+    {
+        "slug": "king-sezar-excursion-ship",
+        "title": "King Sezar - Gezi Gemisi",
+        "description": "2020 yılında inşa edilen, 23.90 metre uzunluğunda lüks turistik gezi gemisi. Hafifliği ve şık tasarımıyla öne çıkmaktadır.",
+        "shortDescription": "23.90m Lüks Gezi Gemisi.",
+        "image": "/images/projects/chemical-tanker.jpg",
+        "gallery": [
+            "/images/projects/chemical-tanker.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2020",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "23.90m",
+            "Genişlik (B)": "8.00m",
+            "GT": "185",
+            "DWT": "24.26",
+            "LSW": "130",
+            "Yapı No": "NB-63",
+            "Gemi Tipi": "Excursion Ship"
+        }
+    },
+    {
+        "slug": "seyr-u-sefa-excursion-ship",
+        "title": "Seyr-ü Sefa - Gezi Gemisi",
+        "description": "23.95 metre uzunluğunda zarif tasarımlı tenezzüh (gezinti) gemisi. Boğaz turları ve özel etkinlikler için idealdir.",
+        "shortDescription": "23.95m Tenezzüh Gemisi.",
+        "image": "/images/projects/patrol-vessel.jpg",
+        "gallery": [
+            "/images/projects/patrol-vessel.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2016",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "23.95m",
+            "Genişlik (B)": "8.00m",
+            "Gemi Tipi": "Excursion Ship"
+        }
+    },
+    {
+        "slug": "edanur-k-excursion-ship",
+        "title": "Edanur K - Gezi Gemisi",
+        "description": "2015 yılında teslim edilen, 23.90 metre uzunluğunda kompakt ve fonksiyonel bir gezi gemisi.",
+        "shortDescription": "23.90m Gezi Gemisi.",
+        "image": "/images/projects/yacht-refit.jpg",
+        "gallery": [
+            "/images/projects/yacht-refit.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2015",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "23.90m",
+            "Genişlik (B)": "7.20m",
+            "Yapı No": "NB-35",
+            "Gemi Tipi": "Excursion Ship"
+        }
+    },
+    {
+        "slug": "kuzey-yildizi-s-passenger-ship",
+        "title": "Kuzey Yıldızı S - Yolcu Gemisi",
+        "description": "2015 yılında inşa edilen, 23.95 metre uzunluğunda dayanıklı ve konforlu yolcu gemisi.",
+        "shortDescription": "23.95m Yolcu Gemisi.",
         "image": "/images/projects/container-ship.jpg",
         "gallery": [
             "/images/projects/container-ship.jpg"
         ],
         "category": "Yeni İnşa",
-        "year": "2022",
+        "year": "2015",
         "status": "Tamamlandı",
         "featured": false,
         "specs": {
-            "Uzunluk": "140m",
-            "Genişlik": "23m",
-            "Derinlik": "11m",
-            "Kapasite": "1.100 TEU",
-            "Hız": "17 knot",
-            "Sınıf": "DNV"
+            "Uzunluk (LOA)": "23.95m",
+            "Genişlik (B)": "8.00m",
+            "Yapı No": "NB-39",
+            "Gemi Tipi": "Passenger Ship"
         }
     },
     {
-        "slug": "tugboat-fleet-3x",
-        "title": "3x 70 Ton Çekme Gücü Römorkör",
-        "description": "Liman operasyonları için tasarlanan yüksek manevra kabiliyetli römorkör filosu.",
-        "shortDescription": "Yüksek güçlü liman römorkör filosu.",
+        "slug": "restoran-gemileri",
+        "title": "Restoran Gemileri",
+        "description": "Farklı dönemlerde inşa edilen, 23.90 metre uzunluğunda toplam 5 adet yüzer restoran gemisi. Deniz üstü gastronomi ve eğlence deneyimi sunar.",
+        "shortDescription": "23.90m Yüzer Restoran Gemileri.",
+        "image": "/images/projects/bulk-carrier.jpg",
+        "gallery": [
+            "/images/projects/bulk-carrier.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2015",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "23.90m",
+            "Genişlik (B)": "7.20m",
+            "Adet": "5",
+            "Gemi Tipi": "Restaurant Ship"
+        }
+    },
+    {
+        "slug": "koparan-dredger",
+        "title": "Koparan - Tarama Dubası (Dredger)",
+        "description": "Türk Loydu klas onaylı, deniz ve liman tarama görevlerinde kullanılmak üzere inşa edilen 37.80 metrelik ağır iş tipi tarama dubası.",
+        "shortDescription": "37.80m Tarama Dubası.",
         "image": "/images/projects/tugboat.jpg",
         "gallery": [
             "/images/projects/tugboat.jpg"
         ],
         "category": "Yeni İnşa",
-        "year": "2023",
+        "year": "2016",
         "status": "Tamamlandı",
         "featured": false,
         "specs": {
-            "Uzunluk": "32m",
-            "Genişlik": "12m",
-            "Çekme Gücü": "70 ton",
-            "Motor": "2x CAT 3516C",
-            "Hız": "13 knot",
-            "Sınıf": "Türk Loydu"
+            "Uzunluk (LOA)": "37.80m",
+            "Genişlik (B)": "13.86m",
+            "LSW": "450",
+            "Yapı No": "NB-50",
+            "Sınıf": "Türk Loydu",
+            "Gemi Tipi": "Backhoe Dredger"
+        }
+    },
+    {
+        "slug": "josefina-jack-up-barge",
+        "title": "Josefina - Kazıklı Duba (Jack-Up Barge)",
+        "description": "RINA klas onaylı, açık deniz inşaat ve operasyonları için stabilize edilebilen 30 metrelik kazıklı duba.",
+        "shortDescription": "30.00m RINA Klaslı Kazıklı Duba.",
+        "image": "/images/projects/chemical-tanker.jpg",
+        "gallery": [
+            "/images/projects/chemical-tanker.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2015",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "30.00m",
+            "Genişlik (B)": "18.00m",
+            "DWT": "400",
+            "LSW": "610",
+            "Yapı No": "NB-40",
+            "Sınıf": "RINA",
+            "Gemi Tipi": "Jack-Up Barge"
+        }
+    },
+    {
+        "slug": "tthora-1-tugboat",
+        "title": "Tthora 1 - Römorkör",
+        "description": "Liman ve açık deniz çekme operasyonları için inşa edilen, 13.05 metre uzunluğunda kompakt ve güçlü römorkör.",
+        "shortDescription": "13.05m Çekici Römorkör.",
+        "image": "/images/projects/tugboat.jpg",
+        "gallery": [
+            "/images/projects/tugboat.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2014",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "13.05m",
+            "Genişlik (B)": "5.00m",
+            "GT": "16.29",
+            "Yapı No": "NB-38",
+            "Gemi Tipi": "Tugboat"
+        }
+    },
+    {
+        "slug": "korfez-sualti-diving-vessel",
+        "title": "Körfez Sualtı - Dalgıç Gemisi",
+        "description": "Sualtı dalış ve keşif operasyonları için özel olarak tasarlanan, 19.95 metre uzunluğunda dalgıç destek gemisi.",
+        "shortDescription": "19.95m Dalgıç Destek Gemisi.",
+        "image": "/images/projects/patrol-vessel.jpg",
+        "gallery": [
+            "/images/projects/patrol-vessel.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2014",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "19.95m",
+            "Genişlik (B)": "5.90m",
+            "Yapı No": "NB-27",
+            "Gemi Tipi": "Diving Vessel"
+        }
+    },
+    {
+        "slug": "enes-a-barge",
+        "title": "Enes-A - Duba (Barge)",
+        "description": "Çeşitli yükleme ve taşıma operasyonları için inşa edilen, 12.00 metre uzunluğunda küçük ölçekli çok amaçlı duba.",
+        "shortDescription": "12.00m Çok Amaçlı Duba.",
+        "image": "/images/projects/yacht-refit.jpg",
+        "gallery": [
+            "/images/projects/yacht-refit.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2015",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "12.00m",
+            "Genişlik (B)": "10.00m",
+            "GT": "76.33",
+            "Yapı No": "NB-22",
+            "Gemi Tipi": "Barge"
+        }
+    },
+    {
+        "slug": "p32-bunker-barge",
+        "title": "P 32 - Yakıt Mavnası (Bunker Barge)",
+        "description": "Liman ve deniz üzerinde yakıt ikmali yapılabilmesi için tasarlanan, 56.90 metre uzunluğundaki büyük ölçekli yakıt mavnası.",
+        "shortDescription": "56.90m Yakıt İkmal Mavnası.",
+        "image": "/images/projects/container-ship.jpg",
+        "gallery": [
+            "/images/projects/container-ship.jpg"
+        ],
+        "category": "Yeni İnşa",
+        "year": "2016",
+        "status": "Tamamlandı",
+        "featured": false,
+        "specs": {
+            "Uzunluk (LOA)": "56.90m",
+            "Genişlik (B)": "14.00m",
+            "Gemi Tipi": "Bunker Barge"
         }
     }
 ]

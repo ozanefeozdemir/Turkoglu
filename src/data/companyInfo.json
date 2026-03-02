@@ -5,17 +5,15 @@
   "description": "1985 yılından bu yana denizcilik sektöründe faaliyet gösteren Türkoğlu Tersanecilik, yeni gemi inşası, bakım-onarım ve refit hizmetleri ile sektörün öncü firmalarından biridir.",
   "longDescription": "Türkoğlu Tersanecilik, 40 yılı aşan tecrübesiyle Türkiye'nin önde gelen tersane şirketlerinden biridir. Modern altyapısı, deneyimli mühendis kadrosu ve uluslararası kalite standartlarına uygun üretim süreçleriyle, müşterilerine en yüksek kalitede hizmet sunmaktadır.",
   "founded": "1985",
-  "address": "Tuzla Organize Tersaneler Bölgesi, No: 12, 34944 Tuzla/İstanbul",
-  "phone": "+90 216 444 0 123",
-  "email": "info@turkoglutesanecilik.com",
+  "address": "Çavuşçiftliği köyü Tersaneler bölgesi Mevkii Otoyol Sokak No:14/3 Altınova / YALOVA",
+  "phone": "+90 544 266 37 08",
+  "email": "turkoglutersanecilik@gmail.com",
   "coordinates": {
-    "lat": 40.8225,
-    "lng": 29.3005
+    "lat": 40.6928189,
+    "lng": 29.4648519
   },
   "social": {
-    "linkedin": "https://linkedin.com/company/turkoglu-tersanecilik",
-    "instagram": "https://instagram.com/turkoglushipyard",
-    "twitter": "https://twitter.com/turkogluters"
+    "instagram": "https://www.instagram.com/turkoglushipyard/"
   },
   "vision": "Türk denizcilik sanayiinde global standartlarda üretim yapan, çevreci ve yenilikçi bir dünya markası olmak.",
   "mission": "Uluslararası kalite standartlarında gemi inşa, bakım ve onarım hizmetleri sunarak müşterilerimizin güvenilir iş ortağı olmak, çalışanlarımıza güvenli ve gelişime açık bir çalışma ortamı sağlamak.",
@@ -53,7 +51,7 @@
   ],
   "stats": [
     {
-      "value": "40+",
+      "value": "60+",
       "label": "Yıllık Tecrübe"
     },
     {
@@ -61,12 +59,12 @@
       "label": "Tamamlanan Proje"
     },
     {
-      "value": "1200+",
-      "label": "Uzman Personel"
+      "value": "2",
+      "label": "Gemi Kızağı"
     },
     {
-      "value": "25+",
-      "label": "Ülkeye İhracat"
+      "value": "20+",
+      "label": "Dönüm Alan"
     }
   ]
 }

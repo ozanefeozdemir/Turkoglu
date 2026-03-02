@@ -7,6 +7,7 @@ import { ArrowUpRight } from 'lucide-react';
 import projects from '@/data/projects.json';
 import SectionHeading from '@/components/ui/SectionHeading';
 import { useLanguage } from '@/context/LanguageProvider';
+import ReferencesStrip from './ReferencesStrip';
 
 const featuredProjects = projects.filter((p) => p.featured);
 
@@ -45,7 +46,7 @@ export default function FeaturedProjects() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/40 to-transparent transition-all duration-500 group-hover:from-navy-950/95" />
 
-                <div className="absolute left-4 top-4 bg-accent/90 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white">
+                <div className="absolute left-4 top-4 bg-accent/90 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-[#ffffff]">
                   {project.category}
                 </div>
 
@@ -83,12 +84,14 @@ export default function FeaturedProjects() {
         >
           <Link
             href="/calismalarimiz"
-            className="inline-block border border-white/20 px-10 py-4 text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:border-accent hover:bg-accent hover:text-white"
+            className="inline-block border border-white/20 px-10 py-4 text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:border-accent hover:bg-accent hover:text-[#ffffff]"
           >
             {t('projects.viewAll')}
           </Link>
         </motion.div>
       </div>
+
+      <ReferencesStrip />
     </section>
   );
 }

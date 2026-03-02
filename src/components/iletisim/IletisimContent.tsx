@@ -59,7 +59,7 @@ export default function IletisimContent() {
       icon: MapPin,
       label: t('iletisim.address'),
       value: companyInfo.address,
-      href: `https://maps.google.com/?q=${companyInfo.coordinates.lat},${companyInfo.coordinates.lng}`,
+      href: `https://www.google.com/maps/place/T%C3%BCrko%C4%9Flu+Tersanesi/@40.6929668,29.4631222,629m/data=!3m1!1e3!4m14!1m7!3m6!1s0x14cb1f000a18d009:0xccc9d21e9e0945f8!2zVMO8cmtvxJ9sdSBUZXJzYW5lc2k!8m2!3d40.6929628!4d29.4656971!16s%2Fg%2F11n4qp0jsj!3m5!1s0x14cb1f000a18d009:0xccc9d21e9e0945f8!8m2!3d40.6929628!4d29.4656971!16s%2Fg%2F11n4qp0jsj!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D`,
     },
     {
       icon: Phone,
@@ -234,7 +234,7 @@ export default function IletisimContent() {
                 <button
                   type="submit"
                   disabled={isLoading}
-                  className="flex items-center gap-3 bg-accent px-8 py-4 text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="flex items-center gap-3 bg-accent px-8 py-4 text-sm font-bold uppercase tracking-wider text-[#ffffff] transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isLoading ? (
                     <>
@@ -265,7 +265,7 @@ export default function IletisimContent() {
               />
               <div className="-mt-8 flex-1 min-h-[400px] border border-white/5">
                 <iframe
-                  src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.123456789!2d${companyInfo.coordinates.lng}!3d${companyInfo.coordinates.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ5JzIxLjAiTiAyOcKwMTgnMDEuOCJF!5e0!3m2!1str!2str!4v1234567890`}
+                  src={`https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2737.5919803984148!2d29.4631222!3d40.6929668!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb1f000a18d009%3A0xccc9d21e9e0945f8!2zVMO8cmtvxJ9sdSBUZXJzYW5lc2k!5e1!3m2!1str!2str!4v1772462008610!5m2!1str!2str`}
                   width="100%"
                   height="100%"
                   style={{ border: 0, minHeight: '400px' }}

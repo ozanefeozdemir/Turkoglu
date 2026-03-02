@@ -76,7 +76,7 @@ export default function CalismalarimizContent() {
                 className={`px-5 py-2.5 text-sm font-medium transition-all duration-300
                   ${
                     active === cat
-                      ? 'bg-accent text-white'
+                      ? 'bg-accent text-[#ffffff]'
                       : 'border border-white/10 text-steel-400 hover:border-accent/50 hover:text-white'
                   }`}
               >
@@ -109,7 +109,7 @@ export default function CalismalarimizContent() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/30 to-transparent transition-all duration-500 group-hover:from-navy-950/95" />
 
-                    <div className="absolute left-4 top-4 bg-accent/90 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white">
+                    <div className="absolute left-4 top-4 bg-accent/90 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-[#ffffff]">
                       {project.category}
                     </div>
 

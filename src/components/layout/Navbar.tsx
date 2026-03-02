@@ -23,6 +23,7 @@ export default function Navbar() {
     { href: '/kurumsal', label: t('nav.corporate') },
     { href: '/hizmetlerimiz', label: t('nav.services') },
     { href: '/calismalarimiz', label: t('nav.works') },
+    { href: '/referanslar', label: t('nav.references') },
     { href: '/iletisim', label: t('nav.contact') },
   ];
 
@@ -61,6 +62,7 @@ export default function Navbar() {
               <div className="relative h-12 w-48 md:h-14 md:w-48  ">
                 <Image
                   src="/turkoglu_logo_bgremoved.png"
+                
                   alt="Türkoğlu Tersanecilik Logo"
                   fill
                   style={{ objectFit: 'contain', objectPosition: 'left center' }}
@@ -77,7 +79,7 @@ export default function Navbar() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`relative px-4 py-2 text-sm font-medium transition-colors duration-300
+                    className={`relative px-2 py-2 text-sm font-medium transition-colors duration-300
                       ${isActive
                         ? 'text-accent'
                         : 'text-steel-300 hover:text-white'
@@ -87,7 +89,7 @@ export default function Navbar() {
                     {isActive && (
                       <motion.div
                         layoutId="activeNavIndicator"
-                        className="absolute bottom-0 left-4 right-4 h-[2px] bg-accent"
+                        className="absolute bottom-0 left-2 right-2 h-[2px] bg-accent"
                         transition={{ type: 'spring', stiffness: 300, damping: 30 }}
                       />
                     )}
@@ -101,7 +103,7 @@ export default function Navbar() {
               {/* CTA Button */}
               <Link
                 href="/iletisim#teklif-formu"
-                className="bg-accent px-6 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
+                className="bg-accent px-4 py-2.5 text-sm font-semibold text-[#ffffff] transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/20"
               >
                 {t('nav.cta')}
               </Link>
@@ -264,7 +266,7 @@ export default function Navbar() {
               >
                 <Link
                   href="/iletisim#teklif-formu"
-                  className="mt-4 inline-block bg-accent px-8 py-3 text-lg font-semibold text-white hover:bg-accent-hover"
+                  className="mt-4 inline-block bg-accent px-8 py-3 text-lg font-semibold text-[#ffffff] hover:bg-accent-hover"
                 >
                   {t('nav.cta')}
                 </Link>

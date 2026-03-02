@@ -22,7 +22,7 @@ export default function ScrollToTop() {
           exit={{ opacity: 0, y: 20 }}
           transition={{ duration: 0.3 }}
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="fixed bottom-8 right-8 z-50 flex h-12 w-12 items-center justify-center bg-accent text-white shadow-lg shadow-accent/20 transition-all duration-300 hover:bg-accent-hover hover:shadow-xl hover:shadow-accent/30"
+          className="fixed bottom-8 right-8 z-50 flex h-12 w-12 items-center justify-center bg-accent text-[#ffffff] shadow-lg shadow-accent/20 transition-all duration-300 hover:bg-accent-hover hover:shadow-xl hover:shadow-accent/30"
           aria-label="Sayfanın başına dön"
         >
           <ArrowUp className="h-5 w-5" />

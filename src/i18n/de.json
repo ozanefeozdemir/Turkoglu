@@ -5,27 +5,28 @@
         "services": "Dienstleistungen",
         "works": "Projekte",
         "contact": "Kontakt",
-        "cta": "ANGEBOT ANFORDERN"
+        "cta": "ANGEBOT ANFORDERN",
+        "references": "Referenzen"
     },
     "hero": {
         "since": " seit",
         "tagline1": "Die zuverlässige Kraft",
         "tagline2": "der Meere",
-        "description": "Seit 1985 ist die Türkoğlu Werft ein führendes Unternehmen in der maritimen Industrie und bietet Schiffsbau, Wartung-Reparatur und Refit-Dienstleistungen an.",
+        "description": "Die Türkoğlu Werft, mit über 60 Jahren maritimer Wurzeln, ist eine führende Werft, die seit 2007 auf einem 20.699 m² großen Gelände in Yalova tätig ist, nach ihrer Erfahrung im Goldenen Horn und Tuzla.",
         "cta1": "Unsere Projekte ansehen",
         "cta2": "Über Uns",
         "scroll": "Entdecken"
     },
     "stats": {
         "experience": "Jahre Erfahrung",
-        "projects": "Abgeschlossene Projekte",
-        "staff": "Fachpersonal",
-        "exports": "Exportländer"
+        "projects": "Hunderte Abgeschlossene Projekte",
+        "staff": "Schiffsslipanlagen",
+        "exports": "Dekar Betriebsfläche"
     },
     "about": {
         "subtitle": "Über Uns",
         "title": "Starke Erfahrung, Solide Grundlagen",
-        "description": "Die Türkoğlu Werft ist mit über 40 Jahren Erfahrung eines der führenden Werftunternehmen der Türkei. Mit moderner Infrastruktur, erfahrenem Ingenieurteam und Produktionsprozessen gemäß internationalen Qualitätsstandards bietet sie ihren Kunden Service höchster Qualität.",
+        "description": "Die Türkoğlu Werft ist mit über 60 Jahren Erfahrung eines der führenden Werftunternehmen der Türkei. Seit 2007 bieten wir auf einer 20.699 m² großen modernen Infrastruktur in Yalova hochwertige Schiffbau- und maritime Dienstleistungen mit einem erfahrenen Ingenieurteam und Produktionsprozessen nach internationalen Qualitätsstandards.",
         "more": "Mehr erfahren"
     },
     "projects": {
@@ -41,9 +42,9 @@
         "subtitle": "Unternehmen",
         "title": "Lernen Sie Uns Kennen",
         "historySubtitle": "Unsere Geschichte",
-        "historyTitle": "Über 40 Jahre Erfahrung",
-        "historyText": "Die Türkoğlu Werft ist mit über 40 Jahren Erfahrung eines der führenden Werftunternehmen der Türkei. Mit moderner Infrastruktur, erfahrenem Ingenieurteam und Produktionsprozessen gemäß internationalen Qualitätsstandards bietet sie ihren Kunden Service höchster Qualität.",
-        "historyText2": "Unsere Werft betreibt auf 50.000 m² überdachter und 120.000 m² offener Fläche in der organisierten Werftzone Tuzla. Mit unseren Trockendocks für Schiffe bis 300 Meter und unseren hochmodernen Schneid- und Schweißlinien erfüllen wir alle Anforderungen der Branche.",
+        "historyTitle": "Über 60 Jahre maritime Wurzeln",
+        "historyText": "Die Türkoğlu Werft hat ihre tief verwurzelte Geschichte im maritimen Sektor vom Goldenen Horn und Tuzla bis heute getragen, mit mehr als 60 Jahren Erfahrung.",
+        "historyText2": "Wir setzen unsere Tätigkeiten seit 2007 in Yalova fort. Mit einer Gesamtarbeitsfläche von 20.699 m², einer jährlichen Stahlverarbeitungskapazität von 13.318 Tonnen und zwei riesigen Slipanlagen, die Schiffe bis zu einer Länge von 213 Metern bedienen können, bieten wir umfassende Antworten auf alle Bedürfnisse des Sektors.",
         "valuesSubtitle": "Unsere Werte",
         "valuesTitle": "Die Werte, Die Uns Ausmachen",
         "valuesDesc": "Wir arbeiten in jedem Projekt auf Basis dieser Werte.",
@@ -68,17 +69,17 @@
     },
     "services": {
         "newBuild": "Schiffsneubau",
-        "newBuildDesc": "Maßgeschneiderte Schiffsbaudienstleistungen, genehmigt von internationalen Klassifikationsgesellschaften. Wir dienen mit unserem Expertenteam in Bulk-Carrier-, Tanker-, Container-, Militär- und Spezialschiffprojekten.",
-        "newBuildF1": "Bulk Carrier & Tankerbau",
-        "newBuildF2": "Militärschiffprojekte",
-        "newBuildF3": "Spezialschiffe",
-        "newBuildF4": "Internationale Klassenzulassungen",
+        "newBuildDesc": "Wir bieten Neubau-Dienstleistungen nach internationalen Standards und mit IACS/Turk Loydu Zulassung. Wir können verschiedene Stahl- und Aluminium-Wasserfahrzeuge bis zu 20.000 DWT Kapazität bauen. Wir fertigen schlüsselfertig alle Arten von Wasserfahrzeugen, von Passagierschiffen bis hin zu Schleppern und Lastkähnen.",
+        "newBuildF1": "Max. 20.000 DWT Kapazität Schiffbau",
+        "newBuildF2": "Passagierschiffe, Schlepper, Lastkähne und Bagger",
+        "newBuildF3": "Stahl-, Aluminium- & HDPE-Produktion (Max. 60m)",
+        "newBuildF4": "Jährliche Stahlverarbeitungskapazität von 13.318 Tonnen",
         "maintenance": "Wartung & Reparatur",
-        "maintenanceDesc": "Wir halten Ihre Flotte mit geplanter Wartung, Hellingreparatur, Dockung und Notfalldiensten in optimalem Betriebszustand. Wir verfügen über Trockendocks für Schiffe bis 300 Meter.",
-        "maintenanceF1": "Trockendock-Dienste",
-        "maintenanceF2": "Stahl- & Rohrreparaturen",
-        "maintenanceF3": "Motor- & Maschinenüberholung",
-        "maintenanceF4": "Notfall-Service",
+        "maintenanceDesc": "Mit unserer Fläche, die Schiffe von 80-90 Metern Länge gleichzeitig bedienen kann, bieten wir geplante Wartung, Slipanlagen-Reparatur und Notfallmaßnahmen. Wir bieten voll ausgestattete Wartung und Reparatur für Schiffe bis zu 4.000 DWT und 600 Tonnen Leergewicht.",
+        "maintenanceF1": "Wartungskapazität bis zu 4.000 DWT",
+        "maintenanceF2": "Max. 30 Tage Reparaturzeit auf der Slipanlage",
+        "maintenanceF3": "Gleichzeitige Schiffsreparaturfähigkeit",
+        "maintenanceF4": "Umfassende Stahl-, Rohr- & Maschinenrevision",
         "refit": "Refit & Modernisierung",
         "refitDesc": "Wir verlängern die wirtschaftliche Lebensdauer Ihrer Schiffe durch modernste Technologie. Wir unterstützen Sie bei Innenrenovierung, Systemmodernisierung, Kraftstoffeffizienz und umweltfreundlichen Umbauprojekten.",
         "refitF1": "Komplette Refit-Projekte",
@@ -141,7 +142,7 @@
         "mapSubtitle": "Besuchen Sie Uns"
     },
     "footer": {
-        "description": "Seit 1985 ist die Türkoğlu Werft ein führendes Unternehmen der maritimen Industrie und bietet Schiffsbau, Wartung-Reparatur und Refit-Dienstleistungen an.",
+        "description": "Mit über 60 Jahren tief verwurzelter Geschichte ist die Türkoğlu Werft ein Branchenführer, der Schiffbau-, Wartungs- und Refit-Dienstleistungen auf einem 20.699 m² großen Gelände in Yalova anbietet, nach ihren Tätigkeiten im Goldenen Horn und Tuzla.",
         "quickLinks": "Schnelllinks",
         "services": "Unsere Dienstleistungen",
         "contactInfo": "Kontakt",
@@ -152,6 +153,39 @@
         "title": "Seite Nicht Gefunden",
         "desc": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
         "backHome": "Zurück zur Startseite"
+    },
+    "referanslar": {
+        "title": "Unsere Referenzen",
+        "subtitle": "Klassifikationsgesellschaften",
+        "description": "Internationale Klassifikationsgesellschaften und Lösungspartner, mit denen wir bei unseren Projekten zusammenarbeiten.",
+        "turk_loydu": {
+            "name": "Türk Loydu",
+            "desc": "Türk Loydu, eine unabhängige Klassifikations- und Konformitätsbewertungsstelle mit Sitz in der Türkei, prüft die Einhaltung nationaler und internationaler Standards im Schiffbau. Es ist einer unserer wichtigsten Partner, der inländische Ingenieursicherheit repräsentiert und hohe Sicherheit und Qualität in unseren Werftprojekten gewährleistet."
+        },
+        "prs": {
+            "name": "Polski Rejestr Statków (PRS)",
+            "desc": "Die in Polen ansässige PRS mit ihrer tief verwurzelten Geschichte im maritimen Sektor ist eine international anerkannte und angesehene Klassifikationsgesellschaft. Sie ist ein zuverlässiger Zertifizierungspartner bei unseren Projekten nach europäischem Standard mit strengen Audits zur Gewährleistung der Lebens-, Eigentums- und Umweltsicherheit."
+        },
+        "irclass": {
+            "name": "IRClass (Indian Register of Shipping)",
+            "desc": "IRClass, Mitglied der International Association of Classification Societies (IACS), ist eine renommierte Inspektionsstelle, die weltweit in der maritimen Industrie tätig ist. Sie unterstützt die Nachhaltigkeit im Schiffbau mit innovativen und regelbasierten Inspektionsprozessen und bietet international gültige Zertifizierungen."
+        },
+        "rina": {
+            "name": "RINA",
+            "desc": "Das aus Italien stammende RINA ist ein weltweit führendes Unternehmen, das mit über einem Jahrhundert Erfahrung im maritimen Sektor Schiffsklassifizierungs- und Zertifizierungsdienste anbietet. Es ist eine angesehene Referenz, mit der wir bei unseren modernen Schiffsprojekten häufig zusammenarbeiten."
+        },
+        "rs": {
+            "name": "Russian Maritime Register of Shipping (RS)",
+            "desc": "Das Russian Maritime Register of Shipping ist eine weltweit spezialisierte Autorität, insbesondere bei der Klassifizierung von Schiffen, die für raue Meeresbedingungen und eisige Gewässer geeignet sind. Es registriert Haltbarkeit und Qualität im Schiffbau auf internationaler Ebene mit detaillierten Inspektionen."
+        },
+        "dnv": {
+            "name": "DNV",
+            "desc": "DNV, eine der weltweit größten Klassifikationsgesellschaften, ist eine zukunftsweisende Institution, die Sicherheits-, Nachhaltigkeits- und Digitalisierungsstandards in der maritimen Industrie setzt. Mit ihren Zertifizierungen ist sie eine der stärksten Zusicherungen unserer High-Tech-Projekte in globalen Gewässern."
+        },
+        "bv": {
+            "name": "Bureau Veritas (BV)",
+            "desc": "Bureau Veritas wurde 1828 gegründet und ist ein weltweit anerkannter Branchenführer in den Bereichen Qualität, Gesundheit, Sicherheit und Umwelt (QHSE) sowie Schiffsklassifizierung. Durch die Prüfung der vollständigen Einhaltung internationaler Regeln verifiziert es offiziell unseren qualitätsorientierten Produktionsansatz auf globaler Ebene."
+        }
     },
     "loading": "Laden"
 }

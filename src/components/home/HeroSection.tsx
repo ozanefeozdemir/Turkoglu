@@ -18,15 +18,15 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="relative flex h-screen min-h-[700px] items-center justify-center overflow-hidden">
+    <section className="relative flex h-screen min-h-[600px] items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/images/hero/hero-bg.png"
+          src="/images/hero/yatay_arkaplan2.png"
           alt="Türkoğlu Tersanecilik - Tersane Görünümü"
           fill
           className="object-cover"
           priority
-          quality={90}
+          quality={200}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-950/90 via-navy-950/70 to-navy-950/50" />
         <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-navy-950/30" />
@@ -38,7 +38,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-10 flex items-center gap-3"
+            className="mt-15 flex items-center gap-3"
           >
             <div className="h-[2px] w-12 bg-accent" />
             <span className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
@@ -73,7 +73,7 @@ export default function HeroSection() {
           >
             <Link
               href="/calismalarimiz"
-              className="bg-accent px-8 py-4 text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-2xl hover:shadow-accent/20"
+              className="bg-accent px-8 py-4 text-sm font-bold uppercase tracking-wider text-[#ffffff] transition-all duration-300 hover:bg-accent-hover hover:shadow-2xl hover:shadow-accent/20"
             >
               {t('hero.cta1')}
             </Link>
@@ -89,7 +89,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.0 }}
-            className="mt-16 grid grid-cols-2 gap-8 border-t border-white/10 pt-8 sm:grid-cols-4"
+            className="mt-10 grid grid-cols-2 gap-8 border-t border-white/10 pt-8 sm:grid-cols-4"
           >
             {stats.map((stat, i) => (
               <div key={i}>

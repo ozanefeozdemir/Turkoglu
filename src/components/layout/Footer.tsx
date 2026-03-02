@@ -43,16 +43,14 @@ export default function Footer() {
             </p>
             <div className="mt-6 flex gap-3">
               {[
-                { icon: Linkedin, href: companyInfo.social.linkedin },
                 { icon: Instagram, href: companyInfo.social.instagram },
-                { icon: Twitter, href: companyInfo.social.twitter },
               ].map(({ icon: Icon, href }, i) => (
                 <a
                   key={i}
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex h-9 w-9 items-center justify-center bg-navy-800 text-steel-400 transition-all duration-300 hover:bg-accent hover:text-white"
+                  className="flex h-9 w-9 items-center justify-center bg-navy-800 text-steel-400 transition-all duration-300 hover:bg-accent hover:text-[#ffffff]"
                 >
                   <Icon className="h-4 w-4" />
                 </a>

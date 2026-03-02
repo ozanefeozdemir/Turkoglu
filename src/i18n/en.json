@@ -5,13 +5,14 @@
         "services": "Services",
         "works": "Projects",
         "contact": "Contact",
-        "cta": "GET A QUOTE"
+        "cta": "GET A QUOTE",
+        "references": "References"
     },
     "hero": {
         "since": " since",
         "tagline1": "The Reliable Power",
         "tagline2": "of the Seas",
-        "description": "Since 1985, Türkoğlu Shipyard has been a leading company in the maritime industry, offering new shipbuilding, maintenance-repair and refit services.",
+        "description": "Türkoğlu Shipyard, with over 60 years of maritime roots, is a leading shipyard operating on a 20,699 m² area in Yalova since 2007, following its experience in Golden Horn and Tuzla.",
         "cta1": "View Our Projects",
         "cta2": "About Us",
         "scroll": "Explore"
@@ -19,13 +20,13 @@
     "stats": {
         "experience": "Years of Experience",
         "projects": "Completed Projects",
-        "staff": "Expert Staff",
-        "exports": "Export Countries"
+        "staff": "Ship Slipways",
+        "exports": "Decares of Operating Area"
     },
     "about": {
         "subtitle": "About Us",
         "title": "Strong Experience, Solid Foundations",
-        "description": "Türkoğlu Shipyard is one of Turkey's leading shipyard companies with over 40 years of experience. With its modern infrastructure, experienced engineering staff and production processes compliant with international quality standards, it provides the highest quality service to its customers.",
+        "description": "Türkoğlu Shipyard is one of Turkey's leading shipyard companies with over 60 years of experience. Since 2007, operating on a 20,699 m² modern infrastructure in Yalova, we provide high-quality shipbuilding and maritime services with an experienced engineering team and production processes complying with international quality standards.",
         "more": "Learn More"
     },
     "projects": {
@@ -41,9 +42,9 @@
         "subtitle": "Corporate",
         "title": "Get to Know Us",
         "historySubtitle": "Our History",
-        "historyTitle": "Over 40 Years of Experience",
-        "historyText": "Türkoğlu Shipyard is one of Turkey's leading shipyard companies with over 40 years of experience. With its modern infrastructure, experienced engineering staff and production processes compliant with international quality standards, it provides the highest quality service to its customers.",
-        "historyText2": "Our shipyard operates on 50,000 m² of covered and 120,000 m² of open area in the Tuzla Organized Shipyard Zone. With our dry docks capable of serving vessels up to 300 meters, and our state-of-the-art cutting and welding lines, we meet all needs of the industry.",
+        "historyTitle": "Over 60 Years of Maritime Roots",
+        "historyText": "Türkoğlu Shipyard has carried its deep-rooted history in the maritime sector from Golden Horn and Tuzla to the present day, with more than 60 years of experience.",
+        "historyText2": "We have been continuing our operations in Yalova since 2007. With a total shipyard working area of 20,699 m², an annual steel processing capacity of 13,318 tons, and two giant slipway facilities capable of serving ships up to 213 meters in length, we provide comprehensive responses to all needs of the sector.",
         "valuesSubtitle": "Our Values",
         "valuesTitle": "The Values That Define Us",
         "valuesDesc": "We work based on these values in every project.",
@@ -68,17 +69,17 @@
     },
     "services": {
         "newBuild": "New Shipbuilding",
-        "newBuildDesc": "Custom shipbuilding services approved by international classification societies. We serve with our expert staff in bulk carrier, tanker, container, military and special purpose vessel projects.",
-        "newBuildF1": "Bulk Carrier & Tanker Construction",
-        "newBuildF2": "Military Vessel Projects",
-        "newBuildF3": "Special Purpose Vessels",
-        "newBuildF4": "International Class Approvals",
+        "newBuildDesc": "We provide new shipbuilding services at international standards and with IACS/Turk Loydu approval. We can build various steel and aluminum marine vessels up to 20,000 DWT capacities. We manufacture all types of marine vessels turnkey, from passenger ships to tugboats and barges.",
+        "newBuildF1": "Max 20,000 DWT Capacity Shipbuilding",
+        "newBuildF2": "Passenger Ships, Tugboats, Barges, and Dredgers",
+        "newBuildF3": "Steel, Aluminum & HDPE Production (Max 60m)",
+        "newBuildF4": "Annual Steel Processing Capacity of 13,318 Tons",
         "maintenance": "Maintenance & Repair",
-        "maintenanceDesc": "We keep your fleet operating at peak efficiency with planned maintenance, slipway repair, docking and emergency response services. We have dry docks capable of serving vessels up to 300 meters.",
-        "maintenanceF1": "Dry Dock Services",
-        "maintenanceF2": "Steel & Pipe Repairs",
-        "maintenanceF3": "Engine & Machine Overhaul",
-        "maintenanceF4": "Emergency Response Service",
+        "maintenanceDesc": "With our area capable of serving ships 80-90 meters long simultaneously, we offer planned maintenance, slipway repair, and emergency response services. We provide fully equipped maintenance and repair for ships up to 4,000 DWT and 600 tons light weight.",
+        "maintenanceF1": "Maintenance Capacity up to 4,000 DWT",
+        "maintenanceF2": "Max 30 Days Repair Time on Slipway",
+        "maintenanceF3": "Simultaneous Ship Repair Capability",
+        "maintenanceF4": "Comprehensive Steel, Pipe & Machinery Revision",
         "refit": "Refit & Modernization",
         "refitDesc": "We extend the economic lifespan of your vessels by equipping them with the latest technology. We are here for your interior renovation, system modernization, fuel efficiency improvement and eco-friendly conversion projects.",
         "refitF1": "Full Refit Projects",
@@ -141,7 +142,7 @@
         "mapSubtitle": "Visit Us"
     },
     "footer": {
-        "description": "Since 1985, Türkoğlu Shipyard has been a leading company in the maritime industry, offering new shipbuilding, maintenance-repair and refit services.",
+        "description": "With over 60 years of deep-rooted history, Türkoğlu Shipyard is a sector leader providing shipbuilding, maintenance, and refit services in a 20,699 m² area in Yalova, following its operations in Golden Horn and Tuzla.",
         "quickLinks": "Quick Links",
         "services": "Our Services",
         "contactInfo": "Contact",
@@ -152,6 +153,39 @@
         "title": "Page Not Found",
         "desc": "The page you are looking for does not exist or has been moved.",
         "backHome": "Back to Home"
+    },
+    "referanslar": {
+        "title": "Our References",
+        "subtitle": "Classification Societies",
+        "description": "International classification societies and solution partners we collaborate with in our projects.",
+        "turk_loydu": {
+            "name": "Türk Loydu",
+            "desc": "Türk Loydu, an independent classification and conformity assessment body based in Turkey, audits compliance with national and international standards in shipbuilding. It is one of our most important partners representing domestic engineering assurance, ensuring high safety and quality in our shipyard projects."
+        },
+        "prs": {
+            "name": "Polski Rejestr Statków (PRS)",
+            "desc": "Poland-based PRS, with a deep-rooted history in the maritime sector, is an internationally recognized and respected classification society. It is a reliable certification partner in our European standard projects with its rigorous audits to ensure life, property, and environmental safety during shipbuilding processes."
+        },
+        "irclass": {
+            "name": "IRClass (Indian Register of Shipping)",
+            "desc": "IRClass, a member of the International Association of Classification Societies (IACS), is a prestigious inspection body serving globally in the maritime industry. It supports sustainability in shipbuilding with innovative and rule-based inspection processes and offers internationally valid certifications for our ships sailing in global waters."
+        },
+        "rina": {
+            "name": "RINA",
+            "desc": "Italian-origin RINA is a global leader offering ship classification and certification services with over a century of experience in the maritime sector. It is a respected reference we frequently collaborate with in our modern ship projects, especially with its high standards in technological innovations, energy efficiency, and environmental sustainability."
+        },
+        "rs": {
+            "name": "Russian Maritime Register of Shipping (RS)",
+            "desc": "Russian Maritime Register of Shipping is a globally specialized authority, particularly in the classification of ships suitable for harsh marine conditions and icy waters. It registers durability and quality in shipbuilding on the international arena with its detailed inspections where safety standards are kept at the highest level."
+        },
+        "dnv": {
+            "name": "DNV",
+            "desc": "DNV, one of the world's largest classification societies, is a pioneering institution setting safety, sustainability, and digitalization standards in the maritime industry. With its certifications that maximize risk management and environmental performance in shipbuilding processes, it is one of the strongest assurances of our high-tech projects in global waters."
+        },
+        "bv": {
+            "name": "Bureau Veritas (BV)",
+            "desc": "Founded in 1828, Bureau Veritas is a globally recognized industry leader in quality, health, safety, and environmental (QHSE) management and ship classification. By auditing full compliance with international rules from the initial stage of shipbuilding to its delivery, it officially verifies our quality-oriented production approach on a global scale."
+        }
     },
     "loading": "Loading"
 }

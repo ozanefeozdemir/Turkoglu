@@ -142,7 +142,7 @@ export default function HizmetlerimizContent() {
             </p>
             <Link
               href="/iletisim"
-              className="mt-8 inline-block bg-accent px-10 py-4 text-sm font-bold uppercase tracking-wider text-white transition-all duration-300 hover:bg-accent-hover hover:shadow-2xl hover:shadow-accent/20"
+              className="mt-8 inline-block bg-accent px-10 py-4 text-sm font-bold uppercase tracking-wider text-[#ffffff] transition-all duration-300 hover:bg-accent-hover hover:shadow-2xl hover:shadow-accent/20"
             >
               {t('hizmetlerimiz.ctaButton')}
             </Link>

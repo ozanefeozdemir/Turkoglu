@@ -32,7 +32,7 @@ export default function AboutSnippet() {
             <div className="absolute -bottom-4 -right-4 h-full w-full border-2 border-accent/30 -z-10" />
             <div className="absolute -bottom-6 -right-6 flex h-28 w-28 flex-col items-center justify-center bg-accent">
               <span className="text-3xl font-bold text-white">40+</span>
-              <span className="text-[10px] font-semibold uppercase tracking-wider text-white/80">
+              <span className="text-[10px] font-semibold uppercase tracking-wider text-[#ffffff]/80">
                 Yıl
               </span>
             </div>

@@ -5,27 +5,28 @@
         "services": "Hizmetlerimiz",
         "works": "Çalışmalarımız",
         "contact": "İletişim",
-        "cta": "TEKLİF AL"
+        "cta": "TEKLİF AL",
+        "references": "Referanslar"
     },
     "hero": {
         "since": "'den bu yana",
         "tagline1": "Denizlerin Güvenilir",
         "tagline2": "Gücü",
-        "description": "1985 yılından bu yana denizcilik sektöründe faaliyet gösteren Türkoğlu Tersanecilik, yeni gemi inşası, bakım-onarım ve refit hizmetleri ile sektörün öncü firmalarından biridir.",
+        "description": "Türkoğlu Tersanecilik, Haliç ve Tuzla tecrübelerinin ardından 2007 yılından itibaren Yalova'da 20.699 m²'lik alanda faaliyet gösteren, 60 yılı aşan tersanecilik köklerine sahip sektörün öncü firmalarından biridir.",
         "cta1": "Projelerimizi İnceleyin",
         "cta2": "Bizi Tanıyın",
         "scroll": "Keşfet"
     },
     "stats": {
-        "experience": "Yıllık Tecrübe",
-        "projects": "Tamamlanan Proje",
-        "staff": "Uzman Personel",
-        "exports": "Ülkeye İhracat"
+        "experience": "Yıllık Deneyim",
+        "projects": "Tamamlanmış Yüzlerce Proje",
+        "staff": "Gemi Kızağı",
+        "exports": "Dönüm Faaliyet Alanı"
     },
     "about": {
         "subtitle": "Hakkımızda",
         "title": "Güçlü Deneyim, Sağlam Temeller",
-        "description": "Türkoğlu Tersanecilik, 40 yılı aşan tecrübesiyle Türkiye'nin önde gelen tersane şirketlerinden biridir. Modern altyapısı, deneyimli mühendis kadrosu ve uluslararası kalite standartlarına uygun üretim süreçleriyle, müşterilerine en yüksek kalitede hizmet sunmaktadır.",
+        "description": "Türkoğlu Tersanecilik, 60 yılı aşan tecrübesiyle Türkiye'nin önde gelen tersane şirketlerinden biridir. 2007 yılından bu yana Yalova'da 20.699 m²'lik modern altyapısında; deneyimli mühendis kadrosu ve uluslararası kalite standartlarına uygun üretim süreçleriyle yüksek kalitede gemi inşa ve denizcilik hizmetleri sunmaktadır.",
         "more": "Daha Fazla Bilgi"
     },
     "projects": {
@@ -41,9 +42,9 @@
         "subtitle": "Kurumsal",
         "title": "Bizi Tanıyın",
         "historySubtitle": "Tarihçemiz",
-        "historyTitle": "40 Yılı Aşan Deneyim",
-        "historyText": "Türkoğlu Tersanecilik, 40 yılı aşan tecrübesiyle Türkiye'nin önde gelen tersane şirketlerinden biridir. Modern altyapısı, deneyimli mühendis kadrosu ve uluslararası kalite standartlarına uygun üretim süreçleriyle, müşterilerine en yüksek kalitede hizmet sunmaktadır.",
-        "historyText2": "Tersanemiz, Tuzla Organize Tersaneler Bölgesi'nde 50.000 m² kapalı, 120.000 m² açık alan üzerinde faaliyet göstermektedir. 300 metreye kadar gemilere hizmet verebilen kuru havuzlarımız, son teknoloji kesim ve kaynak hatlarımız ile sektörün her türlü ihtiyacına cevap veriyoruz.",
+        "historyTitle": "60 Yılı Aşan Denizcilik Kökleri",
+        "historyText": "Türkoğlu Tersanecilik, denizcilik sektöründeki köklü geçmişini Haliç ve Tuzla'dan günümüze taşımış, 60 yıldan fazla deneyime sahip bir kurumdur.",
+        "historyText2": "Faaliyetlerimize 2007 yılından itibaren Yalova'da devam etmekteyiz. 20.699 m² toplam tersane çalışma alanı, yılda toplam 13.318 ton çelik işleme kapasitesi ve en uzunu 213 metreye varan gemilere hizmet verebilen iki adet dev kızak tesisimizle sektörün her türlü ihtiyacına kapsamlı yanıt veriyoruz.",
         "valuesSubtitle": "Değerlerimiz",
         "valuesTitle": "Bizi Biz Yapan Değerler",
         "valuesDesc": "Her projede bu değerleri temel alarak çalışıyoruz.",
@@ -68,17 +69,17 @@
     },
     "services": {
         "newBuild": "Yeni Gemi İnşası",
-        "newBuildDesc": "Müşteri ihtiyaçlarına özel, uluslararası sınıf kuruluşları tarafından onaylanan gemi inşa hizmetleri. Bulk carrier, tanker, konteyner, askeri gemi ve özel amaçlı gemi projelerinde uzman kadromuzla hizmet veriyoruz.",
-        "newBuildF1": "Bulk Carrier & Tanker İnşası",
-        "newBuildF2": "Askeri Gemi Projeleri",
-        "newBuildF3": "Özel Amaçlı Gemiler",
-        "newBuildF4": "Uluslararası Sınıf Onayları",
+        "newBuildDesc": "Uluslararası standartlarda ve IACS/Türk Loydu onaylı yeni gemi inşası hizmeti veriyoruz. 20.000 DWT kapasitesine kadar çeşitli çelik ve alüminyum deniz araçları yapabiliyoruz. Yolcu gemilerinden römorkör ve dubaya kadar her türlü deniz aracını anahtar teslim üretiyoruz.",
+        "newBuildF1": "Max 20.000 DWT Kapasiteli Gemi İnşa",
+        "newBuildF2": "Yolcu Gemisi, Römorkör, Duba ve Tarama Gemisi",
+        "newBuildF3": "Çelik, Alüminyum & HDPE Üretimi (Max 60m)",
+        "newBuildF4": "Yılda 13.318 Ton Çelik İşleme Kapasitesi",
         "maintenance": "Bakım & Onarım",
-        "maintenanceDesc": "Planlı bakım, kızakta onarım, havuzlama ve acil müdahale hizmetleriyle filonuzu en verimli şekilde çalışır durumda tutuyoruz. 300 metreye kadar gemilere hizmet verebilen kuru havuzlarımız mevcuttur.",
-        "maintenanceF1": "Kuru Havuz Hizmetleri",
-        "maintenanceF2": "Çelik & Boru Onarımları",
-        "maintenanceF3": "Motor & Makine Revizyonu",
-        "maintenanceF4": "Acil Müdahale Servisi",
+        "maintenanceDesc": "Aynı anda 80-90 metre uzunluğunda gemilere hizmet verebilen alanımızla planlı bakım, kızakta onarım ve acil müdahale servisleri sunuyoruz. 4000 DWT'ye ve 600 ton hafif ağırlığa kadar gemiler için tam donanımlı bakım-onarım sağlıyoruz.",
+        "maintenanceF1": "4.000 DWT'ye Kadar Bakım Kapasitesi",
+        "maintenanceF2": "Kızakta Max 30 Günlük Onarım Süreleri",
+        "maintenanceF3": "Eşzamanlı Gemi Onarım İmkânı",
+        "maintenanceF4": "Kapsamlı Çelik, Boru & Makine Revizyonu",
         "refit": "Refit & Modernizasyon",
         "refitDesc": "Gemilerinizi en son teknoloji ile donatarak ekonomik ömrünü uzatıyoruz. İç mekan yenileme, sistem modernizasyonu, yakıt verimliliği iyileştirmesi ve çevre dostu dönüşüm projeleriniz için yanınızdayız.",
         "refitF1": "Full Refit Projeleri",
@@ -141,7 +142,7 @@
         "mapSubtitle": "Bizi Ziyaret Edin"
     },
     "footer": {
-        "description": "1985 yılından bu yana denizcilik sektöründe faaliyet gösteren Türkoğlu Tersanecilik, yeni gemi inşası, bakım-onarım ve refit hizmetleri ile sektörün öncü firmalarından biridir.",
+        "description": "Türkoğlu Tersanecilik, 60 yılı aşan köklü geçmişiyle Haliç ve Tuzla'nın ardından günümüzde Yalova'da 20.699 m² alanda gemi inşa, bakım-onarım ve refit hizmeti veren sektör öncüsüdür.",
         "quickLinks": "Hızlı Bağlantılar",
         "services": "Hizmetlerimiz",
         "contactInfo": "İletişim",
@@ -152,6 +153,39 @@
         "title": "Sayfa Bulunamadı",
         "desc": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
         "backHome": "Ana Sayfaya Dön"
+    },
+    "referanslar": {
+        "title": "Referanslarımız",
+        "subtitle": "Klas Kuruluşları",
+        "description": "Projelerimizde işbirliği yaptığımız uluslararası klas kuruluşları ve çözüm ortaklarımız.",
+        "turk_loydu": {
+            "name": "Türk Loydu",
+            "desc": "Türkiye merkezli bağımsız bir klaslama ve uygunluk değerlendirme kuruluşu olan Türk Loydu, gemi inşasında ulusal ve uluslararası standartlara uyumu denetler. Tersanemizdeki projelerde yüksek güvenlik ve kaliteyi temin eden, yerli mühendislik güvencesini temsil eden en önemli partnerlerimizdendir."
+        },
+        "prs": {
+            "name": "Polski Rejestr Statków (PRS)",
+            "desc": "Denizcilik sektöründe köklü bir geçmişe sahip Polonya merkezli PRS, uluslararası alanda tanınan saygın bir klas kuruluşudur. Gemilerin inşası süreçlerinde can, mal ve çevre güvenliğini sağlamak amacıyla yürüttüğü titiz denetimlerle, Avrupa standartlarındaki projelerimizde güvenilir bir sertifikasyon ortağıdır."
+        },
+        "irclass": {
+            "name": "IRClass (Indian Register of Shipping)",
+            "desc": "Uluslararası Klaslama Kuruluşları Birliği (IACS) üyesi olan IRClass, denizcilik sektöründe global çapta hizmet veren prestijli bir denetim kurumudur. Yenilikçi ve kural bazlı denetim süreçleriyle gemi inşasında sürdürülebilirliği destekler ve küresel sulara açılacak gemilerimiz için uluslararası geçerliliğe sahip sertifikasyonlar sunar."
+        },
+        "rina": {
+            "name": "RINA",
+            "desc": "İtalya kökenli RINA, denizcilik sektöründe yüzyılı aşkın tecrübesiyle gemi klaslama ve sertifikasyon hizmetleri sunan global bir liderdir. Özellikle teknolojik yenilikler, enerji verimliliği ve çevresel sürdürülebilirlik konularındaki yüksek standartlarıyla, modern gemi projelerimizde sıkça işbirliği yaptığımız saygın bir referanstır."
+        },
+        "rs": {
+            "name": "Russian Maritime Register of Shipping (RS)",
+            "desc": "Russian Maritime Register of Shipping, özellikle zorlu deniz koşulları ve buzlu sulara uygun gemilerin klaslanmasında dünya çapında uzmanlaşmış bir otoritedir. Güvenlik standartlarının en üst düzeyde tutulduğu detaylı denetimleriyle, gemi inşasında dayanıklılığı ve kaliteyi uluslararası arenada tesciller."
+        },
+        "dnv": {
+            "name": "DNV",
+            "desc": "Dünyanın en büyük klas kuruluşlarından biri olan DNV, denizcilik endüstrisinde güvenlik, sürdürülebilirlik ve dijitalleşme standartlarını belirleyen öncü bir kurumdur. Gemi inşası süreçlerinde risk yönetimi ve çevresel performansı en üst düzeye çıkaran sertifikasyonlarıyla, yüksek teknolojili projelerimizin global sulardaki en güçlü güvencelerindendir."
+        },
+        "bv": {
+            "name": "Bureau Veritas (BV)",
+            "desc": "1828 yılında kurulan Bureau Veritas, kalite, sağlık, güvenlik ve çevre (QHSE) yönetimi ile gemi klaslamada dünya çapında tanınan bir endüstri lideridir. Gemi inşasının ilk aşamasından teslimine kadar olan süreçte uluslararası kurallara tam uyumu denetleyerek, kalite odaklı üretim anlayışımızı küresel ölçekte doğrular."
+        }
     },
     "loading": "Yükleniyor"
 }
