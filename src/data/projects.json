@@ -52,9 +52,12 @@
         "title": "Semisubmarine - Gezi Gemisi",
         "description": "Yarı denizaltı yapısıyla benzersiz bir seyir deneyimi sunan, 23.95 metre uzunluğunda cam tabanlı turistik gezi gemisi.",
         "shortDescription": "23.95m Yarı Denizaltı Gezi Gemisi.",
-        "image": "/images/projects/semisubmarine_1.jpeg",
+        "image": "/images/projects/semisubmarine_2.jpg",
         "gallery": [
-            "/images/projects/semisubmarine_1.jpeg"
+            "/images/projects/semisubmarine_2.jpg",
+            "/images/projects/semisubmarine_3.jpg",
+            "/images/projects/semisubmarine_4.jpg",
+            "/images/projects/semisubmarine_1.jpg"
         ],
         "category": "Yeni İnşa",
         "year": "2016",
