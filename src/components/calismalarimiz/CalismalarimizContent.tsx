@@ -102,7 +102,7 @@ export default function CalismalarimizContent() {
                     className="group relative block aspect-[4/3] overflow-hidden"
                   >
                     <Image
-                      src={project.image}
+                      src={project?.image || "Yükleniyor..."}
                       alt={project.title}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110"
