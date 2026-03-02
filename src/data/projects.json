@@ -76,9 +76,9 @@
         "title": "Dedetaş 2 - Yolcu Gemisi",
         "description": "Türk Loydu klas onaylı, yüksek yolcu kapasitesine sahip 41.95 metrelik modern yolcu gemisi.",
         "shortDescription": "41.95m Modern Yolcu Gemisi.",
-        "image": "/images/projects/yacht-refit.jpg",
+        "image": "/images/projects/dedetas2_1.jpeg",
         "gallery": [
-            "/images/projects/yacht-refit.jpg"
+            "/images/projects/dedetas2_1.jpeg"
         ],
         "category": "Yeni İnşa",
         "year": "2016",
@@ -121,9 +121,11 @@
         "title": "Sea-Land - Gezi Gemisi",
         "description": "2021 yılında teslim edilen, 23.90 metre uzunluğunda iki adet kardeş gezi gemisi. Geniş güverte alanı ve konforlu iç mekanıyla turistik gezi operasyonları için tasarlanmıştır.",
         "shortDescription": "23.90m Gezi Gemisi.",
-        "image": "/images/projects/bulk-carrier.jpg",
+        "image": "/images/projects/sealand_1.jpg",
         "gallery": [
-            "/images/projects/bulk-carrier.jpg"
+            "/images/projects/sealand_1.jpg",
+            "/images/projects/sealand_2.jpg",
+            "/images/projects/sealand_3.jpeg"
         ],
         "category": "Yeni İnşa",
         "year": "2021",
@@ -144,9 +146,11 @@
         "title": "King Sezar - Gezi Gemisi",
         "description": "2020 yılında inşa edilen, 23.90 metre uzunluğunda lüks turistik gezi gemisi. Hafifliği ve şık tasarımıyla öne çıkmaktadır.",
         "shortDescription": "23.90m Lüks Gezi Gemisi.",
-        "image": "/images/projects/chemical-tanker.jpg",
+        "image": "/images/projects/king_1.png",
         "gallery": [
-            "/images/projects/chemical-tanker.jpg"
+            "/images/projects/king_1.png",
+            "/images/projects/king_4.jpeg",
+            "/images/projects/king_3.png"
         ],
         "category": "Yeni İnşa",
         "year": "2020",
@@ -167,9 +171,9 @@
         "title": "Seyr-ü Sefa - Gezi Gemisi",
         "description": "23.95 metre uzunluğunda zarif tasarımlı tenezzüh (gezinti) gemisi. Boğaz turları ve özel etkinlikler için idealdir.",
         "shortDescription": "23.95m Tenezzüh Gemisi.",
-        "image": "/images/projects/patrol-vessel.jpg",
+        "image": "/images/projects/seyrü_1.jpeg",
         "gallery": [
-            "/images/projects/patrol-vessel.jpg"
+            "/images/projects/seyrü_1.jpeg"
         ],
         "category": "Yeni İnşa",
         "year": "2016",
