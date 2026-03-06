@@ -21,12 +21,12 @@ export default function HeroSection() {
     <section className="relative flex h-screen min-h-[600px] items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/images/hero/yatay_arkaplan.png"
+          src="/images/hero/hero_bg3.png"
           alt="Türkoğlu Tersanecilik - Tersane Görünümü"
           fill
-          className="object-cover"
+          className="object-cover object-[center_20%]"
           priority
-          quality={200}
+          quality={400}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-950/90 via-navy-950/70 to-navy-950/50" />
         <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-navy-950/30" />
