@@ -24,9 +24,9 @@ export default function HeroSection() {
           src="/images/hero/hero_bg3.png"
           alt="Türkoğlu Tersanecilik - Tersane Görünümü"
           fill
-          className="object-cover object-[center_20%]"
+          className="object-cover object-[80%_20%] sm:object-[center_20%]"
           priority
-          quality={400}
+          quality={100}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-950/90 via-navy-950/70 to-navy-950/50" />
         <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-navy-950/30" />
