@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     default: "Türkoğlu Tersanecilik | Denizlerin Güvenilir Gücü",
     template: "%s | Türkoğlu Tersanecilik",
   },
+  verification: {
+    google: "AnoSjtowSmLlcOp2ejzOuZDLNSunjKHPpiDj8i8rPZo",
+  },
   description:
     "1985'ten bu yana yeni gemi inşası, bakım-onarım ve refit hizmetleri sunan Türkoğlu Tersanecilik. Uluslararası standartlarda üretim.",
   keywords: [
