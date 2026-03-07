@@ -42,6 +42,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: "/turkoglu_oval_logo.png",
+  },
 };
 
 export default function RootLayout({
