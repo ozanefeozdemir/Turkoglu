@@ -18,33 +18,44 @@ export default function ReferencesPage() {
   const { t } = useLanguage();
 
   return (
-    <main className="min-h-screen bg-navy-950 pt-32 pb-24 relative overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-accent/5 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/4 pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-navy-800/20 rounded-full blur-[100px] translate-y-1/4 -translate-x-1/4 pointer-events-none" />
+    <main className="min-h-screen bg-navy-950 pb-24 relative overflow-hidden">
+      {/* Page Hero */}
+      <section className="relative flex h-[50vh] min-h-[400px] items-center justify-center overflow-hidden mb-20">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/references/references-hero.png"
+            alt="Türkoğlu Tersanecilik Referanslar"
+            fill
+            className="object-cover"
+            priority
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-navy-950/80" />
+        </div>
+        <div className="relative z-10 text-center px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 mb-6">
+              <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
+              <span className="text-sm font-medium text-accent uppercase tracking-wider">
+                {t('referanslar.subtitle')}
+              </span>
+            </div>
+            <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
+              {t('referanslar.title')}
+            </h1>
+            <div className="mx-auto mt-4 accent-bar" />
+            <p className="text-lg text-steel-300 max-w-3xl mx-auto mt-6">
+              {t('referanslar.description')}
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
       <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
-        
-        {/* Header Section */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-center max-w-3xl mx-auto mb-20"
-        >
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 mb-6">
-            <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-            <span className="text-sm font-medium text-accent uppercase tracking-wider">
-              {t('referanslar.subtitle')}
-            </span>
-          </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            {t('referanslar.title')}
-          </h1>
-          <p className="text-lg text-steel-300">
-            {t('referanslar.description')}
-          </p>
-        </motion.div>
 
         {/* Classification Societies Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -64,6 +75,7 @@ export default function ReferencesPage() {
                   alt={t(`referanslar.${society.id}.name`)} 
                   fill
                   className="object-contain object-left filter brightness-90 group-hover:brightness-110 transition-all duration-300"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   onError={(e) => {
                     // Fallback if image is missing
                     const imgElement = e.target as HTMLImageElement;

@@ -16,7 +16,6 @@ const iconMap: Record<string, React.ElementType> = {
 const serviceKeys = [
   { slug: 'yeni-insa', icon: 'Ship', titleKey: 'services.newBuild', descKey: 'services.newBuildDesc', featKeys: ['services.newBuildF1', 'services.newBuildF2', 'services.newBuildF3', 'services.newBuildF4'], image: '/images/services/new-build.jpg' },
   { slug: 'bakim-onarim', icon: 'Wrench', titleKey: 'services.maintenance', descKey: 'services.maintenanceDesc', featKeys: ['services.maintenanceF1', 'services.maintenanceF2', 'services.maintenanceF3', 'services.maintenanceF4'], image: '/images/services/maintenance.jpg' },
-  { slug: 'refit-modernizasyon', icon: 'RefreshCcw', titleKey: 'services.refit', descKey: 'services.refitDesc', featKeys: ['services.refitF1', 'services.refitF2', 'services.refitF3', 'services.refitF4'], image: '/images/services/refit.jpg' },
 ];
 
 export default function HizmetlerimizContent() {
@@ -32,6 +31,7 @@ export default function HizmetlerimizContent() {
             fill
             className="object-cover"
             priority
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-navy-950/80" />
         </div>
@@ -73,9 +73,8 @@ export default function HizmetlerimizContent() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-100px' }}
                   transition={{ duration: 0.7 }}
-                  className={`grid items-center gap-12 lg:grid-cols-2 ${
-                    isReversed ? 'lg:direction-rtl' : ''
-                  }`}
+                  className={`grid items-center gap-12 lg:grid-cols-2 ${isReversed ? 'lg:direction-rtl' : ''
+                    }`}
                 >
                   <div className={`relative ${isReversed ? 'lg:order-2' : ''}`}>
                     <div className="relative aspect-[16/10] overflow-hidden">
@@ -84,12 +83,12 @@ export default function HizmetlerimizContent() {
                         alt={t(service.titleKey)}
                         fill
                         className="object-cover transition-transform duration-700 hover:scale-105"
+                        sizes="(max-width: 1024px) 100vw, 50vw"
                       />
                     </div>
                     <div
-                      className={`absolute -bottom-3 ${
-                        isReversed ? '-left-3' : '-right-3'
-                      } h-full w-full border-2 border-accent/20 -z-10`}
+                      className={`absolute -bottom-3 ${isReversed ? '-left-3' : '-right-3'
+                        } h-full w-full border-2 border-accent/20 -z-10`}
                     />
                   </div>
 
@@ -122,6 +121,86 @@ export default function HizmetlerimizContent() {
                 </motion.div>
               );
             })}
+          </div>
+
+          <div className="mt-32 border-t border-white/10 pt-24" id="gemi-cekme-indirme">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="mb-16"
+            >
+              <h3 className="mb-4 text-3xl font-bold text-white">
+                {t('services.pullLaunchTitle')}
+              </h3>
+              <div className="accent-bar" />
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.1 }}
+              >
+                <h4 className="mb-6 text-xl font-bold text-white">
+                  {t('services.opA')}
+                </h4>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="relative aspect-[4/3] overflow-hidden group">
+                    <Image src="/images/services/rmk_marine_1.jpg" alt="Rmk Marine 1" fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 15vw" />
+                    <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
+                  </div>
+                  <div className="relative aspect-[4/3] overflow-hidden group">
+                    <Image src="/images/services/rmk_marine_1.jpg" alt="Rmk Marine 1" fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 15vw" />
+                    <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+              >
+                <h4 className="mb-6 text-xl font-bold text-white">
+                  {t('services.opB')}
+                </h4>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="relative aspect-[4/3] overflow-hidden group">
+                    <Image src="/images/services/ozkaradeniz_1.jpg" alt="Özkaradeniz 1" fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 15vw" />
+                    <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
+                  </div>
+                  <div className="relative aspect-[4/3] overflow-hidden group">
+                    <Image src="/images/services/ozkaradeniz_2.jpg" alt="Özkaradeniz 2" fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 15vw" />
+                    <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.3 }}
+              >
+                <h4 className="mb-6 text-xl font-bold text-white">
+                  {t('services.opC')}
+                </h4>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="relative aspect-[4/3] overflow-hidden group">
+                    <Image src="/images/services/norse_1.jpg" alt="Norse 1" fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 15vw" />
+                    <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
+                  </div>
+                  <div className="relative aspect-[4/3] overflow-hidden group">
+                    <Image src="/images/services/norse_2.jpg" alt="Norse 2" fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 15vw" />
+                    <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
+                  </div>
+                </div>
+              </motion.div>
+            </div>
           </div>
         </div>
       </section>

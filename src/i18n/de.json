@@ -26,7 +26,7 @@
     "about": {
         "subtitle": "Über Uns",
         "title": "Starke Erfahrung, Solide Grundlagen",
-        "description": "Die Türkoğlu Werft ist mit über 60 Jahren Erfahrung eines der führenden Werftunternehmen der Türkei. Seit 2007 bieten wir auf einer 20.699 m² großen modernen Infrastruktur in Yalova hochwertige Schiffbau- und maritime Dienstleistungen mit einem erfahrenen Ingenieurteam und Produktionsprozessen nach internationalen Qualitätsstandards.",
+        "description": "Die Grundsteine von Türkoğlu Tersanecilik wurden in den 1940er Jahren im Gebiet des Goldenen Horns (Haliç) in Istanbul gelegt. Durch spätere Erweiterungen im Werftengebiet von Tuzla und Investitionen in Yalova Altınova im Jahr 2007 hat sich das Unternehmen eine starke Position in den Bereichen Wartung, Reparatur und Neubau erarbeitet. Diese über 60-jährige Erfahrung wurde 2019 durch eine Werft in Marokko auf eine globale Ebene gehoben.\n\nSeit 2021 liegt der operative Schwerpunkt auf ingenieurbasierten Hauling- und Strandsystemen (Launching). Heute bildet die Marine-Airbag-Technologie unser primäres Fach- und Tätigkeitsgebiet, mit zahlreichen erfolgreichen Anwendungen in verschiedenen Werften der Türkei.",
         "more": "Mehr erfahren"
     },
     "projects": {
@@ -43,8 +43,7 @@
         "title": "Lernen Sie Uns Kennen",
         "historySubtitle": "Unsere Geschichte",
         "historyTitle": "Über 60 Jahre maritime Wurzeln",
-        "historyText": "Die Türkoğlu Werft hat ihre tief verwurzelte Geschichte im maritimen Sektor vom Goldenen Horn und Tuzla bis heute getragen, mit mehr als 60 Jahren Erfahrung.",
-        "historyText2": "Wir setzen unsere Tätigkeiten seit 2007 in Yalova fort. Mit einer Gesamtarbeitsfläche von 20.699 m², einer jährlichen Stahlverarbeitungskapazität von 13.318 Tonnen und zwei riesigen Slipanlagen, die Schiffe bis zu einer Länge von 213 Metern bedienen können, bieten wir umfassende Antworten auf alle Bedürfnisse des Sektors.",
+        "historyText": "Die Grundsteine von Türkoğlu Tersanecilik wurden in den 1940er Jahren von den Brüdern Sadık, Mehmet und Mustafa Türkoğlu im Istanbuler Gebiet des Goldenen Horns (Haliç) gelegt. Von Beginn an konzentrierten sich die Tätigkeiten auf das Trockendocken, Kalfatern, die Wartung und Reparatur von Schiffsrümpfen sowie den erneuten Stapellauf.\n\nNach der Schließung der Werften am Goldenen Horn im Jahr 1987 wurden die Betriebe in die Werftzone von Tuzla verlegt. In dieser Zeit wurden insbesondere Wartungs-, Reparatur- und Neubauprojekte für Fischerboote und Küstenmotorschiffe im Bereich von 100 bis 3.000 DWT durchgeführt.\n\nIm Jahr 2007 wurden mit der Investition in eine Werft mit größerer Kapazität in der Region Yalova Altınova Neubau-, Großwartungs-, Klassenerneuerungs- und strukturelle Modifikationsprojekte für Schiffe mit höherer Tonnage in Angriff genommen.\n\nMit der im Jahr 2019 in Marokko gegründeten Werft wurde eine internationale operative Handlungsfähigkeit erreicht. Die Produktion und die technische Wartung verschiedener Wasserfahrzeuge, insbesondere von Fischereifahrzeugen, wurden fortan auf globaler Ebene durchgeführt.\n\nSeit dem Jahr 2021 hat sich der operative Schwerpunkt vom Werftmanagement hin zu ingenieurbasierten Hauling- und Strandsystemen (Launching) verlagert. In diesem Zusammenhang wurde die Marine-Airbag-Technologie zum Haupttätigkeitsfeld, und es werden Anwendungen in verschiedenen Werften und Anlagen in der gesamten Türkei durchgeführt.",
         "valuesSubtitle": "Unsere Werte",
         "valuesTitle": "Die Werte, Die Uns Ausmachen",
         "valuesDesc": "Wir arbeiten in jedem Projekt auf Basis dieser Werte.",
@@ -85,16 +84,20 @@
         "refitF1": "Komplette Refit-Projekte",
         "refitF2": "Systemmodernisierung",
         "refitF3": "Kraftstoffeffizienz-Verbesserung",
-        "refitF4": "IMO-Konformitäts-Umbauten"
+        "refitF4": "IMO-Konformitäts-Umbauten",
+        "pullLaunchTitle": "Schiffsziehen & Stapellauf",
+        "opA": "Rmk Marine 12.500 DWT Stapellauf mit Airbags",
+        "opB": "4274 DWT Özkaradeniz Werft Schiffszug-Operation",
+        "opC": "5409 DWT Norse Werft Schiffszug-Operation"
     },
     "hizmetlerimiz": {
         "subtitle": "Unsere Dienstleistungen",
         "title": "Was Wir Tun",
         "areaSubtitle": "Fachgebiete",
         "areaTitle": "Umfassende Werftdienstleistungen",
-        "areaDesc": "Wir bieten ein breites Spektrum an Dienstleistungen von Neubau bis Wartung, Refit und Modernisierung.",
+        "areaDesc": "Wir bieten ein breites Spektrum an Dienstleistungen von Neubau bis Wartung sowie Schiffsziehens- und Stapellauf-Operationen an.",
         "ctaTitle": "Angebot für Ihr Projekt",
-        "ctaDesc": "Kontaktieren Sie unser Expertenteam für Neubau-, Wartungs- oder Refit-Anforderungen.",
+        "ctaDesc": "Kontaktieren Sie unser Expertenteam für Neubau-, Wartungs- oder Schiffsziehens/Stapellauf-Operationen.",
         "ctaButton": "Kontakt aufnehmen"
     },
     "calismalarimiz": {
@@ -142,7 +145,7 @@
         "mapSubtitle": "Besuchen Sie Uns"
     },
     "footer": {
-        "description": "Mit über 60 Jahren tief verwurzelter Geschichte ist die Türkoğlu Werft ein Branchenführer, der Schiffbau-, Wartungs- und Refit-Dienstleistungen auf einem 20.699 m² großen Gelände in Yalova anbietet, nach ihren Tätigkeiten im Goldenen Horn und Tuzla.",
+        "description": "Mit über 60 Jahren tief verwurzelter Geschichte ist die Türkoğlu Werft ein Branchenführer, der Schiffbau-, Wartungs- und Schiffsziehens/Stapellauf-Dienstleistungen auf einem 20.699 m² großen Gelände in Yalova anbietet, nach ihren Tätigkeiten im Goldenen Horn und Tuzla.",
         "quickLinks": "Schnelllinks",
         "services": "Unsere Dienstleistungen",
         "contactInfo": "Kontakt",

@@ -19,14 +19,15 @@ export default function AboutSnippet() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
-            className="relative"
+            className="relative group"
           >
             <div className="relative aspect-[4/3] overflow-hidden">
               <Image
                 src="/images/about/about-shipyard.png"
                 alt="Türkoğlu Tersanecilik üretim alanı"
                 fill
-                className="object-cover"
+                className="object-cover transition-transform duration-700 group-hover:scale-110"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
             <div className="absolute -bottom-4 -right-4 h-full w-full border-2 border-accent/30 -z-10" />
@@ -49,9 +50,11 @@ export default function AboutSnippet() {
               title={t('about.title')}
               align="left"
             />
-            <p className="-mt-8 text-lg leading-relaxed text-steel-400">
-              {t('about.description')}
-            </p>
+            <div className="-mt-8 space-y-4 text-lg leading-relaxed text-steel-400">
+              {t('about.description').split('\n').filter(Boolean).map((paragraph, index) => (
+                <p key={index}>{paragraph.trim()}</p>
+              ))}
+            </div>
             <Link
               href="/kurumsal"
               className="mt-8 inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-accent transition-colors hover:text-accent-light group"

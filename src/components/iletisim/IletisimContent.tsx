@@ -89,11 +89,12 @@ export default function IletisimContent() {
       <section className="relative flex h-[50vh] min-h-[400px] items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/hero/hero-bg.png"
+            src="/images/hero/hero_bg3.png"
             alt="Türkoğlu Tersanecilik İletişim"
             fill
             className="object-cover"
             priority
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-navy-950/80" />
         </div>

@@ -26,7 +26,7 @@
     "about": {
         "subtitle": "About Us",
         "title": "Strong Experience, Solid Foundations",
-        "description": "Türkoğlu Shipyard is one of Turkey's leading shipyard companies with over 60 years of experience. Since 2007, operating on a 20,699 m² modern infrastructure in Yalova, we provide high-quality shipbuilding and maritime services with an experienced engineering team and production processes complying with international quality standards.",
+        "description": "The foundations of Türkoğlu Tersanecilik were laid in the Golden Horn (Haliç) region of Istanbul in the 1940s. With subsequent expansions to the Tuzla Shipyards Zone and a higher-capacity investment in Yalova Altınova in 2007, the company established a strong position in maintenance, repair, and new vessel construction. This 60-year-old legacy gained a global operational capability with a shipyard established in Morocco in 2019.\n\nAs of 2021, the operational focus has shifted to engineering-based hauling and launching systems. Today, marine airbag technology constitutes our main field of expertise and activity, with successful applications carried out across various shipyards and sites in Turkey.",
         "more": "Learn More"
     },
     "projects": {
@@ -43,8 +43,7 @@
         "title": "Get to Know Us",
         "historySubtitle": "Our History",
         "historyTitle": "Over 60 Years of Maritime Roots",
-        "historyText": "Türkoğlu Shipyard has carried its deep-rooted history in the maritime sector from Golden Horn and Tuzla to the present day, with more than 60 years of experience.",
-        "historyText2": "We have been continuing our operations in Yalova since 2007. With a total shipyard working area of 20,699 m², an annual steel processing capacity of 13,318 tons, and two giant slipway facilities capable of serving ships up to 213 meters in length, we provide comprehensive responses to all needs of the sector.",
+        "historyText": "The foundations of Türkoğlu Tersanecilik were laid by brothers Sadık, Mehmet, and Mustafa Türkoğlu in the Golden Horn (Haliç) region of Istanbul in the 1940s. From its establishment, operations focused on dry-docking, caulking, hull maintenance-repair, and re-launching operations.\n\nFollowing the closure of the Golden Horn shipyards in 1987, operations were moved to the Tuzla Shipyards Zone; during this period, maintenance, repair, and new building projects were carried out, especially for fishing boats and coaster-type vessels in the 100-3,000 DWT range.\n\nIn 2007, with a larger capacity shipyard investment in the Altınova region of Yalova, new building, heavy maintenance, class renewal, and structural modification projects for higher tonnage vessels were undertaken.\n\nIn 2019, with the shipyard established in Morocco, international operational capability was gained; the production and technical maintenance activities of various marine vessels, especially fishing vessels, began on a global scale.\n\nAs of 2021, the operational focus shifted away from shipyard management and towards engineering-based hauling and launching systems. In this context, marine airbag technology became the main field of activity, and applications are carried out in different shipyards and sites across Turkey.",
         "valuesSubtitle": "Our Values",
         "valuesTitle": "The Values That Define Us",
         "valuesDesc": "We work based on these values in every project.",
@@ -85,16 +84,20 @@
         "refitF1": "Full Refit Projects",
         "refitF2": "System Modernization",
         "refitF3": "Fuel Efficiency Improvement",
-        "refitF4": "IMO Compliance Conversions"
+        "refitF4": "IMO Compliance Conversions",
+        "pullLaunchTitle": "Ship Pulling & Launching",
+        "opA": "Rmk Marine 12,500 DWT Ship Launching with Airbags",
+        "opB": "4274 DWT Özkaradeniz Shipyard Ship Pulling Operation",
+        "opC": "5409 DWT Norse Shipyard Ship Pulling Operation"
     },
     "hizmetlerimiz": {
         "subtitle": "Our Services",
         "title": "What We Do",
         "areaSubtitle": "Areas of Expertise",
         "areaTitle": "Comprehensive Shipyard Services",
-        "areaDesc": "We offer a wide range of services from new construction to maintenance, refit and modernization.",
+        "areaDesc": "We offer a wide range of services from new construction to maintenance, ship pulling and launching operations.",
         "ctaTitle": "Get a Quote for Your Project",
-        "ctaDesc": "Contact our expert team for new construction, maintenance or refit needs.",
+        "ctaDesc": "Contact our expert team for new construction, maintenance or ship pulling/launching operations.",
         "ctaButton": "Contact Us"
     },
     "calismalarimiz": {
@@ -142,7 +145,7 @@
         "mapSubtitle": "Visit Us"
     },
     "footer": {
-        "description": "With over 60 years of deep-rooted history, Türkoğlu Shipyard is a sector leader providing shipbuilding, maintenance, and refit services in a 20,699 m² area in Yalova, following its operations in Golden Horn and Tuzla.",
+        "description": "With over 60 years of deep-rooted history, Türkoğlu Shipyard is a sector leader providing shipbuilding, maintenance, and ship pulling/launching services in a 20,699 m² area in Yalova, following its operations in Golden Horn and Tuzla.",
         "quickLinks": "Quick Links",
         "services": "Our Services",
         "contactInfo": "Contact",

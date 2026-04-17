@@ -59,11 +59,12 @@ export default function KurumsalContent() {
       <section className="relative flex h-[50vh] min-h-[400px] items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/hero/hero-bg.png"
+            src="/images/hero/hero_bg3.png"
             alt="Türkoğlu Tersanecilik Kurumsal"
             fill
             className="object-cover"
             priority
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-navy-950/80" />
         </div>
@@ -95,8 +96,9 @@ export default function KurumsalContent() {
                 align="left"
               />
               <div className="-mt-8 space-y-4 text-lg leading-relaxed text-steel-400">
-                <p>{t('kurumsal.historyText')}</p>
-                <p>{t('kurumsal.historyText2')}</p>
+                {t('kurumsal.historyText').split('\n').filter(Boolean).map((paragraph, index) => (
+                  <p key={index}>{paragraph.trim()}</p>
+                ))}
               </div>
 
               <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
@@ -131,6 +133,7 @@ export default function KurumsalContent() {
                   alt="Türkoğlu Tersanecilik"
                   fill
                   className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
               <div className="absolute -bottom-4 -left-4 h-full w-full border-2 border-accent/20 -z-10" />

@@ -20,7 +20,7 @@ export default function Footer() {
   const serviceLinks = [
     { href: '/hizmetlerimiz#yeni-insa', label: t('services.newBuild') },
     { href: '/hizmetlerimiz#bakim-onarim', label: t('services.maintenance') },
-    { href: '/hizmetlerimiz#refit-modernizasyon', label: t('services.refit') },
+    { href: '/hizmetlerimiz#gemi-cekme-indirme', label: t('services.pullLaunchTitle') },
   ];
 
   return (
@@ -35,6 +35,7 @@ export default function Footer() {
                   alt="Türkoğlu Tersanecilik Logo"
                   fill
                   style={{ objectFit: 'contain', objectPosition: 'left center' }}
+                  sizes="(max-width: 768px) 224px, 224px"
                 />
               </div>
             </Link>

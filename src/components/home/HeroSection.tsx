@@ -11,7 +11,7 @@ export default function HeroSection() {
   const { t } = useLanguage();
 
   const stats = [
-    { value: '40+', label: t('stats.experience') },
+    { value: '60+', label: t('stats.experience') },
     { value: '350+', label: t('stats.projects') },
     { value: '1200+', label: t('stats.staff') },
     { value: '25+', label: t('stats.exports') },
@@ -27,6 +27,7 @@ export default function HeroSection() {
           className="object-cover object-[80%_20%] sm:object-[center_20%]"
           priority
           quality={100}
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-950/90 via-navy-950/70 to-navy-950/50" />
         <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-navy-950/30" />

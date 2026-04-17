@@ -67,6 +67,7 @@ export default function Navbar() {
                   fill
                   style={{ objectFit: 'contain', objectPosition: 'left center' }}
                   priority
+                  sizes="(max-width: 768px) 192px, 192px"
                 />
               </div>
             </Link>

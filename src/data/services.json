@@ -26,19 +26,5 @@
             "Motor & Makine Revizyonu",
             "Acil Müdahale Servisi"
         ]
-    },
-    {
-        "slug": "refit-modernizasyon",
-        "title": "Refit & Modernizasyon",
-        "description": "Gemilerinizi en son teknoloji ile donatarak ekonomik ömrünü uzatıyoruz. İç mekan yenileme, sistem modernizasyonu, yakıt verimliliği iyileştirmesi ve çevre dostu dönüşüm projeleriniz için yanınızdayız.",
-        "shortDescription": "Gemi yenileme ve modernizasyon çözümleri.",
-        "icon": "RefreshCcw",
-        "image": "/images/services/refit.jpg",
-        "features": [
-            "Full Refit Projeleri",
-            "Sistem Modernizasyonu",
-            "Yakıt Verimliliği İyileştirmesi",
-            "IMO Uyum Dönüşümleri"
-        ]
     }
 ]

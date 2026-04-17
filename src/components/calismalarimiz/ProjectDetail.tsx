@@ -34,6 +34,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
             fill
             className="object-cover"
             priority
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/60 to-transparent" />
         </div>
@@ -112,6 +113,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
                           alt={`${project.title} - ${i + 1}`}
                           fill
                           className="object-cover transition-transform duration-500 hover:scale-105"
+                          sizes="(max-width: 1024px) 100vw, 450px"
                         />
                       </motion.div>
                     ))}

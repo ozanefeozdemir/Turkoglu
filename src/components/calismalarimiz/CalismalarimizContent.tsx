@@ -38,6 +38,7 @@ export default function CalismalarimizContent() {
             fill
             className="object-cover"
             priority
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-navy-950/80" />
         </div>
@@ -106,6 +107,7 @@ export default function CalismalarimizContent() {
                       alt={project.title}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/30 to-transparent transition-all duration-500 group-hover:from-navy-950/95" />
 

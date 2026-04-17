@@ -26,7 +26,7 @@
     "about": {
         "subtitle": "Hakkımızda",
         "title": "Güçlü Deneyim, Sağlam Temeller",
-        "description": "Türkoğlu Tersanecilik, 60 yılı aşan tecrübesiyle Türkiye'nin önde gelen tersane şirketlerinden biridir. 2007 yılından bu yana Yalova'da 20.699 m²'lik modern altyapısında; deneyimli mühendis kadrosu ve uluslararası kalite standartlarına uygun üretim süreçleriyle yüksek kalitede gemi inşa ve denizcilik hizmetleri sunmaktadır.",
+        "description": "Türkoğlu Tersanecilik’in temelleri, 1940’lı yıllarda İstanbul Haliç bölgesinde atılmış olup, Tuzla Tersaneler Bölgesi ve 2007'de Yalova Altınova'daki yatırımlarla sektörde bakım, onarım ve yeni inşa projeleriyle güçlü bir konum elde etmiştir. 2019'da Fas'taki tersane yatırımı ile global bir ivme kazanan faaliyetlerimiz, 60 yılı aşan köklü bir deneyime dayanmaktadır.\n\n2021 yılı itibarıyla operasyonel odak, mühendislik tabanlı gemi çekme (hauling) ve denize indirme (launching) sistemlerine kaydırılmıştır. Türkiye genelinde geniş sahalarda uygulanan balon (marine airbag) teknolojisi, günümüzdeki ana uzmanlık ve faaliyet alanımızı oluşturmaktadır.",
         "more": "Daha Fazla Bilgi"
     },
     "projects": {
@@ -43,8 +43,7 @@
         "title": "Bizi Tanıyın",
         "historySubtitle": "Tarihçemiz",
         "historyTitle": "60 Yılı Aşan Denizcilik Kökleri",
-        "historyText": "Türkoğlu Tersanecilik, denizcilik sektöründeki köklü geçmişini Haliç ve Tuzla'dan günümüze taşımış, 60 yıldan fazla deneyime sahip bir kurumdur.",
-        "historyText2": "Faaliyetlerimize 2007 yılından itibaren Yalova'da devam etmekteyiz. 20.699 m² toplam tersane çalışma alanı, yılda toplam 13.318 ton çelik işleme kapasitesi ve en uzunu 213 metreye varan gemilere hizmet verebilen iki adet dev kızak tesisimizle sektörün her türlü ihtiyacına kapsamlı yanıt veriyoruz.",
+        "historyText": "Türkoğlu Tersanecilik’in temelleri, 1940’lı yıllarda İstanbul Haliç bölgesinde Sadık, Mehmet ve Mustafa Türkoğlu kardeşler tarafından atılmıştır. Kuruluşundan itibaren faaliyetler; gemi karaya alma (dry-docking), kalafatlama, gövde bakım-onarım ve yeniden denize indirme operasyonları üzerine yoğunlaşmıştır.\n\n1987 yılında Haliç tersanelerinin kapatılmasının ardından operasyonlar Tuzla Tersaneler Bölgesi’ne taşınmış; bu süreçte özellikle 100–3.000 DWT aralığındaki balıkçı tekneleri ve koster tipi gemiler için bakım, onarım ve yeni inşa projeleri gerçekleştirilmiştir.\n\n2007 yılında Yalova Altınova bölgesinde daha geniş kapasiteli tersane yatırımı ile birlikte, daha yüksek tonajlı gemilere yönelik yeni inşa, ağır bakım, klas yenileme ve yapısal modifikasyon projeleri yürütülmüştür.\n\n2019 yılında Fas’ta kurulan tersane ile birlikte uluslararası operasyon kabiliyeti kazanılmış; balıkçı gemileri başta olmak üzere çeşitli deniz araçlarının üretimi ve teknik bakım faaliyetleri global ölçekte sürdürülmeye başlanmıştır.\n\n2021 yılı itibarıyla tersane işletmeciliğinden çıkılarak operasyonel odak, mühendislik tabanlı gemi çekme (hauling) ve denize indirme (launching) sistemlerine kaydırılmıştır. Bu kapsamda balon (marine airbag) teknolojisi ana faaliyet alanı haline getirilmiş ve Türkiye genelinde farklı tersane ve sahalarda uygulamalar gerçekleştirilmektedir.",
         "valuesSubtitle": "Değerlerimiz",
         "valuesTitle": "Bizi Biz Yapan Değerler",
         "valuesDesc": "Her projede bu değerleri temel alarak çalışıyoruz.",
@@ -80,21 +79,19 @@
         "maintenanceF2": "Kızakta Max 30 Günlük Onarım Süreleri",
         "maintenanceF3": "Eşzamanlı Gemi Onarım İmkânı",
         "maintenanceF4": "Kapsamlı Çelik, Boru & Makine Revizyonu",
-        "refit": "Refit & Modernizasyon",
-        "refitDesc": "Gemilerinizi en son teknoloji ile donatarak ekonomik ömrünü uzatıyoruz. İç mekan yenileme, sistem modernizasyonu, yakıt verimliliği iyileştirmesi ve çevre dostu dönüşüm projeleriniz için yanınızdayız.",
-        "refitF1": "Full Refit Projeleri",
-        "refitF2": "Sistem Modernizasyonu",
-        "refitF3": "Yakıt Verimliliği İyileştirmesi",
-        "refitF4": "IMO Uyum Dönüşümleri"
+        "pullLaunchTitle": "Gemi Çekme & İndirme",
+        "opA": "Rmk Marine 12.500 DWT Balonla Gemi İnişi",
+        "opB": "4274 DWT Özkaradeniz Shipyard Gemi Çekme Operasyonu",
+        "opC": "5409 DWT Norse Shipyard Gemi Çekme Operasyonu"
     },
     "hizmetlerimiz": {
         "subtitle": "Hizmetlerimiz",
         "title": "Neler Yapıyoruz?",
         "areaSubtitle": "Uzmanlık Alanlarımız",
         "areaTitle": "Kapsamlı Tersane Hizmetleri",
-        "areaDesc": "Yeni inşadan bakım-onarıma, refitleme ve modernizasyona kadar geniş bir yelpazede hizmet sunuyoruz.",
+        "areaDesc": "Yeni inşadan bakım-onarıma, gemi çekme ve indirme operasyonlarına kadar geniş bir yelpazede hizmet sunuyoruz.",
         "ctaTitle": "Projeniz İçin Teklif Alın",
-        "ctaDesc": "Yeni inşa, bakım-onarım veya refit ihtiyaçlarınız için uzman ekibimizle iletişime geçin.",
+        "ctaDesc": "Yeni inşa, bakım-onarım veya gemi çekme/indirme operasyonlarınız için uzman ekibimizle iletişime geçin.",
         "ctaButton": "İletişime Geçin"
     },
     "calismalarimiz": {
@@ -142,7 +139,7 @@
         "mapSubtitle": "Bizi Ziyaret Edin"
     },
     "footer": {
-        "description": "Türkoğlu Tersanecilik, 60 yılı aşan köklü geçmişiyle Haliç ve Tuzla'nın ardından günümüzde Yalova'da 20.699 m² alanda gemi inşa, bakım-onarım ve refit hizmeti veren sektör öncüsüdür.",
+        "description": "Türkoğlu Tersanecilik, 60 yılı aşan köklü geçmişiyle Haliç ve Tuzla'nın ardından günümüzde Yalova'da 20.699 m² alanda gemi inşa, bakım-onarım ve gemi çekme/indirme hizmeti veren sektör öncüsüdür.",
         "quickLinks": "Hızlı Bağlantılar",
         "services": "Hizmetlerimiz",
         "contactInfo": "İletişim",

@@ -53,7 +53,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className={inter.variable} data-theme="light" suppressHydrationWarning>
+    <html lang="tr" className={inter.variable} data-theme="light" data-scroll-behavior="smooth" suppressHydrationWarning>
       <body className="antialiased">
         <ThemeProvider>
           <LanguageProvider>
