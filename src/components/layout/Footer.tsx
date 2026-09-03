@@ -29,13 +29,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-1">
             <Link href="/" className="mb-6 inline-block transition-transform duration-300 hover:scale-105">
-              <div className="relative h-14 w-56">
+              <div className="relative h-14 w-60">
                 <Image
-                  src="/turkoglu_logo_bgremoved.png"
+                  src="/a.png"
                   alt="Türkoğlu Tersanecilik Logo"
                   fill
                   style={{ objectFit: 'contain', objectPosition: 'left center' }}
-                  sizes="(max-width: 768px) 224px, 224px"
+                  sizes="(max-width: 768px) 240px, 240px"
                 />
               </div>
             </Link>

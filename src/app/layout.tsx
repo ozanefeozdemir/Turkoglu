@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: "/turkoglu_oval_logo.png",
+    icon: "/iconv4.jpeg",
   },
 };
 

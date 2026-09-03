@@ -55,32 +55,31 @@ export default function Navbar() {
         transition={{ duration: 0.6, ease: 'easeOut' }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-navy-950/95 backdrop-blur-md shadow-lg shadow-black/20 border-b border-white/5`}
       >
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <nav className="flex h-20 items-center justify-between">
+        <div className="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
+          <nav className="flex h-20 items-center justify-between gap-4">
             {/* Logo */}
-            <Link href="/" className="group flex items-center transition-transform duration-300 hover:scale-105">
-              <div className="relative h-12 w-48 md:h-14 md:w-48  ">
+            <Link href="/" className="group flex shrink-0 items-center transition-transform duration-300 hover:scale-105">
+              <div className="relative h-11 w-44 sm:h-12 sm:w-48 lg:h-12 lg:w-52">
                 <Image
-                  src="/turkoglu_logo_bgremoved.png"
-                
+                  src="/a.png"
                   alt="Türkoğlu Tersanecilik Logo"
                   fill
                   style={{ objectFit: 'contain', objectPosition: 'left center' }}
                   priority
-                  sizes="(max-width: 768px) 192px, 192px"
+                  sizes="(max-width: 768px) 176px, 208px"
                 />
               </div>
             </Link>
 
             {/* Desktop Nav */}
-            <div className="hidden items-center gap-1 lg:flex ml-60">
+            <div className="hidden items-center gap-1 xl:gap-2 lg:flex">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href;
                 return (
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`relative px-2 py-2 text-sm font-medium transition-colors duration-300
+                    className={`relative whitespace-nowrap px-2.5 xl:px-3.5 py-2 text-sm font-medium transition-colors duration-300
                       ${isActive
                         ? 'text-accent'
                         : 'text-steel-300 hover:text-white'
@@ -100,7 +99,7 @@ export default function Navbar() {
             </div>
 
             {/* Right side: CTA then Language then Theme */}
-            <div className="hidden items-center gap-1 lg:flex">
+            <div className="hidden items-center gap-2 lg:flex shrink-0">
               {/* CTA Button */}
               <Link
                 href="/iletisim#teklif-formu"
